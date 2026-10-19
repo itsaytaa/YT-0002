@@ -23,13 +23,15 @@ Since Advisory 0001 these components exist in the shared kit (`video/src/figures
 | `addendum-card` | Addendum card (style.json → cards.addendum). |
 | `doc` | One paper document (style.json → documents). Fields under `doc`: `header[]`, `lines[]` (█ = redaction bar), `highlight[]` (line indices), `highlight_color`, `stamp {text,line,color,anim}`, `anim` (`slide-up`, `typewriter-then-redact`, `type-line`, `redact-line`), `type_line`, `redact_line`, `focus_line`. |
 | `case-file` | Manila folder with paper clip, typed label `CASE <number>` and `<location>`, red `UNLISTED` stamp. Slides in from the right. |
-| `floorplan` | Top-down plan of a small flat in thin fg lines: living room, kitchen, bedroom, bath, hall. Markers: cat (small filled circle with two ear triangles), person (rounded square), corner (blue triangle in a room corner), bookcase (rectangle). Lamps: small circles that fill with a soft white glow when on. Animations: `lamps-on-sequence` (0.25 s apart), `lamps-off-sequence` (reverse), `marker-move` (path through doors, 1.2 s, ease-in-out). |
-| `counter` | Big number in display font 240 px, counting from `from` to `value` over 70% of the line (ease-out), thousands separator, mono `label` under it in dim. Optional `accent: "red"`. |
-| `calendar` | A tear-off calendar block flipping pages quickly (year labels 2015 → 2026), counter "11 YEARS" beside it. |
+| `floorplan` | Top-down plan of a small flat in thin fg lines: living room, kitchen, bedroom, bath, hall. Markers: cat (small filled circle with two ear triangles), person (rounded square), corner (blue triangle in a room corner), bookcase (rectangle). Lamps: small circles that fill with a soft white glow when on. Animations: `lamps-on-sequence` (0.25 s apart), `lamps-off-sequence` (reverse), `marker-move` (path through doors, 1.2 s, ease-in-out). `plan.caption`: the small mono line top right (default `PLAN · RESIDENCE`). |
+| `counter` | Big number in display font 240 px, counting from `from` to `value` over 70% of the line (ease-out), thousands separator, mono `label` under it in dim. Optional `accent: "red"`, `x` (move the number off-centre) and `decor`: `folder-stack` (case folders pile up beside it; `decorCount`), `redacted-list` (redacted rows scroll behind it, a red pin drops on it), `dots-grid` (one dot per unit fills in). |
+| `calendar` | A tear-off calendar block flipping pages quickly from `fromYear` to `toYear` (default: the last `value` years up to 2026), red page header `pageLabel` (default `DAY`), counter `value` + `label` beside it. |
 | `seal` | Department emblem: two concentric circles, ring text DEPARTMENT OF UNLISTED RISKS (mono, letter-spaced) set on a circular path, in the middle a house outline with a single open eye inside it, under the emblem `EST. 1914`. Ring text rotates in by 20° while fading in. Colour fg with blue eye. |
 | `end-card` | style.json → cards.endCard. |
 
 ## Elements
+
+Any element accepts `z` (number) to set its draw layer explicitly; higher draws on top. Useful for episode-specific elements, which otherwise draw at layer 0.
 
 ### person
 Signature: rounded-square head, faceless. Poses:

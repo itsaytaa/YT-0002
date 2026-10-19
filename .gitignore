@@ -2,8 +2,8 @@
 .env
 
 # dependencies / tool caches
-node_modules/
-video/node_modules/
+node_modules
+video/node_modules
 .remotion/
 
 # render outputs (a final MP4 is ~276 MB, over GitHub's 100 MB file limit)

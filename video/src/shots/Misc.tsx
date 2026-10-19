@@ -184,31 +184,33 @@ export const Floorplan: React.FC<{ plan: any; frame: number; fps: number; dur: n
         <circle cx={POS.person.x - 40} cy={POS.person.y - 46} r={14} fill="none" stroke={C.red} strokeWidth={3} opacity={prog(frame, 26, 32)} filter="url(#glowRed)" />
       )}
       <text x={1540} y={150} textAnchor="end" fontFamily={FONT.mono} fontWeight={500} fontSize={18} letterSpacing="0.2em" fill={C.dim}>
-        {plan.move?.marker === "corner" ? "PLAN · CORNER RELOCATION" : "CASE 0411 · FLAT, GROUND FLOOR"}
+        {plan.caption ?? "PLAN · RESIDENCE"}
       </text>
     </g>
   );
 };
 
 // ---------------------------------------------------------------- counter
+// Optional backdrop (`decor`): "folder-stack" (folders pile up beside the number),
+// "redacted-list" (a list of redacted rows scrolls behind it, a red pin drops on it),
+// "dots-grid" (one dot per unit fills in). `x` moves the number off-centre.
 export const CounterShot: React.FC<{ shot: any; frame: number; fps: number; dur: number }> = ({ shot, frame, fps, dur }) => {
   const p = prog(frame, 0, dur * 0.7, ease);
   const value = lerp(shot.from ?? 0, shot.value, p);
   const appear = popIn(frame);
-  const id = shot.id;
   const red = shot.accent === "red";
-  let cx = 960;
-  if (id === "S47") cx = 840;
+  const decor = shot.decor as string | undefined;
+  const cx = shot.x ?? 960;
   return (
     <g>
-      {id === "S48" && <ScrollingList frame={frame} />}
-      {id === "S66" && <EveningDots value={value} total={shot.value} />}
-      {id === "S66" && <ellipse cx={960} cy={500} rx={420} ry={190} fill={C.bg} opacity={0.75} filter="url(#bloom)" />}
-      {id === "S47" && <FolderStack n={Math.round(lerp(0, 11, p))} frame={frame} />}
+      {decor === "redacted-list" && <ScrollingList frame={frame} />}
+      {decor === "dots-grid" && <EveningDots value={value} total={shot.value} />}
+      {decor === "dots-grid" && <ellipse cx={960} cy={500} rx={420} ry={190} fill={C.bg} opacity={0.75} filter="url(#bloom)" />}
+      {decor === "folder-stack" && <FolderStack n={Math.round(lerp(0, shot.decorCount ?? 11, p))} frame={frame} />}
       <g opacity={appear.opacity} transform={`translate(${cx} 470) scale(${appear.scale}) translate(${-cx} -470)`}>
         <CounterNumber x={cx} y={560} value={value} size={240} label={shot.label} labelColor={red ? C.red : C.dim} />
       </g>
-      {id === "S48" && <Pin x={cx + 330} y={340} frame={frame - fps * 0.6} />}
+      {decor === "redacted-list" && <Pin x={cx + 330} y={340} frame={frame - fps * 0.6} />}
     </g>
   );
 };
@@ -283,8 +285,12 @@ const EveningDots: React.FC<{ value: number; total: number }> = ({ value, total 
 };
 
 // ---------------------------------------------------------------- calendar
+// Pages flip from `fromYear` to `toYear` (default: the last `value` years up to 2026);
+// `pageLabel` is the red header on each page.
 export const Calendar: React.FC<{ shot: any; frame: number; dur: number }> = ({ shot, frame, dur }) => {
-  const years = Array.from({ length: 12 }, (_, i) => 2015 + i);
+  const toYear = shot.toYear ?? 2026;
+  const fromYear = shot.fromYear ?? toYear - (shot.value ?? 11);
+  const years = Array.from({ length: toYear - fromYear + 1 }, (_, i) => fromYear + i);
   const p = prog(frame, 6, dur * 0.7, (x) => x);
   const idx = Math.min(years.length - 1, Math.floor(p * years.length));
   const flipT = (p * years.length) % 1;
@@ -294,7 +300,7 @@ export const Calendar: React.FC<{ shot: any; frame: number; dur: number }> = ({ 
       <rect x={cx - 170} y={cy - 170} width={340} height={340} fill={C.paper} />
       <rect x={cx - 170} y={cy - 170} width={340} height={78} fill={C.red} opacity={0.9} />
       <text x={cx} y={cy - 116} textAnchor="middle" fontFamily={FONT.mono} fontWeight={600} fontSize={26} letterSpacing="0.3em" fill={C.paper}>
-        {extra ?? "EVENING"}
+        {extra ?? shot.pageLabel ?? "DAY"}
       </text>
       <text x={cx} y={cy + 70} textAnchor="middle" style={DISPLAY_STYLE} fontSize={130} fill={C.ink}>
         {year}

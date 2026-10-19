@@ -438,6 +438,8 @@ export const Tableau: React.FC<{ subs: SubShot[]; frame: number; fps: number; fo
 };
 
 function z(e: El) {
+  // Explicit draw layer (mainly for episode-specific elements): higher draws on top.
+  if (typeof e.z === "number") return e.z;
   if (e.el === "glow") return -3;
   if (e.el === "window" || e.el === "corner") return -2;
   if (e.el === "inspector" && e.pose === "lean-over") return -1;

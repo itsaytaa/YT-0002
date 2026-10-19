@@ -30,7 +30,7 @@ scripts/                    pipeline; every script takes --ep NNNN (default: new
 4. **Preview for free:** `node scripts/timings.mjs --ep 0002 --estimate`, then `cd video && npx remotion studio` → `Advisory-0002`. Iterate on scenes.json until every shot reads well. `node scripts/review-stills.mjs --ep 0002` gives one still per shot plus a contact sheet.
 5. **Voice** (costs money; the budget guard writes `reports/budget.json` with a $2 cap on first use):
    `node scripts/tts.mjs --ep 0002` → `node scripts/stt-check.mjs --ep 0002` → `node scripts/timings.mjs --ep 0002`.
-   The voice is locked (`brand/voice.json → chosen`). Do not run a voice test for a normal episode.
+   The voice is locked: MiniMax Speech 2.8 HD, voice `English_ManWithDeepVoice`, through OpenRouter as `minimax/speech-2.8-hd` (`brand/voice.json → chosen`). Do not run a voice test for a normal episode.
 6. **Review:** `node scripts/review-stills.mjs --ep 0002`, then look at the contact sheet. Fix layout issues in scenes.json. After the voice is locked, use `patches.ts` for corrections.
 7. **Render and master:**
    ```sh

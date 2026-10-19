@@ -2181,6 +2181,7 @@
    "type": "floorplan",
    "desc": "Top-down floor plan of a small flat (4 rooms + hallway). Five lamp icons switch on one by one (0.25 s apart) until every room is lit.",
    "plan": {
+    "caption": "CASE 0411 · FLAT, GROUND FLOOR",
     "rooms": [
      "living",
      "kitchen",
@@ -2441,6 +2442,7 @@
    "type": "floorplan",
    "desc": "Floor plan; a blue triangle corner-marker sits in the living room. When the bookcase icon is moved, the marker slides along with it through the hallway into the bedroom.",
    "plan": {
+    "caption": "PLAN · CORNER RELOCATION",
     "rooms": [
      "living",
      "kitchen",
@@ -2725,6 +2727,7 @@
    "type": "counter",
    "value": 2316,
    "from": 0,
+   "decor": "folder-stack", "decorCount": 11, "x": 840,
    "label": "RECORDED GREETINGS",
    "desc": "Big number counts up to 2,316 next to a growing stack of case folders."
   },
@@ -2732,6 +2735,7 @@
    "type": "counter",
    "value": 2316,
    "from": 2316,
+   "decor": "redacted-list",
    "label": "ADDRESSES ADDED TO LIST",
    "desc": "Same number; a list document scrolls behind it with addresses as redaction bars; a red pin icon drops on the number.",
    "accent": "red"
@@ -3161,12 +3165,14 @@
    "type": "calendar",
    "desc": "Calendar pages flip quickly (years shown as small labels); a counter beside it reaches 11 YEARS.",
    "value": 11,
+   "fromYear": 2015, "toYear": 2026, "pageLabel": "EVENING",
    "label": "YEARS"
   },
   "S66": {
    "type": "counter",
    "value": 4015,
    "from": 0,
+   "decor": "dots-grid",
    "label": "EVENINGS",
    "desc": "Big number counts up to 4,015."
   },

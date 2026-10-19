@@ -69,11 +69,17 @@ const used = new Set(scenes.lines.map((l) => l.shot));
 for (const [id, s] of Object.entries(scenes.shots)) {
   if (!used.has(id) && id !== endShot) warn(`shot ${id} is never used`);
   if (s.same_as && !scenes.shots[s.same_as]) err(`${id}: same_as ${s.same_as} does not exist`);
-  const type = s.type ?? (s.same_as ? scenes.shots[s.same_as]?.type : undefined);
+  // same_as can chain (S28c -> S28b -> S28): follow it to the first shot with a type.
+  let type = s.type;
+  for (let b = s, n = 0; !type && b?.same_as && n < 10; n++) {
+    b = scenes.shots[b.same_as];
+    type = b?.type;
+  }
   if (!cat.shotTypes.includes(type) && !customShots.includes(type)) err(`${id}: unknown shot type "${type}"`);
   if (s.camera?.move && !cat.cameraMoves.includes(s.camera.move)) err(`${id}: unknown camera move "${s.camera.move}"`);
   if (s.accent && !cat.accents.includes(s.accent)) err(`${id}: accent must be blue or red`);
   if (s.doc?.anim && !cat.docAnims.includes(s.doc.anim)) err(`${id}: unknown doc anim "${s.doc.anim}"`);
+  if (s.decor && !cat.counterDecor.includes(s.decor)) err(`${id}: unknown counter decor "${s.decor}" (${cat.counterDecor.join(", ")})`);
   if (s.plan?.anim && !cat.planAnims.includes(s.plan.anim)) err(`${id}: unknown floorplan anim "${s.plan.anim}"`);
   if (!s.desc && !["directive-card", "addendum-card", "end-card"].includes(type)) warn(`${id}: no desc (desc is the authority for the builder)`);
   for (const e of [...(s.elements ?? []), ...(s.add ?? [])]) {
