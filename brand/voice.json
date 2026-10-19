@@ -1,0 +1,140 @@
+{
+  "note": "Channel voice (locked since Advisory 0001): minimax/speech-2.8-hd, English_ManWithDeepVoice, chosen by the owner after two test rounds. The candidate list below is the test history; keep it for a future re-test if this model is ever retired. MiniMax ignores `instructions`; slip lines get their treatment in post (scripts/stt-check.mjs).",
+  "model": "minimax/speech-2.8-hd",
+  "pcm": {
+    "sampleRate": 24000,
+    "channels": 1
+  },
+  "voice": "English_ManWithDeepVoice",
+  "voiceDefault": "English_ManWithDeepVoice",
+  "voiceCandidates": [
+    {
+      "label": "charon",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Charon"
+    },
+    {
+      "label": "algenib",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Algenib"
+    },
+    {
+      "label": "orus",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Orus"
+    },
+    {
+      "label": "schedar",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Schedar"
+    },
+    {
+      "label": "sadaltager",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Sadaltager"
+    },
+    {
+      "label": "alnilam",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Alnilam"
+    },
+    {
+      "label": "iapetus",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Iapetus"
+    },
+    {
+      "label": "rasalgethi",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Rasalgethi"
+    },
+    {
+      "label": "enceladus",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Enceladus"
+    },
+    {
+      "label": "umbriel",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Umbriel"
+    },
+    {
+      "label": "algieba",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Algieba"
+    },
+    {
+      "label": "eleven-brian",
+      "model": "elevenlabs/eleven-multilingual-v2",
+      "voice": "brian"
+    },
+    {
+      "label": "eleven-daniel",
+      "model": "elevenlabs/eleven-multilingual-v2",
+      "voice": "daniel"
+    },
+    {
+      "label": "eleven-george",
+      "model": "elevenlabs/eleven-multilingual-v2",
+      "voice": "george"
+    },
+    {
+      "label": "eleven-bill",
+      "model": "elevenlabs/eleven-multilingual-v2",
+      "voice": "bill"
+    },
+    {
+      "label": "minimax-deepvoice",
+      "model": "minimax/speech-2.8-hd",
+      "voice": "English_ManWithDeepVoice"
+    },
+    {
+      "label": "minimax-gentleman",
+      "model": "minimax/speech-2.8-hd",
+      "voice": "English_Deep-VoicedGentleman"
+    },
+    {
+      "label": "minimax-imposing",
+      "model": "minimax/speech-2.8-hd",
+      "voice": "English_ImposingManner"
+    },
+    {
+      "label": "minimax-patient",
+      "model": "minimax/speech-2.8-hd",
+      "voice": "English_PatientMan"
+    },
+    {
+      "label": "mai-harry",
+      "model": "microsoft/mai-voice-2.1",
+      "voice": "en-GB-Harry:MAI-Voice-2.1"
+    },
+    {
+      "label": "mai-grant",
+      "model": "microsoft/mai-voice-2.1",
+      "voice": "en-US-Grant:MAI-Voice-2.1"
+    },
+    {
+      "label": "aura-zeus",
+      "model": "deepgram/aura-2",
+      "voice": "aura-2-zeus-en"
+    },
+    {
+      "label": "aura-hyperion",
+      "model": "deepgram/aura-2",
+      "voice": "aura-2-hyperion-en"
+    },
+    {
+      "label": "voxtral-oliver",
+      "model": "mistralai/voxtral-mini-tts-2603",
+      "voice": "gb_oliver_neutral"
+    }
+  ],
+  "chosen": {
+    "label": "minimax-deepvoice",
+    "model": "minimax/speech-2.8-hd",
+    "voice": "English_ManWithDeepVoice",
+    "chosenBy": "user, after two voice-test rounds",
+    "instructionsHonored": false,
+    "slipTreatment": "MiniMax ignores `instructions`, so the slip line (L070) gets its 'warmer and quieter' delivery in post: -3.5 dB and a gentle low-shelf/high-cut in stt-check.mjs."
+  }
+}

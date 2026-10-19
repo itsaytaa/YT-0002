@@ -1,0 +1,159 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "background": "#0B0D10"
+  },
+  "safeArea": {
+    "top": 120,
+    "bottom": 980,
+    "left": 120,
+    "right": 1800,
+    "groundY": 780,
+    "note": "Scene content lives between y=150 and y=820. Captions own y=860–1000. HUD owns the top 100 px."
+  },
+  "palette": {
+    "bg": "#0B0D10",
+    "fg": "#EEF1F4",
+    "dim": "#6B7480",
+    "line": "#4A525C",
+    "grey": "#9AA3AE",
+    "blue": "#6CB6E0",
+    "red": "#E0443A",
+    "paper": "#E9E4D8",
+    "ink": "#1A1D22",
+    "redaction": "#0E0F11",
+    "usage": {
+      "blue": "Department colour: allowed, annotations, highlights, the boundary the cat keeps, carbon-offset ghosting.",
+      "red": "Forbidden, crossed out, stamps (VIOLATED, REDACTED, LISTED RISK, ONGOING), danger outlines.",
+      "paper/ink": "Official documents only (memos, forms, case files). They are the one light surface in the video.",
+      "grey": "The inspector, and the whole frame during the slip (SLIP1)."
+    }
+  },
+  "fonts": {
+    "load": "Use @remotion/google-fonts so fonts are embedded at render time.",
+    "caption": {
+      "family": "IBM Plex Sans Condensed",
+      "weight": 600
+    },
+    "display": {
+      "family": "Archivo",
+      "weight": 800,
+      "stretch": "condensed (wdth 75)"
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "weight": 500
+    },
+    "document": {
+      "family": "IBM Plex Mono",
+      "weight": 400,
+      "note": "Typed memos and forms."
+    }
+  },
+  "captions": {
+    "case": "Sentence case, exactly the `caption` field. Never uppercase the whole line.",
+    "size": 54,
+    "lineHeight": 1.18,
+    "maxWidth": 1400,
+    "maxLines": 2,
+    "centerY": 930,
+    "align": "center",
+    "color": "fg",
+    "emphasis": "Words listed in the line's `emphasis` array are coloured blue, or red when the shot's accent is red.",
+    "shadow": "0 2px 0 rgba(0,0,0,0.6)",
+    "timing": "Caption appears on the line's first frame (no typewriter, no fade) and is replaced on the next line's first frame. Hidden during directive/addendum cards only if the card already shows the same words (keep it visible otherwise).",
+    "glitchVariant": "On 'carbon' transitions the caption gets the same blue offset ghost for the transition frames."
+  },
+  "hud": {
+    "alwaysVisible": true,
+    "hideOn": [
+      "END"
+    ],
+    "topLeft": {
+      "lines": [
+        "DEPT. OF UNLISTED RISKS",
+        "ADVISORY {advisory}"
+      ],
+      "font": "mono",
+      "size": 18,
+      "letterSpacing": "0.18em",
+      "color": "dim",
+      "x": 64,
+      "y": 54
+    },
+    "topRight": {
+      "text": "CLASSIFICATION: UNLISTED",
+      "font": "mono",
+      "size": 18,
+      "letterSpacing": "0.18em",
+      "color": "dim",
+      "x": 1856,
+      "y": 54,
+      "align": "right"
+    },
+    "progress": {
+      "items": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "AD"
+      ],
+      "position": {
+        "x": 1856,
+        "y": 92,
+        "align": "right"
+      },
+      "look": "Small mono labels, 14 px, 10 px apart. Past items: dim. Current item: fg text inside a 1.5 px blue outline box. Future items: line colour.",
+      "currentFromLine": "directive field of the current line (1–6 → D1–D6, 7 → AD). Before directive 1 nothing is highlighted."
+    }
+  },
+  "cards": {
+    "directive": {
+      "layout": "Centred block. Top: 'ADVISORY 0001 · DIRECTIVE' in mono 20 px dim. Middle: the number as two digits ('01') in display font 260 px, outlined only (3 px fg stroke, no fill). Under it the title in display font 76 px uppercase fg, max 2 lines, max width 1300. A 6 px blue rule under the title draws left→right.",
+      "animation": "Frame 0–6: number scales 1.15 → 1.0 with a 4 px screen shake on landing (frame 8, play stamp sfx). Title types in word by word over the line's first 60% of duration. Blue rule draws in 12 frames after the title completes.",
+      "hudSync": "Progress item for this directive switches to current on the card's first frame."
+    },
+    "addendum": "Same as directive card but no number: the word ADDENDUM in display 200 px outlined, a small mono line beneath: 'NOT FOR CIRCULATION'. Rule colour red.",
+    "endCard": "Black, HUD hidden. Red rubber stamp text 'ONGOING.' display 180 px, rotated -6°, rough stamp texture (noise mask), lands with scale 1.3 → 1.0 and a 6 px shake (stamp sfx). Beneath: 'NEXT ADVISORY: 0002' mono 22 px dim. Hold 3 s, last 12 frames fade to black."
+  },
+  "documents": {
+    "look": "Off-white paper sheet (paper colour), 1100×700 unless stated, subtle paper grain, 1 px darker border, slight -1° rotation. Typed text in ink, mono 30 px, 1.5 line height. Header lines: first line bold, letter-spaced. Redaction bars: solid redaction colour, height = cap height + 6 px.",
+    "highlight": "Translucent blue (or red) marker behind the line, 35% opacity, wipes in left→right over 10 frames.",
+    "stamp": "Red outlined rectangle with text, display font 64 px, rotation -8°, 85% opacity, noise mask; lands with scale 1.3 → 1.0 and a 4 px shake.",
+    "redactAnim": "Black bar grows left→right across the text over 14 frames.",
+    "entry": "slide-up: from y+120 and opacity 0 over 12 frames, ease-out."
+  },
+  "figures": {
+    "stroke": "Pictograms are solid shapes in fg with round caps/joins. No faces on humans or the inspector. Line elements (corner, gaze, boundary) are strokes.",
+    "glow": "Light bloom on fg shapes: filter drop-shadow(0 0 6px rgba(238,241,244,0.35)). Never on documents.",
+    "person": "Signature detail: the head is a rounded SQUARE (side = 0.2h, radius = 0.06h), not a circle. Torso rounded rect (0.24h wide, 0.38h tall, radius 0.08h). Limbs are 0.07h-thick strokes. See scene-library.md for poses.",
+    "cat": "Built from simple shapes: body ellipse, round head with two triangular ears, thick curved tail, small oval feet. Eyes are two small bg-coloured almonds (only visible in front/face views). See scene-library.md for poses.",
+    "inspector": "Person geometry plus: wide-brim hat (brim 0.32h × 0.03h, crown trapezoid 0.18h tall), long coat to the knees (trapezoid), clipboard rectangle at chest. Colour grey, no face. Default opacity varies per shot. Always perfectly still except where an animation is listed.",
+    "corner": "Room corner: a vertical vertex line (height h) at x, two wall-top lines and two floor lines diverging from the vertex at ±18°, stroke 3 px in line colour, plus a subtle darker gradient inside the wedge. Variants: plain, lit (warm-white wash), washed (overexposed bloom hiding detail), dark (deeper gradient)."
+  },
+  "transitions": {
+    "cut": "Hard cut on the line's first frame.",
+    "hold": "No cut. Keep the previous shot mounted (do not restart its animations) and apply only what the new shot adds or changes.",
+    "fade": "From black over 15 frames (only at the very start).",
+    "scan": "Photocopier scan: a 2 px white line with a 40 px blue glow sweeps top→bottom over 12 frames; the new shot is revealed above the line, the old shot remains below it. Play scan sfx.",
+    "carbon": "For 6 frames the new shot is duplicated, offset +6 px x / -3 px y, tinted blue at 50% opacity, with 2–3 thin horizontal tear lines. Play static sfx.",
+    "slip": "8 frames of tracking tears (horizontal bands shifted ±20 px) and a brightness flicker, then the whole frame stays grayscale(1) contrast(0.9) for the shot."
+  },
+  "effects": {
+    "grain": "Animated noise overlay, opacity 0.06, new seed every 2 frames.",
+    "vignette": "Radial, transparent centre to 55% black at corners.",
+    "cameraIdle": "Every tableau shot without a camera move gets a 1.0 → 1.015 push over its duration so nothing is ever fully static.",
+    "motionEasing": "Default ease: cubic-bezier(0.22, 1, 0.36, 1). Pop-ins: scale 0.92 → 1 and opacity 0 → 1 over 8 frames. Draw-on strokes: 14 frames.",
+    "reducedMovement": "Figures barely move: small shifts, head turns, blinks, tail motion. Avoid full walk cycles except S11 (two-frame step shuffle is enough)."
+  },
+  "thumbnail": {
+    "size": "1280x720",
+    "composition": "Cat from behind, large, lower left, staring at a dark room corner on the right. In the corner the inspector silhouette at 25% opacity. Text top-left: 'DO NOT LOOK' in display font 150 px fg, a red underline; small mono tag 'ADVISORY 0001' above it in blue. Vignette stronger than in the video.",
+    "output": "out/thumbnail.png"
+  }
+}

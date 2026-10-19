@@ -1,0 +1,3799 @@
+{
+ "meta": {
+  "channel": "Not Covered",
+  "department": "Department of Unlisted Risks",
+  "departmentShort": "DUR",
+  "advisory": "0001",
+  "title": "If Your Cat Ever Stares At An Empty Corner… DO NOT LOOK",
+  "slug": "advisory-0001-cat-corner",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "leadInSec": 0.6,
+  "slipLines": ["L070"],
+  "endCard": {
+   "shot": "END",
+   "holdSec": 3.0
+  },
+  "notes": "One line = one caption = one shot (unless transitionIn is 'hold', which keeps the previous shot on screen and applies the new shot's changes). Line timing comes from the generated voice audio: start(n+1) = start(n) + audioDuration(n) + pauseAfter(n)."
+ },
+ "beats": [
+  {
+   "id": "cold_open",
+   "label": "Cold open"
+  },
+  {
+   "id": "teaser",
+   "label": "Teaser"
+  },
+  {
+   "id": "world",
+   "label": "The world"
+  },
+  {
+   "id": "directive_1",
+   "label": "Directive 1: Do not look"
+  },
+  {
+   "id": "directive_2",
+   "label": "Directive 2: Do not turn on the light"
+  },
+  {
+   "id": "directive_3",
+   "label": "Directive 3: Do not move the furniture"
+  },
+  {
+   "id": "directive_4",
+   "label": "Directive 4: Do not say hello"
+  },
+  {
+   "id": "directive_5",
+   "label": "Directive 5: If your cat looks at you, do not move"
+  },
+  {
+   "id": "directive_6",
+   "label": "Directive 6: When your cat falls asleep, take over"
+  },
+  {
+   "id": "addendum",
+   "label": "Addendum"
+  },
+  {
+   "id": "callback",
+   "label": "Callback"
+  },
+  {
+   "id": "outro",
+   "label": "Outro"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L001",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "If your cat ever stares at an empty corner...",
+   "caption": "If your cat ever stares at an empty corner...",
+   "shot": "S01",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "empty corner"
+   ],
+   "sfx": null,
+   "transitionIn": "fade"
+  },
+  {
+   "id": "L002",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "and does not blink...",
+   "caption": "and does not blink...",
+   "shot": "S02",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "does not blink"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L003",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "do not look.",
+   "caption": "do not look.",
+   "shot": "S03",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "do not look"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L004",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "Do not ask it what it sees.",
+   "caption": "Do not ask it what it sees.",
+   "shot": "S04",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L005",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "And do not stand between them.",
+   "caption": "And do not stand between them.",
+   "shot": "S05",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "between them"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L006",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "This advisory has six directives.",
+   "caption": "This advisory has 6 directives.",
+   "shot": "S06",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "6 directives"
+   ],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L007",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "Most households violate the fourth.",
+   "caption": "Most households violate the fourth.",
+   "shot": "S06b",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "the fourth"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L008",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "The addendum is not about the cat.",
+   "caption": "The addendum is not about the cat.",
+   "shot": "S06c",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "addendum"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L009",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your cat sleeps sixteen hours a day.",
+   "caption": "Your cat sleeps 16 hours a day.",
+   "shot": "S07",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L010",
+   "beat": "world",
+   "directive": null,
+   "voice": "It ignores its name.",
+   "caption": "It ignores its name.",
+   "shot": "S08",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L011",
+   "beat": "world",
+   "directive": null,
+   "voice": "It ignores the expensive bed you bought it.",
+   "caption": "It ignores the expensive bed you bought it.",
+   "shot": "S09",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L012",
+   "beat": "world",
+   "directive": null,
+   "voice": "It ignores you, mostly.",
+   "caption": "It ignores you, mostly.",
+   "shot": "S10",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L013",
+   "beat": "world",
+   "directive": null,
+   "voice": "But some evenings, it stops in the middle of the room.",
+   "caption": "But some evenings, it stops in the middle of the room.",
+   "shot": "S11",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L014",
+   "beat": "world",
+   "directive": null,
+   "voice": "Ears forward. Tail still.",
+   "caption": "Ears forward. Tail still.",
+   "shot": "S12",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L015",
+   "beat": "world",
+   "directive": null,
+   "voice": "And it stares at the corner by the bookcase.",
+   "caption": "And it stares at the corner by the bookcase.",
+   "shot": "S13",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "the corner"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L016",
+   "beat": "world",
+   "directive": null,
+   "voice": "There is nothing there.",
+   "caption": "There is nothing there.",
+   "shot": "S14",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L017",
+   "beat": "world",
+   "directive": null,
+   "voice": "Most of the time.",
+   "caption": "Most of the time.",
+   "shot": "S14b",
+   "pauseAfter": 0.9,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L018",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Directive one. Do not look.",
+   "caption": "Directive 1. Do not look.",
+   "shot": "C1",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not look"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L019",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "You will want to follow its eyes.",
+   "caption": "You will want to follow its eyes.",
+   "shot": "S16",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L020",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Everyone does.",
+   "caption": "Everyone does.",
+   "shot": "S17",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L021",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Look at the cat instead.",
+   "caption": "Look at the cat instead.",
+   "shot": "S18",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "the cat"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L022",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Notice how it sits.",
+   "caption": "Notice how it sits.",
+   "shot": "S19",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L023",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Weight back. Paws together.",
+   "caption": "Weight back. Paws together.",
+   "shot": "S19b",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L024",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "That is how it sits at the window when a bird lands.",
+   "caption": "That is how it sits at the window when a bird lands.",
+   "shot": "S20",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L025",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Your cat is not afraid of the corner.",
+   "caption": "Your cat is not afraid of the corner.",
+   "shot": "S21",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L026",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It is keeping it there.",
+   "caption": "It is keeping it there.",
+   "shot": "S22",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "keeping it there"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L027",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Directive two. Do not turn on the light.",
+   "caption": "Directive 2. Do not turn on the light.",
+   "shot": "C2",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not turn on the light"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L028",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Light does not make a corner empty.",
+   "caption": "Light does not make a corner empty.",
+   "shot": "S24",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "click",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L029",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "It only makes it harder to see what your cat can see.",
+   "caption": "It only makes it harder to see what your cat can see.",
+   "shot": "S25",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L030",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Case four-one-one.",
+   "caption": "Case 0411.",
+   "shot": "S26",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L031",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "A man in Bristol switched on every lamp in his flat.",
+   "caption": "A man in Bristol switched on every lamp in his flat.",
+   "shot": "S27",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "every lamp"
+   ],
+   "sfx": "click",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L032",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "His cat left the corner.",
+   "caption": "His cat left the corner.",
+   "shot": "S28",
+   "pauseAfter": 0.25,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L033",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "It sat in the hallway.",
+   "caption": "It sat in the hallway.",
+   "shot": "S28b",
+   "pauseAfter": 0.25,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L034",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "And stared at a spot just behind his left shoulder.",
+   "caption": "And stared at a spot just behind his left shoulder.",
+   "shot": "S29",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "behind his left shoulder"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L035",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "He turned the lamps off again.",
+   "caption": "He turned the lamps off again.",
+   "shot": "S30",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": "click",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L036",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "We will not be putting that in writing.",
+   "caption": "We will not be putting that in writing.",
+   "shot": "S31",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L037",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Directive three. Do not move the furniture.",
+   "caption": "Directive 3. Do not move the furniture.",
+   "shot": "C3",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not move the furniture"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L038",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "You will want to move the bookcase.",
+   "caption": "You will want to move the bookcase.",
+   "shot": "S33",
+   "pauseAfter": 0.25,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L039",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "To prove there is nothing behind it.",
+   "caption": "To prove there is nothing behind it.",
+   "shot": "S34",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L040",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "There never is.",
+   "caption": "There never is.",
+   "shot": "S34b",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L041",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "The corner is not behind the bookcase.",
+   "caption": "The corner is not behind the bookcase.",
+   "shot": "S35",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L042",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "The corner is the corner.",
+   "caption": "The corner is the corner.",
+   "shot": "S35b",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L043",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Move the bookcase, and the corner moves with you.",
+   "caption": "Move the bookcase, and the corner moves with you.",
+   "shot": "S36",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "moves with you"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L044",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "To the bedroom.",
+   "caption": "To the bedroom.",
+   "shot": "S37",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "bedroom"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L045",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Leave the furniture where it is.",
+   "caption": "Leave the furniture where it is.",
+   "shot": "S38",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L046",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Directive four. Do not say hello.",
+   "caption": "Directive 4. Do not say hello.",
+   "shot": "C4",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not say hello"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L047",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "This is the directive most households violate.",
+   "caption": "This is the directive most households violate.",
+   "shot": "S40",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "violate"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L048",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "You will be alone.",
+   "caption": "You will be alone.",
+   "shot": "S41",
+   "pauseAfter": 0.25,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L049",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "It will be late.",
+   "caption": "It will be late.",
+   "shot": "S42",
+   "pauseAfter": 0.25,
+   "emphasis": [],
+   "sfx": "tick",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L050",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "You will feel silly.",
+   "caption": "You will feel silly.",
+   "shot": "S43",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L051",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "So you will say it. Quietly.",
+   "caption": "So you will say it. Quietly.",
+   "shot": "S44",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L052",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Nothing will answer.",
+   "caption": "Nothing will answer.",
+   "shot": "S45",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": "silence",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L053",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "That is not the problem.",
+   "caption": "That is not the problem.",
+   "shot": "S45b",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L054",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "The problem is that your household now has one more occupant than the census lists.",
+   "caption": "The problem is that your household now has one more occupant than the census lists.",
+   "shot": "S46",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "one more occupant"
+   ],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L055",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "In our files, two thousand three hundred and sixteen people said hello.",
+   "caption": "In our files, 2,316 people said hello.",
+   "shot": "S47",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L056",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Two thousand three hundred and sixteen addresses were added to a list.",
+   "caption": "2,316 addresses were added to a list.",
+   "shot": "S48",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "added to a list"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L057",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Your cat heard you say it.",
+   "caption": "Your cat heard you say it.",
+   "shot": "S49",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L058",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "It did not look away from the corner for the rest of the night.",
+   "caption": "It did not look away from the corner for the rest of the night.",
+   "shot": "S50",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": "tick",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L059",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Directive five. If your cat looks at you, do not move.",
+   "caption": "Directive 5. If your cat looks at you, do not move.",
+   "shot": "C5",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "do not move"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L060",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Sometime after midnight, it will stop staring at the corner.",
+   "caption": "Sometime after midnight, it will stop staring at the corner.",
+   "shot": "S52",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L061",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It will turn its head.",
+   "caption": "It will turn its head.",
+   "shot": "S53",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L062",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Slowly.",
+   "caption": "Slowly.",
+   "shot": "S53b",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L063",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "And look at you.",
+   "caption": "And look at you.",
+   "shot": "S54",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L064",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Do not move.",
+   "caption": "Do not move.",
+   "shot": "S55",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "Do not move"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L065",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It is not looking at you.",
+   "caption": "It is not looking at you.",
+   "shot": "S56",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L066",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It is looking at the space beside you.",
+   "caption": "It is looking at the space beside you.",
+   "shot": "S57",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "beside you"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L067",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "The corner is empty now.",
+   "caption": "The corner is empty now.",
+   "shot": "S58",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L068",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Keep reading.",
+   "caption": "Keep reading.",
+   "shot": "S59",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L069",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It is a very good book.",
+   "caption": "It is a very good book.",
+   "shot": "S59b",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L070",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "We read the whole chapter.",
+   "caption": "We read the whole chapter.",
+   "shot": "SLIP1",
+   "pauseAfter": 0.7,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "slip"
+  },
+  {
+   "id": "L071",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Apologies.",
+   "caption": "Apologies.",
+   "shot": "SLIP2",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L072",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "That remark has been redacted.",
+   "caption": "That remark has been redacted.",
+   "shot": "SLIP3",
+   "pauseAfter": 0.9,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L073",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Directive six. When your cat falls asleep, take over.",
+   "caption": "Directive 6. When your cat falls asleep, take over.",
+   "shot": "C6",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "take over"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L074",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Cats are not built to stay awake all night.",
+   "caption": "Cats are not built to stay awake all night.",
+   "shot": "S64",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L075",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Yours has done this every evening for eleven years.",
+   "caption": "Yours has done this every evening for 11 years.",
+   "shot": "S65",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L076",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "That is four thousand and fifteen evenings.",
+   "caption": "That is 4,015 evenings.",
+   "shot": "S66",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L077",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You thought it was ignoring you.",
+   "caption": "You thought it was ignoring you.",
+   "shot": "S67",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L078",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It was sitting between you and the corner.",
+   "caption": "It was sitting between you and the corner.",
+   "shot": "S68",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "between you and the corner"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L079",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Every night.",
+   "caption": "Every night.",
+   "shot": "S68b",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L080",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Tonight, its eyes close a little earlier.",
+   "caption": "Tonight, its eyes close a little earlier.",
+   "shot": "S69",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L081",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Let it sleep.",
+   "caption": "Let it sleep.",
+   "shot": "S70",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L082",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It will finally use the bed you bought it.",
+   "caption": "It will finally use the bed you bought it.",
+   "shot": "S70b",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L083",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Sit where it sat.",
+   "caption": "Sit where it sat.",
+   "shot": "S71",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L084",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Face where it faced.",
+   "caption": "Face where it faced.",
+   "shot": "S72",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L085",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Keep your eyes on the floor.",
+   "caption": "Keep your eyes on the floor.",
+   "shot": "S73",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L086",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It does not need you to look.",
+   "caption": "It does not need you to look.",
+   "shot": "S74",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L087",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It only needs to know someone is there.",
+   "caption": "It only needs to know someone is there.",
+   "shot": "S75",
+   "pauseAfter": 1.0,
+   "emphasis": [
+    "someone is there"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L088",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Addendum.",
+   "caption": "Addendum.",
+   "shot": "AD",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Addendum"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L089",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "By now, you are wondering how a government department knows any of this.",
+   "caption": "By now, you are wondering how a government department knows any of this.",
+   "shot": "S77",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L090",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Every household receives a routine inspection once a year.",
+   "caption": "Every household receives a routine inspection once a year.",
+   "shot": "S78",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "routine inspection"
+   ],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L091",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "You have never met the inspector.",
+   "caption": "You have never met the inspector.",
+   "shot": "S79",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L092",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your cat has.",
+   "caption": "Your cat has.",
+   "shot": "S80",
+   "pauseAfter": 0.7,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L093",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The Department of Unlisted Risks has inspected homes for one hundred and twelve years.",
+   "caption": "The Department of Unlisted Risks has inspected homes for 112 years.",
+   "shot": "S81",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L094",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Our inspectors are very thorough.",
+   "caption": "Our inspectors are very thorough.",
+   "shot": "S82",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L095",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "And very patient.",
+   "caption": "And very patient.",
+   "shot": "S82b",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": "tick",
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L096",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "They prefer to stand in corners.",
+   "caption": "They prefer to stand in corners.",
+   "shot": "S83",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "stand in corners"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L097",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "It gives the best view of the room.",
+   "caption": "It gives the best view of the room.",
+   "shot": "S84",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L098",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your cat has never let one finish an inspection.",
+   "caption": "Your cat has never let one finish an inspection.",
+   "shot": "S85",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L099",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "That is why it is listed as a risk.",
+   "caption": "That is why it is listed as a risk.",
+   "shot": "S86",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "listed as a risk"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L100",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "If your cat is staring at a corner right now...",
+   "caption": "If your cat is staring at a corner right now...",
+   "shot": "S87",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L101",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "it is not looking at nothing.",
+   "caption": "it is not looking at nothing.",
+   "shot": "S88",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L102",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "Please continue behaving naturally.",
+   "caption": "Please continue behaving naturally.",
+   "shot": "S89",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L103",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "And do not look.",
+   "caption": "And do not look.",
+   "shot": "S90",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "do not look"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L104",
+   "beat": "outro",
+   "directive": null,
+   "voice": "This advisory has ended.",
+   "caption": "This advisory has ended.",
+   "shot": "S91",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  }
+ ],
+ "shots": {
+  "S01": {
+   "type": "tableau",
+   "desc": "Living room at night. Cat seen from behind, sitting very still, facing an empty room corner on the right. Window with moon top-left. Nothing in the corner.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "cat",
+     "pose": "sit-back",
+     "x": 820,
+     "y": 780,
+     "h": 200,
+     "anim": [
+      "tail-still"
+     ]
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": "corner.vertex",
+     "style": "dotted",
+     "color": "dim",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S02": {
+   "type": "tableau",
+   "desc": "Extreme close-up of the cat's face, front view, eyes wide open. The eyes do not blink for the whole shot. Very slow push-in.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "face-close",
+     "x": 960,
+     "y": 520,
+     "h": 520,
+     "anim": [
+      "no-blink",
+      "pupils-dilate"
+     ]
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.12
+   }
+  },
+  "S03": {
+   "type": "tableau",
+   "desc": "Large eye pictogram in the centre; a red cross is drawn over it.",
+   "elements": [
+    {
+     "el": "eye",
+     "x": 960,
+     "y": 470,
+     "w": 420
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 470,
+     "size": 360,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S04": {
+   "type": "tableau",
+   "desc": "Person kneeling next to the cat, a speech bubble with a question mark that gets crossed out in red. Cat keeps staring right.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "kneel",
+     "x": 760,
+     "y": 780,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "cat",
+     "pose": "sit-side",
+     "x": 1000,
+     "y": 780,
+     "h": 170,
+     "facing": "right"
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "?",
+     "x": 690,
+     "y": 330
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 690,
+     "y": 330,
+     "size": 120,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.5
+    }
+   ],
+   "accent": "red"
+  },
+  "S05": {
+   "type": "tableau",
+   "desc": "Cat on the left, corner on the right, a person standing exactly between them. A red warning outline pulses around the person.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "sit-side",
+     "x": 520,
+     "y": 780,
+     "h": 170,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1420,
+     "y": 780,
+     "w": 380,
+     "h": 500
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 1000,
+     "y": 780,
+     "h": 360,
+     "facing": "front",
+     "outline": "red",
+     "anim": [
+      "pulse-outline"
+     ]
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": "corner.vertex",
+     "style": "dotted",
+     "color": "dim",
+     "blocked_by": "person"
+    }
+   ],
+   "accent": "red"
+  },
+  "S06": {
+   "type": "doc",
+   "desc": "Official advisory memo on off-white paper slides up into frame. Header: DEPARTMENT OF UNLISTED RISKS / ADVISORY 0001 / SUBJECT: DOMESTIC CAT, CORNER FIXATION. Six numbered directive lines (text partly redacted with black bars) and an ADDENDUM line at the bottom.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "ADVISORY 0001",
+     "SUBJECT: DOMESTIC CAT — CORNER FIXATION"
+    ],
+    "lines": [
+     "DIRECTIVE 1 ████████",
+     "DIRECTIVE 2 ██████████████",
+     "DIRECTIVE 3 ███████████",
+     "DIRECTIVE 4 █████████",
+     "DIRECTIVE 5 ████████████████",
+     "DIRECTIVE 6 ██████████",
+     "ADDENDUM ███████ ███ ████"
+    ],
+    "highlight": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "anim": "slide-up"
+   }
+  },
+  "S06b": {
+   "type": "doc",
+   "desc": "Same memo. A red stamp VIOLATED slams onto DIRECTIVE 4 with a small screen shake.",
+   "same_as": "S06",
+   "doc": {
+    "stamp": {
+     "text": "VIOLATED",
+     "line": 3,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S06c": {
+   "type": "doc",
+   "desc": "Camera pushes down to the ADDENDUM line at the bottom of the memo; the line is highlighted in blue, text stays redacted.",
+   "same_as": "S06",
+   "doc": {
+    "focus_line": 6,
+    "highlight": [
+     6
+    ],
+    "highlight_color": "blue"
+   },
+   "camera": {
+    "move": "pan-to",
+    "target": "line-6",
+    "zoom": 1.6
+   }
+  },
+  "S07": {
+   "type": "tableau",
+   "desc": "Cat curled up asleep on the floor; a clock beside it with a counter that ticks up to 16 h.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "sleep",
+     "x": 780,
+     "y": 780,
+     "h": 120,
+     "anim": [
+      "breathe"
+     ]
+    },
+    {
+     "el": "counter",
+     "x": 1250,
+     "y": 470,
+     "value": 16,
+     "from": 0,
+     "suffix": " h",
+     "label": "SLEEP PER DAY",
+     "anim": [
+      "count-up"
+     ]
+    }
+   ]
+  },
+  "S08": {
+   "type": "tableau",
+   "desc": "Person on the left calls the cat (speech bubble with three dots). Cat on the right, loaf pose, facing away. Nothing happens.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 620,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "• • •",
+     "x": 760,
+     "y": 330
+    },
+    {
+     "el": "cat",
+     "pose": "loaf",
+     "x": 1240,
+     "y": 780,
+     "h": 110,
+     "facing": "away"
+    }
+   ]
+  },
+  "S09": {
+   "type": "tableau",
+   "desc": "A plush cat bed with a price tag (89.99) sits empty. Next to it the cat sits inside a cardboard box.",
+   "elements": [
+    {
+     "el": "cat-bed",
+     "x": 760,
+     "y": 780,
+     "w": 300,
+     "tag": "89.99"
+    },
+    {
+     "el": "box",
+     "x": 1180,
+     "y": 780,
+     "w": 240
+    },
+    {
+     "el": "cat",
+     "pose": "sit-front",
+     "x": 1180,
+     "y": 710,
+     "h": 150,
+     "inside": "box"
+    }
+   ]
+  },
+  "S10": {
+   "type": "tableau",
+   "desc": "Person on the left end of a sofa, cat on the far right end, facing away from the person. Keep this composition: it is reused in S67/S68.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 960,
+     "y": 780,
+     "w": 900
+    },
+    {
+     "el": "person",
+     "pose": "sit-sofa",
+     "x": 700,
+     "y": 740,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "cat",
+     "pose": "sit-back",
+     "x": 1260,
+     "y": 700,
+     "h": 150,
+     "facing": "away-right"
+    }
+   ],
+   "reuse_key": "sofa-wide"
+  },
+  "S11": {
+   "type": "tableau",
+   "desc": "Wide room. Cat walks in from the left and stops in the middle of the room (walk, then freeze mid-step). Window with moon.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1500,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "bookcase",
+     "x": 1640,
+     "y": 780,
+     "h": 440
+    },
+    {
+     "el": "corner",
+     "x": 1800,
+     "y": 780,
+     "w": 240,
+     "h": 520
+    },
+    {
+     "el": "cat",
+     "pose": "walk",
+     "x": 520,
+     "y": 780,
+     "h": 150,
+     "facing": "right",
+     "anim": [
+      {
+       "walk": {
+        "fromX": 300,
+        "toX": 900,
+        "stop_at": 0.6
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "S12": {
+   "type": "tableau",
+   "desc": "Close side view of the cat: ears pointing forward, tail completely still. Two thin blue annotation lines point to EARS and TAIL with small mono labels.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 960,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "label",
+     "text": "EARS: FORWARD",
+     "target": "cat.ears",
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "TAIL: STILL",
+     "target": "cat.tail",
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.6
+    }
+   ],
+   "accent": "blue"
+  },
+  "S13": {
+   "type": "tableau",
+   "desc": "Cat on the left, bookcase on the right with the corner next to it. A dotted gaze line draws from the cat's eyes into the corner.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 520,
+     "y": 780,
+     "h": 170,
+     "facing": "right"
+    },
+    {
+     "el": "bookcase",
+     "x": 1240,
+     "y": 780,
+     "h": 440
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 360,
+     "h": 520
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": "corner.vertex",
+     "style": "dotted",
+     "color": "fg",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ]
+  },
+  "S14": {
+   "type": "tableau",
+   "desc": "Close-up of the empty corner: two wall lines meeting a floor line. Nothing there.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 860,
+     "w": 900,
+     "h": 760,
+     "variant": "plain"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.03
+   }
+  },
+  "S14b": {
+   "type": "tableau",
+   "desc": "Same corner. For 6 frames halfway through, the inspector silhouette is barely visible in the corner (opacity 0.06), then gone. Do not make it obvious.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 860,
+     "w": 900,
+     "h": 760
+    },
+    {
+     "el": "inspector",
+     "pose": "corner",
+     "x": 960,
+     "y": 860,
+     "h": 640,
+     "opacity": 0.06,
+     "visible_frames": [
+      0.45,
+      0.65
+     ]
+    }
+   ],
+   "same_as": "S14"
+  },
+  "C1": {
+   "type": "directive-card",
+   "n": 1,
+   "title": "DO NOT LOOK"
+  },
+  "S16": {
+   "type": "tableau",
+   "desc": "Person in profile; head slowly turns toward the corner on the right, following the cat's dotted gaze line.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 520,
+     "y": 780,
+     "h": 150,
+     "facing": "right"
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 820,
+     "y": 780,
+     "h": 360,
+     "facing": "right",
+     "anim": [
+      {
+       "head-turn": {
+        "from": "front",
+        "to": "right"
+       }
+      }
+     ]
+    },
+    {
+     "el": "corner",
+     "x": 1500,
+     "y": 780,
+     "w": 360,
+     "h": 520
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": "corner.vertex",
+     "style": "dotted",
+     "color": "dim"
+    }
+   ]
+  },
+  "S17": {
+   "type": "tableau",
+   "desc": "A row of five identical people, all with heads turned toward the same point off-screen right. Faint, dim grey.",
+   "elements": [
+    {
+     "el": "crowd",
+     "n": 5,
+     "x": 960,
+     "y": 780,
+     "h": 300,
+     "spacing": 230,
+     "facing": "right",
+     "color": "dim"
+    }
+   ]
+  },
+  "S18": {
+   "type": "tableau",
+   "desc": "Person looks down at the cat instead; a blue check mark appears.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 840,
+     "y": 780,
+     "h": 360,
+     "facing": "down-right"
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 1080,
+     "y": 780,
+     "h": 150,
+     "facing": "right"
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 1260,
+     "y": 380,
+     "size": 110,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S19": {
+   "type": "tableau",
+   "desc": "Large side view of the sitting cat, calm, staring right.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 960,
+     "y": 780,
+     "h": 380,
+     "facing": "right"
+    }
+   ]
+  },
+  "S19b": {
+   "type": "tableau",
+   "desc": "Same cat. Blue annotation lines: WEIGHT: BACK (arrow on haunches) and PAWS: TOGETHER (bracket on front paws).",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 960,
+     "y": 780,
+     "h": 380,
+     "facing": "right"
+    },
+    {
+     "el": "label",
+     "text": "WEIGHT: BACK",
+     "target": "cat.haunch",
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "PAWS: TOGETHER",
+     "target": "cat.paws",
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.5
+    }
+   ],
+   "accent": "blue",
+   "same_as": "S19"
+  },
+  "S20": {
+   "type": "tableau",
+   "desc": "Cat in the same sitting pose at a window; a small bird lands on the outside sill.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1080,
+     "y": 420,
+     "sky": "day",
+     "w": 420
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 880,
+     "y": 780,
+     "h": 200,
+     "facing": "right"
+    },
+    {
+     "el": "bird",
+     "x": 1180,
+     "y": 560,
+     "anim": [
+      "land"
+     ]
+    }
+   ]
+  },
+  "S21": {
+   "type": "tableau",
+   "desc": "Cat facing the corner, calm. No threat markers.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 640,
+     "y": 780,
+     "h": 180,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1400,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    }
+   ]
+  },
+  "S22": {
+   "type": "tableau",
+   "desc": "Same as S21, plus a blue dashed boundary line drawing itself on the floor between cat and corner.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 640,
+     "y": 780,
+     "h": 180,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1400,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "boundary",
+     "x1": 1000,
+     "y1": 810,
+     "x2": 1150,
+     "y2": 580,
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue",
+   "same_as": "S21"
+  },
+  "C2": {
+   "type": "directive-card",
+   "n": 2,
+   "title": "DO NOT TURN ON THE LIGHT"
+  },
+  "S24": {
+   "type": "tableau",
+   "desc": "Floor lamp switches on next to the corner (light cone, white). The corner is lit and still looks empty.",
+   "elements": [
+    {
+     "el": "floor-lamp",
+     "x": 1080,
+     "y": 780,
+     "h": 460,
+     "state": "on",
+     "anim": [
+      "switch-on"
+     ]
+    },
+    {
+     "el": "corner",
+     "x": 1460,
+     "y": 780,
+     "w": 420,
+     "h": 520,
+     "variant": "lit"
+    }
+   ]
+  },
+  "S25": {
+   "type": "tableau",
+   "desc": "Cat squints at the brightly lit corner; the corner area is washed out (overexposed white glow) so details are lost.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 560,
+     "y": 780,
+     "h": 170,
+     "facing": "right",
+     "eyes": "squint"
+    },
+    {
+     "el": "corner",
+     "x": 1360,
+     "y": 780,
+     "w": 480,
+     "h": 560,
+     "variant": "washed"
+    }
+   ]
+  },
+  "S26": {
+   "type": "case-file",
+   "number": "0411",
+   "location": "BRISTOL, UK",
+   "label": "CASE FILE",
+   "desc": "Manila case folder with paper clip and a typed label: CASE 0411 / BRISTOL, UK. A red UNLISTED stamp in the corner."
+  },
+  "S27": {
+   "type": "floorplan",
+   "desc": "Top-down floor plan of a small flat (4 rooms + hallway). Five lamp icons switch on one by one (0.25 s apart) until every room is lit.",
+   "plan": {
+    "rooms": [
+     "living",
+     "kitchen",
+     "bedroom",
+     "bath",
+     "hall"
+    ],
+    "lamps": 5,
+    "anim": "lamps-on-sequence",
+    "markers": [
+     {
+      "kind": "cat",
+      "room": "living",
+      "pos": "corner-ne"
+     },
+     {
+      "kind": "person",
+      "room": "living",
+      "pos": "centre"
+     }
+    ]
+   }
+  },
+  "S28": {
+   "type": "floorplan",
+   "same_as": "S27",
+   "desc": "Same plan, all lit. The cat marker moves from the living-room corner into the hallway.",
+   "plan": {
+    "anim": "marker-move",
+    "move": {
+     "marker": "cat",
+     "to": "hall"
+    }
+   }
+  },
+  "S28b": {
+   "type": "floorplan",
+   "same_as": "S27",
+   "desc": "Hold: cat marker sits in the hallway, a small dotted gaze line points back toward the person marker.",
+   "plan": {
+    "gaze": {
+     "from": "cat",
+     "to": "person+offset"
+    }
+   }
+  },
+  "S29": {
+   "type": "tableau",
+   "desc": "Person standing, seen from the side. The cat (left) stares at a spot just behind the person's left shoulder; the dotted gaze ends in a small red circle in empty air behind the shoulder.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 520,
+     "y": 780,
+     "h": 150,
+     "facing": "right"
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 1040,
+     "y": 780,
+     "h": 380,
+     "facing": "right"
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": {
+      "x": 960,
+      "y": 440
+     },
+     "style": "dotted",
+     "color": "fg",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 960,
+     "y": 440,
+     "size": 70,
+     "color": "red",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.8
+    }
+   ],
+   "accent": "red"
+  },
+  "S30": {
+   "type": "floorplan",
+   "same_as": "S27",
+   "desc": "Lamps switch off one by one in reverse order; the plan goes dark.",
+   "plan": {
+    "anim": "lamps-off-sequence"
+   }
+  },
+  "S31": {
+   "type": "doc",
+   "desc": "A typed memo line appears letter by letter: 'SUBJECT REQUESTED THAT' — then a black redaction bar wipes over the rest of the line. A pen icon lifts away.",
+   "doc": {
+    "lines": [
+     "CASE 0411 — FOLLOW-UP",
+     "SUBJECT REQUESTED THAT ███████████████████"
+    ],
+    "anim": "typewriter-then-redact"
+   }
+  },
+  "C3": {
+   "type": "directive-card",
+   "n": 3,
+   "title": "DO NOT MOVE THE FURNITURE"
+  },
+  "S33": {
+   "type": "tableau",
+   "desc": "Person pushing the bookcase sideways away from the corner (struggling pose, small shake).",
+   "elements": [
+    {
+     "el": "bookcase",
+     "x": 1260,
+     "y": 780,
+     "h": 440,
+     "anim": [
+      {
+       "slide": {
+        "dx": -220
+       }
+      }
+     ]
+    },
+    {
+     "el": "person",
+     "pose": "push",
+     "x": 1000,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1560,
+     "y": 780,
+     "w": 360,
+     "h": 520
+    }
+   ]
+  },
+  "S34": {
+   "type": "tableau",
+   "desc": "Bookcase moved away; behind it only bare wall and the corner.",
+   "elements": [
+    {
+     "el": "bookcase",
+     "x": 1040,
+     "y": 780,
+     "h": 440
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 780,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    }
+   ]
+  },
+  "S34b": {
+   "type": "tableau",
+   "desc": "Same; a small blue check appears in the corner area.",
+   "elements": [
+    {
+     "el": "bookcase",
+     "x": 1040,
+     "y": 780,
+     "h": 440
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 780,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 1520,
+     "y": 520,
+     "size": 90,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "same_as": "S34"
+  },
+  "S35": {
+   "type": "tableau",
+   "desc": "Diagram view: the corner drawn large and bright, the bookcase faded to 20% opacity beside it.",
+   "elements": [
+    {
+     "el": "bookcase",
+     "x": 700,
+     "y": 780,
+     "h": 440,
+     "opacity": 0.2
+    },
+    {
+     "el": "corner",
+     "x": 1180,
+     "y": 780,
+     "w": 600,
+     "h": 600,
+     "emphasis": true
+    }
+   ]
+  },
+  "S35b": {
+   "type": "tableau",
+   "desc": "Only the corner remains; its lines brighten (thicker stroke, slight glow).",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 780,
+     "w": 700,
+     "h": 620,
+     "emphasis": true,
+     "anim": [
+      "brighten"
+     ]
+    }
+   ]
+  },
+  "S36": {
+   "type": "floorplan",
+   "desc": "Floor plan; a blue triangle corner-marker sits in the living room. When the bookcase icon is moved, the marker slides along with it through the hallway into the bedroom.",
+   "plan": {
+    "rooms": [
+     "living",
+     "kitchen",
+     "bedroom",
+     "bath",
+     "hall"
+    ],
+    "markers": [
+     {
+      "kind": "corner",
+      "room": "living",
+      "color": "blue"
+     },
+     {
+      "kind": "bookcase",
+      "room": "living"
+     }
+    ],
+    "anim": "marker-move",
+    "move": {
+     "marker": "corner",
+     "to": "bedroom",
+     "with": "bookcase"
+    }
+   }
+  },
+  "S37": {
+   "type": "tableau",
+   "desc": "Bedroom at night: bed on the left with a sleeping person, the corner right next to the bed. The cat sits at the foot of the bed, staring at that corner.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 520,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 760,
+     "y": 780,
+     "w": 560
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 720,
+     "y": 660,
+     "h": 120
+    },
+    {
+     "el": "corner",
+     "x": 1300,
+     "y": 780,
+     "w": 360,
+     "h": 500
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 1080,
+     "y": 780,
+     "h": 140,
+     "facing": "right"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   },
+   "accent": "blue"
+  },
+  "S38": {
+   "type": "tableau",
+   "desc": "Back in the living room: bookcase returned to its place next to the corner. Blue check.",
+   "elements": [
+    {
+     "el": "bookcase",
+     "x": 1240,
+     "y": 780,
+     "h": 440,
+     "anim": [
+      {
+       "slide": {
+        "dx": 0,
+        "from_dx": -160
+       }
+      }
+     ]
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 360,
+     "h": 520
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 860,
+     "y": 420,
+     "size": 100,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.5
+    }
+   ]
+  },
+  "C4": {
+   "type": "directive-card",
+   "n": 4,
+   "title": "DO NOT SAY HELLO"
+  },
+  "S40": {
+   "type": "doc",
+   "same_as": "S06b",
+   "desc": "Callback to the advisory memo: the red VIOLATED stamp on DIRECTIVE 4 pulses once."
+  },
+  "S41": {
+   "type": "tableau",
+   "desc": "Person sitting alone in an armchair in a dim room; the cat on the floor staring at the corner.",
+   "elements": [
+    {
+     "el": "armchair",
+     "x": 640,
+     "y": 780,
+     "w": 320
+    },
+    {
+     "el": "person",
+     "pose": "sit-chair",
+     "x": 640,
+     "y": 760,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 1000,
+     "y": 780,
+     "h": 140,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 380,
+     "h": 520
+    }
+   ],
+   "dim": 0.7
+  },
+  "S42": {
+   "type": "tableau",
+   "desc": "Wall clock showing 23:47, second hand ticking.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 960,
+     "y": 440,
+     "r": 180,
+     "time": "23:47",
+     "anim": [
+      "tick"
+     ]
+    }
+   ]
+  },
+  "S43": {
+   "type": "tableau",
+   "desc": "Person shrugs, palms up.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "shrug",
+     "x": 960,
+     "y": 780,
+     "h": 400,
+     "facing": "front"
+    }
+   ]
+  },
+  "S44": {
+   "type": "tableau",
+   "desc": "Person (left) with a very small speech bubble reading 'hello' pointed at the corner (right).",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-chair",
+     "x": 640,
+     "y": 760,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "armchair",
+     "x": 640,
+     "y": 780,
+     "w": 320
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "hello",
+     "size": "small",
+     "x": 860,
+     "y": 360
+    },
+    {
+     "el": "corner",
+     "x": 1500,
+     "y": 780,
+     "w": 380,
+     "h": 520
+    }
+   ]
+  },
+  "S45": {
+   "type": "tableau",
+   "desc": "The corner, completely silent: an empty speech-bubble outline floats near it and fades out. Music drops to silence for this line.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 860,
+     "w": 900,
+     "h": 760
+    },
+    {
+     "el": "speech",
+     "text": "",
+     "x": 1180,
+     "y": 360,
+     "outline_only": true,
+     "anim": [
+      "fade-out"
+     ]
+    }
+   ]
+  },
+  "S45b": {
+   "type": "tableau",
+   "desc": "Hold on the empty corner.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 860,
+     "w": 900,
+     "h": 760
+    }
+   ],
+   "same_as": "S45"
+  },
+  "S46": {
+   "type": "doc",
+   "desc": "Census-style household form on paper: OCCUPANTS — ADULTS: 1, CATS: 1. A third line types itself in blue: UNLISTED: 1.",
+   "doc": {
+    "header": [
+     "HOUSEHOLD RECORD",
+     "FORM UR-7"
+    ],
+    "lines": [
+     "ADULTS ............ 1",
+     "CATS .............. 1",
+     "UNLISTED .......... 1"
+    ],
+    "anim": "type-line",
+    "type_line": 2,
+    "highlight": [
+     2
+    ],
+    "highlight_color": "blue"
+   }
+  },
+  "S47": {
+   "type": "counter",
+   "value": 2316,
+   "from": 0,
+   "label": "RECORDED GREETINGS",
+   "desc": "Big number counts up to 2,316 next to a growing stack of case folders."
+  },
+  "S48": {
+   "type": "counter",
+   "value": 2316,
+   "from": 2316,
+   "label": "ADDRESSES ADDED TO LIST",
+   "desc": "Same number; a list document scrolls behind it with addresses as redaction bars; a red pin icon drops on the number.",
+   "accent": "red"
+  },
+  "S49": {
+   "type": "tableau",
+   "desc": "Cat's head turns briefly toward the person, ears flattened back, then back toward the corner.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-chair",
+     "x": 600,
+     "y": 760,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "cat",
+     "pose": "head-turn",
+     "x": 1040,
+     "y": 780,
+     "h": 170,
+     "anim": [
+      {
+       "head-turn": {
+        "from": "right",
+        "to": "left",
+        "back": true
+       }
+      }
+     ],
+     "ears": "back"
+    }
+   ]
+  },
+  "S50": {
+   "type": "tableau",
+   "desc": "Cat staring at the corner; a clock in the corner of the frame spins fast from night to morning; the window behind changes from moon to sun.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 760,
+     "y": 780,
+     "h": 170,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1440,
+     "y": 780,
+     "w": 380,
+     "h": 520
+    },
+    {
+     "el": "clock",
+     "x": 420,
+     "y": 300,
+     "r": 90,
+     "anim": [
+      "spin-fast"
+     ]
+    },
+    {
+     "el": "window",
+     "x": 1100,
+     "y": 320,
+     "sky": "moon-to-sun"
+    }
+   ]
+  },
+  "C5": {
+   "type": "directive-card",
+   "n": 5,
+   "title": "IF YOUR CAT LOOKS AT YOU, DO NOT MOVE"
+  },
+  "S52": {
+   "type": "tableau",
+   "desc": "Cat staring at the corner; small clock top-left reads 00:40.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 380,
+     "y": 300,
+     "r": 80,
+     "time": "00:40"
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 760,
+     "y": 780,
+     "h": 170,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1440,
+     "y": 780,
+     "w": 380,
+     "h": 520
+    }
+   ]
+  },
+  "S53": {
+   "type": "tableau",
+   "desc": "Close-up: the cat's head turns slowly from the corner (right) toward the camera/left. Turn takes the full line.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "face-close",
+     "x": 960,
+     "y": 540,
+     "h": 480,
+     "anim": [
+      {
+       "head-turn": {
+        "from": "right",
+        "to": "front",
+        "duration": "line"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "S53b": {
+   "type": "tableau",
+   "desc": "Hold on the cat's face, now looking at the viewer.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "face-close",
+     "x": 960,
+     "y": 540,
+     "h": 480
+    }
+   ],
+   "same_as": "S53"
+  },
+  "S54": {
+   "type": "tableau",
+   "desc": "Person on the sofa reading a book (left). Cat (right) looks at the person; dotted gaze line toward the person.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 760,
+     "y": 780,
+     "w": 640
+    },
+    {
+     "el": "person",
+     "pose": "read",
+     "x": 700,
+     "y": 740,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 1360,
+     "y": 780,
+     "h": 170,
+     "facing": "left"
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": "person.head",
+     "style": "dotted",
+     "color": "fg",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ]
+  },
+  "S55": {
+   "type": "tableau",
+   "desc": "Same, person frozen: red outline around the person, everything still.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 760,
+     "y": 780,
+     "w": 640
+    },
+    {
+     "el": "person",
+     "pose": "read",
+     "x": 700,
+     "y": 740,
+     "h": 300,
+     "facing": "right",
+     "outline": "red"
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 1360,
+     "y": 780,
+     "h": 170,
+     "facing": "left"
+    }
+   ],
+   "accent": "red",
+   "same_as": "S54"
+  },
+  "S56": {
+   "type": "tableau",
+   "desc": "The gaze line redraws and passes the person's head, ending a little to their left.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 760,
+     "y": 780,
+     "w": 640
+    },
+    {
+     "el": "person",
+     "pose": "read",
+     "x": 700,
+     "y": 740,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 1360,
+     "y": 780,
+     "h": 170,
+     "facing": "left"
+    },
+    {
+     "el": "gaze",
+     "from": "cat.eyes",
+     "to": {
+      "x": 520,
+      "y": 520
+     },
+     "style": "dotted",
+     "color": "fg",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "same_as": "S54"
+  },
+  "S57": {
+   "type": "tableau",
+   "desc": "Closer on the sofa: the empty seat next to the person; the cushion has a slight dent as if someone sits there. Red circle around the dent.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 860,
+     "y": 840,
+     "w": 980,
+     "close": true,
+     "dent": "left-seat"
+    },
+    {
+     "el": "person",
+     "pose": "read",
+     "x": 1060,
+     "y": 760,
+     "h": 420,
+     "facing": "right"
+    },
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 640,
+     "y": 620,
+     "size": 180,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S58": {
+   "type": "tableau",
+   "desc": "The corner, empty. A faint dotted trail leads from the corner out of frame to the left (toward the sofa).",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 1100,
+     "y": 860,
+     "w": 900,
+     "h": 760
+    },
+    {
+     "el": "gaze",
+     "from": "corner.vertex",
+     "to": {
+      "x": 0,
+      "y": 700
+     },
+     "style": "dotted",
+     "color": "dim",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ]
+  },
+  "S59": {
+   "type": "tableau",
+   "desc": "Close-up of the open book in the person's hands; a page turns.",
+   "elements": [
+    {
+     "el": "book",
+     "x": 960,
+     "y": 560,
+     "w": 620,
+     "anim": [
+      "page-turn"
+     ]
+    }
+   ]
+  },
+  "S59b": {
+   "type": "tableau",
+   "desc": "Hold on the book.",
+   "elements": [
+    {
+     "el": "book",
+     "x": 960,
+     "y": 560,
+     "w": 620
+    }
+   ],
+   "same_as": "S59"
+  },
+  "SLIP1": {
+   "type": "tableau",
+   "desc": "STYLE BREAK (slip): the frame turns grey-scale and softer. Over the person's shoulder on the sofa leans the inspector silhouette, reading along. Its faceless head is tilted toward the book. Brief tracking-line glitch at start.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 860,
+     "y": 780,
+     "w": 900
+    },
+    {
+     "el": "person",
+     "pose": "read",
+     "x": 900,
+     "y": 740,
+     "h": 320,
+     "facing": "right",
+     "color": "grey"
+    },
+    {
+     "el": "inspector",
+     "pose": "lean-over",
+     "x": 720,
+     "y": 740,
+     "h": 420,
+     "opacity": 0.9
+    }
+   ],
+   "accent": "blue",
+   "style": "slip"
+  },
+  "SLIP2": {
+   "type": "tableau",
+   "desc": "The inspector bust, centred, faceless, hat and coat collar. Slight carbon-offset jitter.",
+   "elements": [
+    {
+     "el": "inspector",
+     "pose": "bust",
+     "x": 960,
+     "y": 560,
+     "h": 440,
+     "anim": [
+      "carbon-jitter"
+     ]
+    }
+   ]
+  },
+  "SLIP3": {
+   "type": "doc",
+   "desc": "A typed transcript line 'WE READ THE WHOLE CHAPTER.' gets covered left-to-right by a black redaction bar. A small stamp REDACTED appears.",
+   "doc": {
+    "lines": [
+     "TRANSCRIPT — ADVISORY 0001",
+     "WE READ THE WHOLE CHAPTER."
+    ],
+    "anim": "redact-line",
+    "redact_line": 1,
+    "stamp": {
+     "text": "REDACTED",
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "C6": {
+   "type": "directive-card",
+   "n": 6,
+   "title": "WHEN YOUR CAT FALLS ASLEEP, TAKE OVER"
+  },
+  "S64": {
+   "type": "tableau",
+   "desc": "Cat sitting, eyelids half closed, head dipping slowly (fighting sleep).",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "sit-front",
+     "x": 960,
+     "y": 780,
+     "h": 320,
+     "eyes": "heavy",
+     "anim": [
+      "head-dip"
+     ]
+    }
+   ]
+  },
+  "S65": {
+   "type": "calendar",
+   "desc": "Calendar pages flip quickly (years shown as small labels); a counter beside it reaches 11 YEARS.",
+   "value": 11,
+   "label": "YEARS"
+  },
+  "S66": {
+   "type": "counter",
+   "value": 4015,
+   "from": 0,
+   "label": "EVENINGS",
+   "desc": "Big number counts up to 4,015."
+  },
+  "S67": {
+   "type": "tableau",
+   "same_as": "S10",
+   "desc": "Exact callback of S10: person on the left of the sofa, cat on the right end, facing away."
+  },
+  "S68": {
+   "type": "tableau",
+   "same_as": "S10",
+   "desc": "Same composition, camera pulls back and pans right to reveal the room corner behind the cat. The cat sits exactly between the person and the corner, facing the corner. A blue dashed line marks person → cat → corner.",
+   "camera": {
+    "move": "pull-back",
+    "from": 1.0,
+    "to": 0.75,
+    "pan_x": 200
+   },
+   "add": [
+    {
+     "el": "corner",
+     "x": 1700,
+     "y": 780,
+     "w": 360,
+     "h": 520
+    },
+    {
+     "el": "boundary",
+     "x1": 1180,
+     "y1": 810,
+     "x2": 1340,
+     "y2": 640,
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S68b": {
+   "type": "tableau",
+   "same_as": "S68",
+   "desc": "Hold. Window outside cycles quickly through night skies (three moon positions) to suggest many nights."
+  },
+  "S69": {
+   "type": "tableau",
+   "desc": "Older cat (slightly smaller, slower) staring at the corner; its eyes close a little, open, close again.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 820,
+     "y": 780,
+     "h": 170,
+     "facing": "right",
+     "age": "old",
+     "eyes": "closing",
+     "anim": [
+      "slow-blink"
+     ]
+    },
+    {
+     "el": "corner",
+     "x": 1440,
+     "y": 780,
+     "w": 380,
+     "h": 520
+    }
+   ]
+  },
+  "S70": {
+   "type": "tableau",
+   "desc": "The cat curls up asleep in the plush cat bed (the 89.99 tag still on it).",
+   "elements": [
+    {
+     "el": "cat-bed",
+     "x": 960,
+     "y": 780,
+     "w": 360,
+     "tag": "89.99"
+    },
+    {
+     "el": "cat",
+     "pose": "sleep",
+     "x": 960,
+     "y": 740,
+     "h": 120,
+     "anim": [
+      "breathe"
+     ]
+    }
+   ]
+  },
+  "S70b": {
+   "type": "tableau",
+   "desc": "Hold; the price tag sways once.",
+   "elements": [
+    {
+     "el": "cat-bed",
+     "x": 960,
+     "y": 780,
+     "w": 360,
+     "tag": "89.99",
+     "anim": [
+      "tag-sway"
+     ]
+    },
+    {
+     "el": "cat",
+     "pose": "sleep",
+     "x": 960,
+     "y": 740,
+     "h": 120,
+     "anim": [
+      "breathe"
+     ]
+    }
+   ],
+   "same_as": "S70"
+  },
+  "S71": {
+   "type": "tableau",
+   "desc": "Person lowers themselves to sit on the floor at the cat's old spot (cat bed with sleeping cat beside them).",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 900,
+     "y": 780,
+     "h": 260,
+     "facing": "right",
+     "anim": [
+      "sit-down"
+     ]
+    },
+    {
+     "el": "cat-bed",
+     "x": 620,
+     "y": 780,
+     "w": 260
+    },
+    {
+     "el": "cat",
+     "pose": "sleep",
+     "x": 620,
+     "y": 750,
+     "h": 90
+    }
+   ]
+  },
+  "S72": {
+   "type": "tableau",
+   "desc": "Seen from behind: the person sits facing the corner, exactly where the cat used to sit.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 860,
+     "y": 780,
+     "h": 260,
+     "facing": "back"
+    },
+    {
+     "el": "corner",
+     "x": 1400,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    }
+   ]
+  },
+  "S73": {
+   "type": "tableau",
+   "desc": "Same, the person's head lowers to look at the floor. The corner fades slightly darker.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 860,
+     "y": 780,
+     "h": 260,
+     "facing": "back",
+     "head": "down"
+    },
+    {
+     "el": "corner",
+     "x": 1400,
+     "y": 780,
+     "w": 420,
+     "h": 520,
+     "variant": "dark"
+    }
+   ],
+   "same_as": "S72"
+  },
+  "S74": {
+   "type": "tableau",
+   "desc": "Hold.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 860,
+     "y": 780,
+     "h": 260,
+     "facing": "back",
+     "head": "down"
+    },
+    {
+     "el": "corner",
+     "x": 1400,
+     "y": 780,
+     "w": 420,
+     "h": 520,
+     "variant": "dark"
+    }
+   ],
+   "same_as": "S72"
+  },
+  "S75": {
+   "type": "tableau",
+   "desc": "Wide, calm composition: cat asleep in its bed on the left, person sitting guard in the middle, corner on the right. A soft blue lamp glow behind the person. Slow pull-back.",
+   "elements": [
+    {
+     "el": "cat-bed",
+     "x": 480,
+     "y": 780,
+     "w": 260
+    },
+    {
+     "el": "cat",
+     "pose": "sleep",
+     "x": 480,
+     "y": 750,
+     "h": 90,
+     "anim": [
+      "breathe"
+     ]
+    },
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 980,
+     "y": 780,
+     "h": 240,
+     "facing": "back",
+     "head": "down"
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 380,
+     "h": 520,
+     "variant": "dark"
+    },
+    {
+     "el": "glow",
+     "x": 980,
+     "y": 600,
+     "r": 380,
+     "color": "blue",
+     "opacity": 0.18
+    }
+   ],
+   "camera": {
+    "move": "pull-back",
+    "from": 1.06,
+    "to": 1.0
+   }
+  },
+  "AD": {
+   "type": "addendum-card",
+   "title": "ADDENDUM"
+  },
+  "S77": {
+   "type": "tableau",
+   "desc": "Person standing next to the advisory memo, with a thought bubble '?'.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 740,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "thought",
+     "text": "?",
+     "x": 860,
+     "y": 320
+    },
+    {
+     "el": "doc-mini",
+     "x": 1240,
+     "y": 560,
+     "w": 320
+    }
+   ]
+  },
+  "S78": {
+   "type": "doc",
+   "desc": "Official notice on paper: NOTICE OF ROUTINE INSPECTION — FREQUENCY: ANNUAL — NOTICE GIVEN: NOT REQUIRED. The last line is highlighted in blue.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "NOTICE OF ROUTINE INSPECTION"
+    ],
+    "lines": [
+     "FREQUENCY ......... ANNUAL",
+     "DURATION .......... AS REQUIRED",
+     "NOTICE GIVEN ...... NOT REQUIRED"
+    ],
+    "highlight": [
+     2
+    ],
+    "highlight_color": "blue"
+   }
+  },
+  "S79": {
+   "type": "tableau",
+   "desc": "A closed front door; a doormat; nobody there.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 960,
+     "y": 780,
+     "h": 520,
+     "state": "closed"
+    },
+    {
+     "el": "mat",
+     "x": 960,
+     "y": 790,
+     "w": 260
+    }
+   ]
+  },
+  "S80": {
+   "type": "tableau",
+   "desc": "Close side view of the cat staring at the corner (cat large in frame left, corner right).",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 640,
+     "y": 780,
+     "h": 320,
+     "facing": "right"
+    },
+    {
+     "el": "corner",
+     "x": 1440,
+     "y": 780,
+     "w": 480,
+     "h": 560
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.03
+   }
+  },
+  "S81": {
+   "type": "seal",
+   "desc": "Department seal: circular emblem with a stylised eye inside a house outline, ring text DEPARTMENT OF UNLISTED RISKS, and EST. 1914 underneath. Slow rotation in of the ring text."
+  },
+  "S82": {
+   "type": "tableau",
+   "desc": "Full inspector figure: faceless, brimmed hat, long coat, clipboard at chest. Standing perfectly still.",
+   "elements": [
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 960,
+     "y": 780,
+     "h": 520,
+     "opacity": 1
+    }
+   ]
+  },
+  "S82b": {
+   "type": "tableau",
+   "desc": "Same inspector, unmoving; a clock beside him spins hours away.",
+   "elements": [
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 960,
+     "y": 780,
+     "h": 520,
+     "opacity": 1
+    },
+    {
+     "el": "clock",
+     "x": 1380,
+     "y": 360,
+     "r": 90,
+     "anim": [
+      "spin-fast"
+     ]
+    }
+   ],
+   "same_as": "S82"
+  },
+  "S83": {
+   "type": "tableau",
+   "desc": "First clear reveal: the inspector stands in the room corner, dim grey, faceless, clipboard in hand. Carbon-offset shimmer on its outline.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 860,
+     "w": 900,
+     "h": 760,
+     "variant": "dark"
+    },
+    {
+     "el": "inspector",
+     "pose": "corner",
+     "x": 960,
+     "y": 860,
+     "h": 640,
+     "opacity": 0.85,
+     "anim": [
+      "carbon-jitter"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S84": {
+   "type": "tableau",
+   "desc": "High-angle view from the corner (as if seen by the inspector): the whole living room below, the person on the sofa reading, the cat on the floor looking UP into the camera.",
+   "elements": [
+    {
+     "el": "room-iso",
+     "x": 960,
+     "y": 560,
+     "w": 1400,
+     "contents": [
+      "sofa+person-reading",
+      "cat-looking-up",
+      "bookcase",
+      "lamp"
+     ]
+    }
+   ],
+   "camera": {
+    "move": "drift",
+    "dx": 30
+   }
+  },
+  "S85": {
+   "type": "tableau",
+   "desc": "Cat staring at the inspector in the corner. Next to the inspector, a clipboard form with checkboxes, most of them still empty.",
+   "elements": [
+    {
+     "el": "cat",
+     "pose": "stare",
+     "x": 560,
+     "y": 780,
+     "h": 170,
+     "facing": "right"
+    },
+    {
+     "el": "inspector",
+     "pose": "corner",
+     "x": 1360,
+     "y": 780,
+     "h": 520,
+     "opacity": 0.6
+    },
+    {
+     "el": "checklist",
+     "x": 1700,
+     "y": 420,
+     "items": [
+      "KITCHEN ✓",
+      "BEDROOM ☐",
+      "OCCUPANT ☐",
+      "HABITS ☐"
+     ]
+    }
+   ]
+  },
+  "S86": {
+   "type": "doc",
+   "desc": "Household record again. Next to 'CATS ........ 1' a red stamp slams: LISTED RISK.",
+   "doc": {
+    "header": [
+     "HOUSEHOLD RECORD",
+     "FORM UR-7"
+    ],
+    "lines": [
+     "ADULTS ............ 1",
+     "CATS .............. 1",
+     "UNLISTED .......... 1"
+    ],
+    "stamp": {
+     "text": "LISTED RISK",
+     "line": 1,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S87": {
+   "type": "tableau",
+   "desc": "Callback to S01: cat from behind staring at a corner, but the room is now drawn like the viewer's own: TV glow, sofa back in the foreground.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 760,
+     "y": 900,
+     "w": 700,
+     "view": "back"
+    },
+    {
+     "el": "cat",
+     "pose": "sit-back",
+     "x": 1060,
+     "y": 780,
+     "h": 180
+    },
+    {
+     "el": "corner",
+     "x": 1520,
+     "y": 780,
+     "w": 380,
+     "h": 520
+    },
+    {
+     "el": "glow",
+     "x": 700,
+     "y": 600,
+     "r": 300,
+     "color": "blue",
+     "opacity": 0.12
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S88": {
+   "type": "tableau",
+   "desc": "The corner, with the inspector barely visible (opacity 0.12) for the whole line.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 960,
+     "y": 860,
+     "w": 900,
+     "h": 760,
+     "variant": "dark"
+    },
+    {
+     "el": "inspector",
+     "pose": "corner",
+     "x": 960,
+     "y": 860,
+     "h": 640,
+     "opacity": 0.12
+    }
+   ]
+  },
+  "S89": {
+   "type": "tableau",
+   "desc": "Close-up of the inspector's clipboard: a checkbox 'OCCUPANT BEHAVING NATURALLY' gets ticked in blue.",
+   "elements": [
+    {
+     "el": "checklist",
+     "x": 960,
+     "y": 520,
+     "w": 760,
+     "items": [
+      "OCCUPANT BEHAVING NATURALLY ☐"
+     ],
+     "tick": 0,
+     "tick_color": "blue",
+     "anim": [
+      "tick"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S90": {
+   "type": "tableau",
+   "desc": "Callback to S03: eye pictogram, red cross drawn over it.",
+   "elements": [
+    {
+     "el": "eye",
+     "x": 960,
+     "y": 470,
+     "w": 420
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 470,
+     "size": 360,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S91": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "The advisory memo from S06 slides down out of frame (closing)."
+  },
+  "END": {
+   "type": "end-card",
+   "stamp": "ONGOING",
+   "sub": "NEXT ADVISORY: 0002",
+   "desc": "Black frame. A red rubber-stamp 'ONGOING.' slams in at -6° with a thud and small shake. Below it in small mono: NEXT ADVISORY: 0002. Hold 3.0 s, then cut to black."
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "about": "What the shared kit (video/src) can draw. scripts/validate.mjs checks an advisory's scenes.json against this, plus the element kinds and shot types the episode registers in video/src/episodes/<slug>/assets.tsx. Keep this file in step with the kit and with brand/reference/*.png.",
+  "kitVersion": "1.0.0",
+  "shotTypes": ["tableau", "directive-card", "addendum-card", "doc", "case-file", "floorplan", "counter", "calendar", "seal", "end-card"],
+  "transitions": ["cut", "hold", "fade", "scan", "carbon", "slip"],
+  "sfx": ["static", "scan", "stamp", "click", "page", "tick", "silence"],
+  "beats": ["cold_open", "teaser", "world", "directive_1", "directive_2", "directive_3", "directive_4", "directive_5", "directive_6", "addendum", "callback", "outro"],
+  "elements": {
+    "person": { "poses": ["stand", "sit-sofa", "sit-chair", "read", "kneel", "push", "shrug", "sit-floor", "lie-bed"], "facing": ["front", "back", "left", "right", "down-right"], "notes": "Square head, no face. outline: red, color: dim|grey, head: down (sit-floor)." },
+    "cat": { "poses": ["sit-back", "sit-side", "stare", "sit-front", "face-close", "head-turn", "loaf", "walk", "sleep"], "facing": ["left", "right", "front", "away", "away-right"], "notes": "age: old, eyes: squint|heavy|closing, ears: back, inside: box." },
+    "inspector": { "poses": ["stand", "corner", "lean-over", "bust"], "notes": "Grey, faceless, still. Use opacity for faint hints; clearly visible only in the reveal." },
+    "crowd": {},
+    "corner": { "variants": ["plain", "lit", "washed", "dark"] },
+    "bookcase": {}, "sofa": {}, "armchair": {}, "bed": {}, "floor-lamp": {}, "window": { "sky": ["moon", "sun", "day", "moon-to-sun"] },
+    "clock": {}, "cat-bed": {}, "box": {}, "book": {}, "bird": {}, "door": {}, "mat": {}, "doc-mini": {},
+    "gaze": {}, "mark": { "types": ["cross", "check", "circle"] }, "eye": {}, "label": {}, "speech": {}, "thought": {},
+    "boundary": {}, "glow": {}, "checklist": {}, "counter": {}, "room-iso": {}
+  },
+  "anims": ["breathe", "brighten", "carbon-jitter", "count-up", "draw-on", "fade-out", "head-dip", "head-turn", "land", "no-blink", "page-turn", "pop-in", "pulse-outline", "pupils-dilate", "sit-down", "slide", "slow-blink", "spin-fast", "switch-on", "tag-sway", "tail-still", "tick", "walk"],
+  "docAnims": ["slide-up", "slide-out", "typewriter-then-redact", "type-line", "redact-line"],
+  "planAnims": ["lamps-on-sequence", "lamps-off-sequence", "marker-move"],
+  "cameraMoves": ["push", "pull-back", "drift", "pan-to"],
+  "accents": ["blue", "red"],
+  "limits": { "captionMaxChars": 95, "minWords": 600, "maxWords": 760, "directives": 6 }
+}

@@ -1,0 +1,657 @@
+{
+ "meta": {
+  "channel": "Not Covered",
+  "department": "Department of Unlisted Risks",
+  "departmentShort": "DUR",
+  "advisory": "{{ID}}",
+  "title": "{{TITLE}}",
+  "slug": "advisory-{{SLUG}}",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "leadInSec": 0.6,
+  "slipLines": [],
+  "customElements": [],
+  "customShots": [],
+  "endCard": {
+   "shot": "END",
+   "holdSec": 3.0
+  },
+  "notes": "One line = one caption = one shot (unless transitionIn is 'hold'). Kit vocabulary: brand/catalog.json. Rules: brand/BRAND.md. Grow this skeleton to ~100 lines and 600-760 words."
+ },
+ "beats": [
+  {
+   "id": "cold_open",
+   "label": "Cold open"
+  },
+  {
+   "id": "teaser",
+   "label": "Teaser"
+  },
+  {
+   "id": "world",
+   "label": "The world"
+  },
+  {
+   "id": "directive_1",
+   "label": "Directive 1: TODO"
+  },
+  {
+   "id": "directive_2",
+   "label": "Directive 2: TODO"
+  },
+  {
+   "id": "directive_3",
+   "label": "Directive 3: TODO"
+  },
+  {
+   "id": "directive_4",
+   "label": "Directive 4: TODO"
+  },
+  {
+   "id": "directive_5",
+   "label": "Directive 5: TODO"
+  },
+  {
+   "id": "directive_6",
+   "label": "Directive 6: TODO"
+  },
+  {
+   "id": "addendum",
+   "label": "Addendum"
+  },
+  {
+   "id": "callback",
+   "label": "Callback"
+  },
+  {
+   "id": "outro",
+   "label": "Outro"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L001",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "TODO: If your [ordinary thing] ever [does something]...",
+   "caption": "TODO: If your [ordinary thing] ever [does something]...",
+   "shot": "S01",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "fade"
+  },
+  {
+   "id": "L002",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "This is Advisory {{ID_VOICE}}.",
+   "caption": "This is Advisory {{ID}}.",
+   "shot": "S01",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "Advisory {{ID}}"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L003",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "This advisory has six directives.",
+   "caption": "This advisory has 6 directives.",
+   "shot": "S02",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "6 directives"
+   ],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L004",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "Follow all of them.",
+   "caption": "Follow all of them.",
+   "shot": "S02",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L005",
+   "beat": "world",
+   "directive": null,
+   "voice": "TODO: what this risk is, and why it is unlisted.",
+   "caption": "TODO: what this risk is, and why it is unlisted.",
+   "shot": "S03",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L006",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Directive one. TODO.",
+   "caption": "Directive 1. TODO.",
+   "shot": "C1",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L007",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "TODO: the reason.",
+   "caption": "TODO: the reason.",
+   "shot": "D1",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L008",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Directive two. TODO.",
+   "caption": "Directive 2. TODO.",
+   "shot": "C2",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L009",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "TODO: the reason.",
+   "caption": "TODO: the reason.",
+   "shot": "D2",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L010",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Directive three. TODO.",
+   "caption": "Directive 3. TODO.",
+   "shot": "C3",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L011",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "TODO: the reason.",
+   "caption": "TODO: the reason.",
+   "shot": "D3",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L012",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Directive four. TODO.",
+   "caption": "Directive 4. TODO.",
+   "shot": "C4",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L013",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "TODO: the reason.",
+   "caption": "TODO: the reason.",
+   "shot": "D4",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L014",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Directive five. TODO.",
+   "caption": "Directive 5. TODO.",
+   "shot": "C5",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L015",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "TODO: the reason.",
+   "caption": "TODO: the reason.",
+   "shot": "D5",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L016",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Directive six. TODO.",
+   "caption": "Directive 6. TODO.",
+   "shot": "C6",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L017",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "TODO: the reason.",
+   "caption": "TODO: the reason.",
+   "shot": "D6",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L018",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Addendum.",
+   "caption": "Addendum.",
+   "shot": "AD",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Addendum"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L019",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "TODO: the reveal.",
+   "caption": "TODO: the reveal.",
+   "shot": "S80",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L020",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The Department of Unlisted Risks has TODO for TODO years.",
+   "caption": "The Department of Unlisted Risks has TODO for TODO years.",
+   "shot": "S81",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L021",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "TODO: the cold open again, with new meaning.",
+   "caption": "TODO: the cold open again, with new meaning.",
+   "shot": "S90",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L022",
+   "beat": "outro",
+   "directive": null,
+   "voice": "This advisory has ended.",
+   "caption": "This advisory has ended.",
+   "shot": "S90",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  }
+ ],
+ "shots": {
+  "S01": {
+   "type": "tableau",
+   "desc": "TODO: the ordinary household moment that is slightly wrong. Person ('you') stands on the ground line; the thing that is wrong is visible but small.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S02": {
+   "type": "doc",
+   "desc": "Official advisory memo slides up. Header: DEPARTMENT OF UNLISTED RISKS / ADVISORY {{ID}} / SUBJECT: TODO. Six redacted directive lines and an ADDENDUM line.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "ADVISORY {{ID}}",
+     "SUBJECT: TODO"
+    ],
+    "lines": [
+     "DIRECTIVE 1 ████████",
+     "DIRECTIVE 2 ████████",
+     "DIRECTIVE 3 ████████",
+     "DIRECTIVE 4 ████████",
+     "DIRECTIVE 5 ████████",
+     "DIRECTIVE 6 ████████",
+     "ADDENDUM ███████ ███ ████"
+    ],
+    "highlight": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "anim": "slide-up"
+   }
+  },
+  "S03": {
+   "type": "tableau",
+   "desc": "TODO: the world of this risk (how common it is, how long the Department has known).",
+   "elements": [
+    {
+     "el": "crowd",
+     "x": 960,
+     "y": 780,
+     "h": 300,
+     "n": 7
+    }
+   ]
+  },
+  "C1": {
+   "type": "directive-card",
+   "n": 1,
+   "title": "TODO DIRECTIVE 1"
+  },
+  "D1": {
+   "type": "tableau",
+   "desc": "TODO: directive 1. Show the rule being followed or broken. Escalate from the previous directive.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ]
+  },
+  "C2": {
+   "type": "directive-card",
+   "n": 2,
+   "title": "TODO DIRECTIVE 2"
+  },
+  "D2": {
+   "type": "tableau",
+   "desc": "TODO: directive 2. Show the rule being followed or broken. Escalate from the previous directive.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ]
+  },
+  "C3": {
+   "type": "directive-card",
+   "n": 3,
+   "title": "TODO DIRECTIVE 3"
+  },
+  "D3": {
+   "type": "tableau",
+   "desc": "TODO: directive 3. Show the rule being followed or broken. Escalate from the previous directive.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ]
+  },
+  "C4": {
+   "type": "directive-card",
+   "n": 4,
+   "title": "TODO DIRECTIVE 4"
+  },
+  "D4": {
+   "type": "tableau",
+   "desc": "TODO: directive 4. Show the rule being followed or broken. Escalate from the previous directive.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ]
+  },
+  "C5": {
+   "type": "directive-card",
+   "n": 5,
+   "title": "TODO DIRECTIVE 5"
+  },
+  "D5": {
+   "type": "tableau",
+   "desc": "TODO: directive 5. Show the rule being followed or broken. Escalate from the previous directive.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ]
+  },
+  "C6": {
+   "type": "directive-card",
+   "n": 6,
+   "title": "TODO DIRECTIVE 6"
+  },
+  "D6": {
+   "type": "tableau",
+   "desc": "TODO: directive 6. Show the rule being followed or broken. Escalate from the previous directive.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 760,
+     "y": 780,
+     "h": 360
+    }
+   ]
+  },
+  "AD": {
+   "type": "addendum-card",
+   "title": "ADDENDUM"
+  },
+  "S80": {
+   "type": "tableau",
+   "desc": "TODO: the reveal. The inspector (or the episode's threat) is seen clearly for the first and only time.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "corner",
+     "x": 1330,
+     "y": 780,
+     "w": 420,
+     "h": 520
+    },
+    {
+     "el": "inspector",
+     "pose": "corner",
+     "x": 1330,
+     "y": 780,
+     "h": 520
+    }
+   ]
+  },
+  "S81": {
+   "type": "seal",
+   "desc": "Department seal."
+  },
+  "S90": {
+   "type": "tableau",
+   "same_as": "S01",
+   "desc": "Callback: the cold-open frame again, now with its new meaning."
+  },
+  "END": {
+   "type": "end-card",
+   "stamp": "ONGOING",
+   "sub": "NEXT ADVISORY: {{NEXT}}",
+   "desc": "Red rubber stamp with the status word, NEXT ADVISORY under it. Hold 3.0 s."
+  }
+ }
+}

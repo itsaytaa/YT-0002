@@ -1,0 +1,1567 @@
+{
+  "model": "minimax/speech-2.8-hd",
+  "voice": "English_ManWithDeepVoice",
+  "lines": {
+    "L001": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411795-jX6941yBljYfRqiByDkF"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411795-jX6941yBljYfRqiByDkF",
+      "at": "2026-10-19T12:09:56.105Z",
+      "generations": 1,
+      "cost": 0.0045
+    },
+    "L004": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 34605,
+          "generationId": "gen-tts-1792411795-5V2ibJ3geFVObylj9mTD"
+        }
+      ],
+      "status": 200,
+      "bytes": 34605,
+      "generationId": "gen-tts-1792411795-5V2ibJ3geFVObylj9mTD",
+      "at": "2026-10-19T12:09:56.197Z",
+      "generations": 1,
+      "cost": 0.0027
+    },
+    "L003": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 17901,
+          "generationId": "gen-tts-1792411796-8WDCEjiQCMJBv6uBqAHq"
+        }
+      ],
+      "status": 200,
+      "bytes": 17901,
+      "generationId": "gen-tts-1792411796-8WDCEjiQCMJBv6uBqAHq",
+      "at": "2026-10-19T12:09:56.566Z",
+      "generations": 1,
+      "cost": 0.0012
+    },
+    "L002": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 23085,
+          "generationId": "gen-tts-1792411796-fGii0hVYXleYUuRMZU0a"
+        }
+      ],
+      "status": 200,
+      "bytes": 23085,
+      "generationId": "gen-tts-1792411796-fGii0hVYXleYUuRMZU0a",
+      "at": "2026-10-19T12:09:56.631Z",
+      "generations": 1,
+      "cost": 0.0021
+    },
+    "L006": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411796-gHEXHSnTVi66KY4S2FFP"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411796-gHEXHSnTVi66KY4S2FFP",
+      "at": "2026-10-19T12:09:56.882Z",
+      "generations": 1,
+      "cost": 0.0033
+    },
+    "L008": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 44397,
+          "generationId": "gen-tts-1792411796-hb0y4iAo9ei6K7fQnkDt"
+        }
+      ],
+      "status": 200,
+      "bytes": 44397,
+      "generationId": "gen-tts-1792411796-hb0y4iAo9ei6K7fQnkDt",
+      "at": "2026-10-19T12:09:57.277Z",
+      "generations": 1,
+      "cost": 0.0034
+    },
+    "L009": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411796-xCMeAKjcXEaRg4FX8NfH"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411796-xCMeAKjcXEaRg4FX8NfH",
+      "at": "2026-10-19T12:09:57.597Z",
+      "generations": 1,
+      "cost": 0.0036
+    },
+    "L005": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 34605,
+          "generationId": "gen-tts-1792411797-jusG5rZ5h6YsKVCrToAC"
+        }
+      ],
+      "status": 200,
+      "bytes": 34605,
+      "generationId": "gen-tts-1792411797-jusG5rZ5h6YsKVCrToAC",
+      "at": "2026-10-19T12:09:57.751Z",
+      "generations": 1,
+      "cost": 0.003
+    },
+    "L010": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 26541,
+          "generationId": "gen-tts-1792411797-9qBHS6CMJI46TkOp8aNR"
+        }
+      ],
+      "status": 200,
+      "bytes": 26541,
+      "generationId": "gen-tts-1792411797-9qBHS6CMJI46TkOp8aNR",
+      "at": "2026-10-19T12:09:57.840Z",
+      "generations": 1,
+      "cost": 0.002
+    },
+    "L007": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43821,
+          "generationId": "gen-tts-1792411797-toaktRnz7pIEfC4NWMli"
+        }
+      ],
+      "status": 200,
+      "bytes": 43821,
+      "generationId": "gen-tts-1792411797-toaktRnz7pIEfC4NWMli",
+      "at": "2026-10-19T12:09:58.226Z",
+      "generations": 1,
+      "cost": 0.0035
+    },
+    "L011": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 40365,
+          "generationId": "gen-tts-1792411797-W24Qiml2hrRJuX4amUVk"
+        }
+      ],
+      "status": 200,
+      "bytes": 40365,
+      "generationId": "gen-tts-1792411797-W24Qiml2hrRJuX4amUVk",
+      "at": "2026-10-19T12:09:58.301Z",
+      "generations": 1,
+      "cost": 0.0043
+    },
+    "L013": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 51309,
+          "generationId": "gen-tts-1792411797-aLNJ6MuqNdTDMBjSeUxI"
+        }
+      ],
+      "status": 200,
+      "bytes": 51309,
+      "generationId": "gen-tts-1792411797-aLNJ6MuqNdTDMBjSeUxI",
+      "at": "2026-10-19T12:09:58.517Z",
+      "generations": 1,
+      "cost": 0.0054
+    },
+    "L012": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 29421,
+          "generationId": "gen-tts-1792411797-SYfOVidwWA18Mwy4neZp"
+        }
+      ],
+      "status": 200,
+      "bytes": 29421,
+      "generationId": "gen-tts-1792411797-SYfOVidwWA18Mwy4neZp",
+      "at": "2026-10-19T12:09:58.592Z",
+      "generations": 1,
+      "cost": 0.0023
+    },
+    "L014": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 44397,
+          "generationId": "gen-tts-1792412032-Zaq0CESzTiXPlgf2YFtW"
+        }
+      ],
+      "status": 200,
+      "bytes": 44397,
+      "generationId": "gen-tts-1792412032-Zaq0CESzTiXPlgf2YFtW",
+      "at": "2026-10-19T12:13:52.665Z",
+      "generations": 3,
+      "cost": 0.0025
+    },
+    "L017": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 21357,
+          "generationId": "gen-tts-1792411798-4GDXMiAVMj8hUxJgtgyP"
+        }
+      ],
+      "status": 200,
+      "bytes": 21357,
+      "generationId": "gen-tts-1792411798-4GDXMiAVMj8hUxJgtgyP",
+      "at": "2026-10-19T12:09:59.144Z",
+      "generations": 1,
+      "cost": 0.0017
+    },
+    "L016": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 20205,
+          "generationId": "gen-tts-1792411798-VC3gWnhmZrPQPBmw4i0a"
+        }
+      ],
+      "status": 200,
+      "bytes": 20205,
+      "generationId": "gen-tts-1792411798-VC3gWnhmZrPQPBmw4i0a",
+      "at": "2026-10-19T12:09:59.223Z",
+      "generations": 1,
+      "cost": 0.0023
+    },
+    "L018": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 42669,
+          "generationId": "gen-tts-1792411799-OWKIgzfAdqw9sjeHzlpD"
+        }
+      ],
+      "status": 200,
+      "bytes": 42669,
+      "generationId": "gen-tts-1792411799-OWKIgzfAdqw9sjeHzlpD",
+      "at": "2026-10-19T12:09:59.710Z",
+      "generations": 1,
+      "cost": 0.0027
+    },
+    "L015": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 46701,
+          "generationId": "gen-tts-1792411799-lZ8Z3IUkgKhjwBPawlmv"
+        }
+      ],
+      "status": 200,
+      "bytes": 46701,
+      "generationId": "gen-tts-1792411799-lZ8Z3IUkgKhjwBPawlmv",
+      "at": "2026-10-19T12:09:59.786Z",
+      "generations": 1,
+      "cost": 0.0044
+    },
+    "L020": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 20205,
+          "generationId": "gen-tts-1792411799-1eKZ4Ula5hWyqD8LE0pP"
+        }
+      ],
+      "status": 200,
+      "bytes": 20205,
+      "generationId": "gen-tts-1792411799-1eKZ4Ula5hWyqD8LE0pP",
+      "at": "2026-10-19T12:09:59.852Z",
+      "generations": 1,
+      "cost": 0.0014
+    },
+    "L019": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 37485,
+          "generationId": "gen-tts-1792411799-FnLpf0xvpp0zHgPVsHuT"
+        }
+      ],
+      "status": 200,
+      "bytes": 37485,
+      "generationId": "gen-tts-1792411799-FnLpf0xvpp0zHgPVsHuT",
+      "at": "2026-10-19T12:09:59.923Z",
+      "generations": 1,
+      "cost": 0.0033
+    },
+    "L022": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 26541,
+          "generationId": "gen-tts-1792411800-XANeAf1mcDuHHC1kwCEs"
+        }
+      ],
+      "status": 200,
+      "bytes": 26541,
+      "generationId": "gen-tts-1792411800-XANeAf1mcDuHHC1kwCEs",
+      "at": "2026-10-19T12:10:00.605Z",
+      "generations": 1,
+      "cost": 0.0019
+    },
+    "L024": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 46125,
+          "generationId": "gen-tts-1792411800-4MihfGtbre4w0C6LJ8T8"
+        }
+      ],
+      "status": 200,
+      "bytes": 46125,
+      "generationId": "gen-tts-1792411800-4MihfGtbre4w0C6LJ8T8",
+      "at": "2026-10-19T12:10:00.679Z",
+      "generations": 1,
+      "cost": 0.0052
+    },
+    "L021": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 27117,
+          "generationId": "gen-tts-1792411800-97goONPdPwiPdRn8t9AZ"
+        }
+      ],
+      "status": 200,
+      "bytes": 27117,
+      "generationId": "gen-tts-1792411800-97goONPdPwiPdRn8t9AZ",
+      "at": "2026-10-19T12:10:00.765Z",
+      "generations": 1,
+      "cost": 0.0024
+    },
+    "L023": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 37485,
+          "generationId": "gen-tts-1792412064-zTnBAHIrYEsJqsURxHNP"
+        }
+      ],
+      "status": 200,
+      "bytes": 37485,
+      "generationId": "gen-tts-1792412064-zTnBAHIrYEsJqsURxHNP",
+      "at": "2026-10-19T12:14:25.184Z",
+      "generations": 3,
+      "cost": 0.0027
+    },
+    "L025": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 39213,
+          "generationId": "gen-tts-1792411800-QY6idllJKH7tNqtiyIbK"
+        }
+      ],
+      "status": 200,
+      "bytes": 39213,
+      "generationId": "gen-tts-1792411800-QY6idllJKH7tNqtiyIbK",
+      "at": "2026-10-19T12:10:01.442Z",
+      "generations": 1,
+      "cost": 0.0037
+    },
+    "L027": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 47853,
+          "generationId": "gen-tts-1792411800-kMEJiCyHgs9XzMa2Q0oI"
+        }
+      ],
+      "status": 200,
+      "bytes": 47853,
+      "generationId": "gen-tts-1792411800-kMEJiCyHgs9XzMa2Q0oI",
+      "at": "2026-10-19T12:10:01.507Z",
+      "generations": 1,
+      "cost": 0.004
+    },
+    "L028": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 44397,
+          "generationId": "gen-tts-1792411801-041lsmat7E8vX9XlUn8E"
+        }
+      ],
+      "status": 200,
+      "bytes": 44397,
+      "generationId": "gen-tts-1792411801-041lsmat7E8vX9XlUn8E",
+      "at": "2026-10-19T12:10:02.106Z",
+      "generations": 1,
+      "cost": 0.0035
+    },
+    "L026": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 22509,
+          "generationId": "gen-tts-1792411801-f7Ik0aGlGldMfCwU9Lb4"
+        }
+      ],
+      "status": 200,
+      "bytes": 22509,
+      "generationId": "gen-tts-1792411801-f7Ik0aGlGldMfCwU9Lb4",
+      "at": "2026-10-19T12:10:02.176Z",
+      "generations": 1,
+      "cost": 0.0023
+    },
+    "L029": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 59373,
+          "generationId": "gen-tts-1792411801-7965mH4v06U3p84F1QUI"
+        }
+      ],
+      "status": 200,
+      "bytes": 59373,
+      "generationId": "gen-tts-1792411801-7965mH4v06U3p84F1QUI",
+      "at": "2026-10-19T12:10:02.268Z",
+      "generations": 1,
+      "cost": 0.0053
+    },
+    "L030": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 29997,
+          "generationId": "gen-tts-1792411801-LURUXfokAUlYws3pAgH0"
+        }
+      ],
+      "status": 200,
+      "bytes": 29997,
+      "generationId": "gen-tts-1792411801-LURUXfokAUlYws3pAgH0",
+      "at": "2026-10-19T12:10:02.330Z",
+      "generations": 1,
+      "cost": 0.0018
+    },
+    "L032": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 29421,
+          "generationId": "gen-tts-1792411802-Guu1KtYEgjy6gjVFWB6t"
+        }
+      ],
+      "status": 200,
+      "bytes": 29421,
+      "generationId": "gen-tts-1792411802-Guu1KtYEgjy6gjVFWB6t",
+      "at": "2026-10-19T12:10:02.911Z",
+      "generations": 1,
+      "cost": 0.0024
+    },
+    "L033": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 27117,
+          "generationId": "gen-tts-1792411802-b61gjaN2CCryezGCCMDE"
+        }
+      ],
+      "status": 200,
+      "bytes": 27117,
+      "generationId": "gen-tts-1792411802-b61gjaN2CCryezGCCMDE",
+      "at": "2026-10-19T12:10:02.996Z",
+      "generations": 1,
+      "cost": 0.0022
+    },
+    "L034": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 52461,
+          "generationId": "gen-tts-1792411802-DBaSsBrVLx05KvVH90ht"
+        }
+      ],
+      "status": 200,
+      "bytes": 52461,
+      "generationId": "gen-tts-1792411802-DBaSsBrVLx05KvVH90ht",
+      "at": "2026-10-19T12:10:03.091Z",
+      "generations": 1,
+      "cost": 0.0051
+    },
+    "L031": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 60525,
+          "generationId": "gen-tts-1792411802-qcABHogHC6hq6XyPnPjL"
+        }
+      ],
+      "status": 200,
+      "bytes": 60525,
+      "generationId": "gen-tts-1792411802-qcABHogHC6hq6XyPnPjL",
+      "at": "2026-10-19T12:10:03.167Z",
+      "generations": 1,
+      "cost": 0.0052
+    },
+    "L035": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 30573,
+          "generationId": "gen-tts-1792411803-4R2a35cMVdTLEMxin3hO"
+        }
+      ],
+      "status": 200,
+      "bytes": 30573,
+      "generationId": "gen-tts-1792411803-4R2a35cMVdTLEMxin3hO",
+      "at": "2026-10-19T12:10:03.741Z",
+      "generations": 1,
+      "cost": 0.003
+    },
+    "L038": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 40941,
+          "generationId": "gen-tts-1792411803-ZcSTi2M63Ytw13JkO9mz"
+        }
+      ],
+      "status": 200,
+      "bytes": 40941,
+      "generationId": "gen-tts-1792411803-ZcSTi2M63Ytw13JkO9mz",
+      "at": "2026-10-19T12:10:03.826Z",
+      "generations": 1,
+      "cost": 0.0035
+    },
+    "L036": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 32877,
+          "generationId": "gen-tts-1792411803-ZD4XIKxW7uTE2fytxFr8"
+        }
+      ],
+      "status": 200,
+      "bytes": 32877,
+      "generationId": "gen-tts-1792411803-ZD4XIKxW7uTE2fytxFr8",
+      "at": "2026-10-19T12:10:04.069Z",
+      "generations": 1,
+      "cost": 0.0039
+    },
+    "L039": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 40941,
+          "generationId": "gen-tts-1792411803-tDF3bYlsc2OtrBDrCeB2"
+        }
+      ],
+      "status": 200,
+      "bytes": 40941,
+      "generationId": "gen-tts-1792411803-tDF3bYlsc2OtrBDrCeB2",
+      "at": "2026-10-19T12:10:04.544Z",
+      "generations": 1,
+      "cost": 0.0036
+    },
+    "L040": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 24237,
+          "generationId": "gen-tts-1792411803-5WKOYlKkElYj6NxJXL4F"
+        }
+      ],
+      "status": 200,
+      "bytes": 24237,
+      "generationId": "gen-tts-1792411803-5WKOYlKkElYj6NxJXL4F",
+      "at": "2026-10-19T12:10:04.611Z",
+      "generations": 1,
+      "cost": 0.0015
+    },
+    "L037": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 57069,
+          "generationId": "gen-tts-1792411803-PM5j4dp8nTUh4nNs38Uu"
+        }
+      ],
+      "status": 200,
+      "bytes": 57069,
+      "generationId": "gen-tts-1792411803-PM5j4dp8nTUh4nNs38Uu",
+      "at": "2026-10-19T12:10:04.680Z",
+      "generations": 1,
+      "cost": 0.0043
+    },
+    "L041": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411804-yCPFLDcjlSnA78xHBIVI"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411804-yCPFLDcjlSnA78xHBIVI",
+      "at": "2026-10-19T12:10:04.780Z",
+      "generations": 1,
+      "cost": 0.0038
+    },
+    "L044": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 17901,
+          "generationId": "gen-tts-1792411804-7l3FVbpV1OB7ZPhqZ5Zr"
+        }
+      ],
+      "status": 200,
+      "bytes": 17901,
+      "generationId": "gen-tts-1792411804-7l3FVbpV1OB7ZPhqZ5Zr",
+      "at": "2026-10-19T12:10:05.278Z",
+      "generations": 1,
+      "cost": 0.0015
+    },
+    "L043": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 57645,
+          "generationId": "gen-tts-1792411804-fajaEryjtbJlpV4CaM28"
+        }
+      ],
+      "status": 200,
+      "bytes": 57645,
+      "generationId": "gen-tts-1792411804-fajaEryjtbJlpV4CaM28",
+      "at": "2026-10-19T12:10:05.425Z",
+      "generations": 1,
+      "cost": 0.0049
+    },
+    "L042": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 35181,
+          "generationId": "gen-tts-1792411804-bLnQX4BCqPR213St6tIG"
+        }
+      ],
+      "status": 200,
+      "bytes": 35181,
+      "generationId": "gen-tts-1792411804-bLnQX4BCqPR213St6tIG",
+      "at": "2026-10-19T12:10:05.505Z",
+      "generations": 1,
+      "cost": 0.0025
+    },
+    "L046": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 58797,
+          "generationId": "gen-tts-1792411805-KoF9Tzm1RtuhNGhXwwrr"
+        }
+      ],
+      "status": 200,
+      "bytes": 58797,
+      "generationId": "gen-tts-1792411805-KoF9Tzm1RtuhNGhXwwrr",
+      "at": "2026-10-19T12:10:05.961Z",
+      "generations": 1,
+      "cost": 0.0033
+    },
+    "L048": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 32877,
+          "generationId": "gen-tts-1792411805-5oZBXMIDaH3q4cOFB1Jd"
+        }
+      ],
+      "status": 200,
+      "bytes": 32877,
+      "generationId": "gen-tts-1792411805-5oZBXMIDaH3q4cOFB1Jd",
+      "at": "2026-10-19T12:10:06.118Z",
+      "generations": 1,
+      "cost": 0.0018
+    },
+    "L045": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 32877,
+          "generationId": "gen-tts-1792411805-3SH53UjDJAk5WKXaati2"
+        }
+      ],
+      "status": 200,
+      "bytes": 32877,
+      "generationId": "gen-tts-1792411805-3SH53UjDJAk5WKXaati2",
+      "at": "2026-10-19T12:10:06.212Z",
+      "generations": 1,
+      "cost": 0.0032
+    },
+    "L047": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 53613,
+          "generationId": "gen-tts-1792411805-pV4fP54KXH5c05DQsjKT"
+        }
+      ],
+      "status": 200,
+      "bytes": 53613,
+      "generationId": "gen-tts-1792411805-pV4fP54KXH5c05DQsjKT",
+      "at": "2026-10-19T12:10:06.295Z",
+      "generations": 1,
+      "cost": 0.0046
+    },
+    "L049": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 19053,
+          "generationId": "gen-tts-1792411806-yBRoSh0BNG3xaxxKaz4O"
+        }
+      ],
+      "status": 200,
+      "bytes": 19053,
+      "generationId": "gen-tts-1792411806-yBRoSh0BNG3xaxxKaz4O",
+      "at": "2026-10-19T12:10:06.497Z",
+      "generations": 1,
+      "cost": 0.0016
+    },
+    "L050": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 25965,
+          "generationId": "gen-tts-1792411806-rA9OICmh6TskxYcT9NIH"
+        }
+      ],
+      "status": 200,
+      "bytes": 25965,
+      "generationId": "gen-tts-1792411806-rA9OICmh6TskxYcT9NIH",
+      "at": "2026-10-19T12:10:06.841Z",
+      "generations": 1,
+      "cost": 0.002
+    },
+    "L052": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 25389,
+          "generationId": "gen-tts-1792411806-yaijGcLjPdlOF7W01E0z"
+        }
+      ],
+      "status": 200,
+      "bytes": 25389,
+      "generationId": "gen-tts-1792411806-yaijGcLjPdlOF7W01E0z",
+      "at": "2026-10-19T12:10:06.907Z",
+      "generations": 1,
+      "cost": 0.002
+    },
+    "L053": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 28845,
+          "generationId": "gen-tts-1792411806-JpbYFIqV83RdBdBYGOA4"
+        }
+      ],
+      "status": 200,
+      "bytes": 28845,
+      "generationId": "gen-tts-1792411806-JpbYFIqV83RdBdBYGOA4",
+      "at": "2026-10-19T12:10:07.139Z",
+      "generations": 1,
+      "cost": 0.0024
+    },
+    "L055": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 86445,
+          "generationId": "gen-tts-1792411807-0kwoExvJ4vtonaeyKUD0"
+        }
+      ],
+      "status": 200,
+      "bytes": 86445,
+      "generationId": "gen-tts-1792411807-0kwoExvJ4vtonaeyKUD0",
+      "at": "2026-10-19T12:10:07.706Z",
+      "generations": 1,
+      "cost": 0.0071
+    },
+    "L054": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 87021,
+          "generationId": "gen-tts-1792411807-NLpivrQEl5WdIr0Gk3SV"
+        }
+      ],
+      "status": 200,
+      "bytes": 87021,
+      "generationId": "gen-tts-1792411807-NLpivrQEl5WdIr0Gk3SV",
+      "at": "2026-10-19T12:10:07.799Z",
+      "generations": 1,
+      "cost": 0.0083
+    },
+    "L051": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 58221,
+          "generationId": "gen-tts-1792411807-XhjaPqe3K3DkRjdogYQb"
+        }
+      ],
+      "status": 200,
+      "bytes": 58221,
+      "generationId": "gen-tts-1792411807-XhjaPqe3K3DkRjdogYQb",
+      "at": "2026-10-19T12:10:07.880Z",
+      "generations": 1,
+      "cost": 0.0028
+    },
+    "L056": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 78957,
+          "generationId": "gen-tts-1792411807-JhfEwE8Dd41IZe73tvdU"
+        }
+      ],
+      "status": 200,
+      "bytes": 78957,
+      "generationId": "gen-tts-1792411807-JhfEwE8Dd41IZe73tvdU",
+      "at": "2026-10-19T12:10:07.951Z",
+      "generations": 1,
+      "cost": 0.007
+    },
+    "L057": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 36333,
+          "generationId": "gen-tts-1792411808-YjE6nPDG5kS9ylaFUOn0"
+        }
+      ],
+      "status": 200,
+      "bytes": 36333,
+      "generationId": "gen-tts-1792411808-YjE6nPDG5kS9ylaFUOn0",
+      "at": "2026-10-19T12:10:08.586Z",
+      "generations": 1,
+      "cost": 0.0026
+    },
+    "L058": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 63981,
+          "generationId": "gen-tts-1792411808-65eqlUVTuMZuTlfSsL0q"
+        }
+      ],
+      "status": 200,
+      "bytes": 63981,
+      "generationId": "gen-tts-1792411808-65eqlUVTuMZuTlfSsL0q",
+      "at": "2026-10-19T12:10:08.658Z",
+      "generations": 1,
+      "cost": 0.0063
+    },
+    "L059": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 63981,
+          "generationId": "gen-tts-1792411808-JHaTbZqHvfu975yEPxca"
+        }
+      ],
+      "status": 200,
+      "bytes": 63981,
+      "generationId": "gen-tts-1792411808-JHaTbZqHvfu975yEPxca",
+      "at": "2026-10-19T12:10:08.749Z",
+      "generations": 1,
+      "cost": 0.0054
+    },
+    "L060": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 68013,
+          "generationId": "gen-tts-1792411808-NsRWwzCxaY7bIluWddmT"
+        }
+      ],
+      "status": 200,
+      "bytes": 68013,
+      "generationId": "gen-tts-1792411808-NsRWwzCxaY7bIluWddmT",
+      "at": "2026-10-19T12:10:08.833Z",
+      "generations": 1,
+      "cost": 0.006
+    },
+    "L064": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 21357,
+          "generationId": "gen-tts-1792411808-tuOZCmRWltmC2jSRfXv0"
+        }
+      ],
+      "status": 200,
+      "bytes": 21357,
+      "generationId": "gen-tts-1792411808-tuOZCmRWltmC2jSRfXv0",
+      "at": "2026-10-19T12:10:09.408Z",
+      "generations": 1,
+      "cost": 0.0012
+    },
+    "L062": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 18477,
+          "generationId": "gen-tts-1792411808-efGJwQvKEfDbVzbAjnuU"
+        }
+      ],
+      "status": 200,
+      "bytes": 18477,
+      "generationId": "gen-tts-1792411808-efGJwQvKEfDbVzbAjnuU",
+      "at": "2026-10-19T12:10:09.473Z",
+      "generations": 1,
+      "cost": 0.0007
+    },
+    "L063": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 24237,
+          "generationId": "gen-tts-1792411808-ktiDE3KUYGSR48AQ7su8"
+        }
+      ],
+      "status": 200,
+      "bytes": 24237,
+      "generationId": "gen-tts-1792411808-ktiDE3KUYGSR48AQ7su8",
+      "at": "2026-10-19T12:10:09.547Z",
+      "generations": 1,
+      "cost": 0.0016
+    },
+    "L061": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 27117,
+          "generationId": "gen-tts-1792411808-h5dgptMM36MY7a9vhPCr"
+        }
+      ],
+      "status": 200,
+      "bytes": 27117,
+      "generationId": "gen-tts-1792411808-h5dgptMM36MY7a9vhPCr",
+      "at": "2026-10-19T12:10:09.733Z",
+      "generations": 1,
+      "cost": 0.0022
+    },
+    "L066": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 35181,
+          "generationId": "gen-tts-1792411809-5L3tK9qQSGzBv97jQfs9"
+        }
+      ],
+      "status": 200,
+      "bytes": 35181,
+      "generationId": "gen-tts-1792411809-5L3tK9qQSGzBv97jQfs9",
+      "at": "2026-10-19T12:10:10.150Z",
+      "generations": 1,
+      "cost": 0.0038
+    },
+    "L065": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 28269,
+          "generationId": "gen-tts-1792411809-ZFaN5H2qr2W9rYCHNGKE"
+        }
+      ],
+      "status": 200,
+      "bytes": 28269,
+      "generationId": "gen-tts-1792411809-ZFaN5H2qr2W9rYCHNGKE",
+      "at": "2026-10-19T12:10:10.218Z",
+      "generations": 1,
+      "cost": null
+    },
+    "L068": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 17901,
+          "generationId": "gen-tts-1792411809-3aZNuNY5jepBmTUqn3jn"
+        }
+      ],
+      "status": 200,
+      "bytes": 17901,
+      "generationId": "gen-tts-1792411809-3aZNuNY5jepBmTUqn3jn",
+      "at": "2026-10-19T12:10:10.322Z",
+      "generations": 1,
+      "cost": 0.0013
+    },
+    "L070": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 26541,
+          "generationId": "gen-tts-1792411810-r5FVqZpW0lUU0efirsoL"
+        }
+      ],
+      "status": 200,
+      "bytes": 26541,
+      "generationId": "gen-tts-1792411810-r5FVqZpW0lUU0efirsoL",
+      "at": "2026-10-19T12:10:10.839Z",
+      "generations": 1,
+      "cost": 0.0026
+    },
+    "L071": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 21933,
+          "generationId": "gen-tts-1792411810-XfboRP0KYkgksWSt57eJ"
+        }
+      ],
+      "status": 200,
+      "bytes": 21933,
+      "generationId": "gen-tts-1792411810-XfboRP0KYkgksWSt57eJ",
+      "at": "2026-10-19T12:10:10.913Z",
+      "generations": 1,
+      "cost": 0.001
+    },
+    "L069": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 30573,
+          "generationId": "gen-tts-1792411810-E3NpApob7XXsRrQQFWrc"
+        }
+      ],
+      "status": 200,
+      "bytes": 30573,
+      "generationId": "gen-tts-1792411810-E3NpApob7XXsRrQQFWrc",
+      "at": "2026-10-19T12:10:10.986Z",
+      "generations": 1,
+      "cost": 0.0023
+    },
+    "L067": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 28845,
+          "generationId": "gen-tts-1792411810-eu3C4Mcf6FlMVLiWFQZQ"
+        }
+      ],
+      "status": 200,
+      "bytes": 28845,
+      "generationId": "gen-tts-1792411810-eu3C4Mcf6FlMVLiWFQZQ",
+      "at": "2026-10-19T12:10:11.057Z",
+      "generations": 1,
+      "cost": 0.0024
+    },
+    "L072": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 35181,
+          "generationId": "gen-tts-1792411811-poHsaDAja0utQAWNWV1K"
+        }
+      ],
+      "status": 200,
+      "bytes": 35181,
+      "generationId": "gen-tts-1792411811-poHsaDAja0utQAWNWV1K",
+      "at": "2026-10-19T12:10:11.646Z",
+      "generations": 1,
+      "cost": 0.003
+    },
+    "L075": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 55341,
+          "generationId": "gen-tts-1792411811-DCZK0CkNiHZT0x7dCDGs"
+        }
+      ],
+      "status": 200,
+      "bytes": 55341,
+      "generationId": "gen-tts-1792411811-DCZK0CkNiHZT0x7dCDGs",
+      "at": "2026-10-19T12:10:11.744Z",
+      "generations": 1,
+      "cost": 0.0051
+    },
+    "L073": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 65709,
+          "generationId": "gen-tts-1792411811-u4Wsur22Sw1XI9NTN6WN"
+        }
+      ],
+      "status": 200,
+      "bytes": 65709,
+      "generationId": "gen-tts-1792411811-u4Wsur22Sw1XI9NTN6WN",
+      "at": "2026-10-19T12:10:11.817Z",
+      "generations": 1,
+      "cost": 0.0053
+    },
+    "L074": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 49581,
+          "generationId": "gen-tts-1792411811-GBdqoYfhyHcyjm7unUH7"
+        }
+      ],
+      "status": 200,
+      "bytes": 49581,
+      "generationId": "gen-tts-1792411811-GBdqoYfhyHcyjm7unUH7",
+      "at": "2026-10-19T12:10:11.895Z",
+      "generations": 1,
+      "cost": 0.0043
+    },
+    "L079": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 16173,
+          "generationId": "gen-tts-1792411811-WmYNXvrMgUuunTPuvE8U"
+        }
+      ],
+      "status": 200,
+      "bytes": 16173,
+      "generationId": "gen-tts-1792411811-WmYNXvrMgUuunTPuvE8U",
+      "at": "2026-10-19T12:10:12.423Z",
+      "generations": 1,
+      "cost": 0.0012
+    },
+    "L078": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 38637,
+          "generationId": "gen-tts-1792411811-POVGdwdjKm4AMblDocjY"
+        }
+      ],
+      "status": 200,
+      "bytes": 38637,
+      "generationId": "gen-tts-1792411811-POVGdwdjKm4AMblDocjY",
+      "at": "2026-10-19T12:10:12.542Z",
+      "generations": 1,
+      "cost": 0.0042
+    },
+    "L076": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 40941,
+          "generationId": "gen-tts-1792411811-7zoopaoZRUreQtlMa4zH"
+        }
+      ],
+      "status": 200,
+      "bytes": 40941,
+      "generationId": "gen-tts-1792411811-7zoopaoZRUreQtlMa4zH",
+      "at": "2026-10-19T12:10:12.613Z",
+      "generations": 1,
+      "cost": 0.0043
+    },
+    "L077": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 33453,
+          "generationId": "gen-tts-1792411812-BpyNXEj4iYyG6esPCEpt"
+        }
+      ],
+      "status": 200,
+      "bytes": 33453,
+      "generationId": "gen-tts-1792411812-BpyNXEj4iYyG6esPCEpt",
+      "at": "2026-10-19T12:10:12.903Z",
+      "generations": 1,
+      "cost": 0.0032
+    },
+    "L081": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 19629,
+          "generationId": "gen-tts-1792411812-Dr1zaDs5MnTA1yrCXvYR"
+        }
+      ],
+      "status": 200,
+      "bytes": 19629,
+      "generationId": "gen-tts-1792411812-Dr1zaDs5MnTA1yrCXvYR",
+      "at": "2026-10-19T12:10:13.210Z",
+      "generations": 1,
+      "cost": 0.0013
+    },
+    "L080": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 44973,
+          "generationId": "gen-tts-1792411812-jKBBGgR5IwOaPXEwP8lr"
+        }
+      ],
+      "status": 200,
+      "bytes": 44973,
+      "generationId": "gen-tts-1792411812-jKBBGgR5IwOaPXEwP8lr",
+      "at": "2026-10-19T12:10:13.281Z",
+      "generations": 1,
+      "cost": 0.0041
+    },
+    "L082": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411812-JmvuP3nr8hA2iZP0Elgk"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411812-JmvuP3nr8hA2iZP0Elgk",
+      "at": "2026-10-19T12:10:13.369Z",
+      "generations": 1,
+      "cost": 0.0042
+    },
+    "L083": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 25965,
+          "generationId": "gen-tts-1792412173-cwSQLE668QfjmQAQDC1H"
+        }
+      ],
+      "status": 200,
+      "bytes": 25965,
+      "generationId": "gen-tts-1792412173-cwSQLE668QfjmQAQDC1H",
+      "at": "2026-10-19T12:16:14.003Z",
+      "generations": 3,
+      "cost": 0.0017
+    },
+    "L085": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 34605,
+          "generationId": "gen-tts-1792411813-KqbuxLL4xpSv0ByFx2S8"
+        }
+      ],
+      "status": 200,
+      "bytes": 34605,
+      "generationId": "gen-tts-1792411813-KqbuxLL4xpSv0ByFx2S8",
+      "at": "2026-10-19T12:10:14.019Z",
+      "generations": 1,
+      "cost": 0.0028
+    },
+    "L084": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 26541,
+          "generationId": "gen-tts-1792411813-L1vv3PG0w3GKECyuD1jm"
+        }
+      ],
+      "status": 200,
+      "bytes": 26541,
+      "generationId": "gen-tts-1792411813-L1vv3PG0w3GKECyuD1jm",
+      "at": "2026-10-19T12:10:14.089Z",
+      "generations": 1,
+      "cost": 0.002
+    },
+    "L086": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 30573,
+          "generationId": "gen-tts-1792411813-lswC827mWmlTP7LlPz5I"
+        }
+      ],
+      "status": 200,
+      "bytes": 30573,
+      "generationId": "gen-tts-1792411813-lswC827mWmlTP7LlPz5I",
+      "at": "2026-10-19T12:10:14.163Z",
+      "generations": 1,
+      "cost": 0.0029
+    },
+    "L087": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411813-p1UkMrI6U6RBWSFpHCEz"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411813-p1UkMrI6U6RBWSFpHCEz",
+      "at": "2026-10-19T12:10:14.250Z",
+      "generations": 1,
+      "cost": 0.0039
+    },
+    "L088": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 18477,
+          "generationId": "gen-tts-1792411814-pl5tRM8QjyB9OPWYosgB"
+        }
+      ],
+      "status": 200,
+      "bytes": 18477,
+      "generationId": "gen-tts-1792411814-pl5tRM8QjyB9OPWYosgB",
+      "at": "2026-10-19T12:10:14.846Z",
+      "generations": 1,
+      "cost": 0.0009
+    },
+    "L090": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 57645,
+          "generationId": "gen-tts-1792411814-NBEb6ApymlDKjrbbhwKk"
+        }
+      ],
+      "status": 200,
+      "bytes": 57645,
+      "generationId": "gen-tts-1792411814-NBEb6ApymlDKjrbbhwKk",
+      "at": "2026-10-19T12:10:14.916Z",
+      "generations": 1,
+      "cost": 0.0058
+    },
+    "L089": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 72621,
+          "generationId": "gen-tts-1792411814-G3BuwKWBF4qLNG87kZGQ"
+        }
+      ],
+      "status": 200,
+      "bytes": 72621,
+      "generationId": "gen-tts-1792411814-G3BuwKWBF4qLNG87kZGQ",
+      "at": "2026-10-19T12:10:15.019Z",
+      "generations": 1,
+      "cost": 0.0072
+    },
+    "L091": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411814-OsThKgpKDYn5kGFY7QKl"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411814-OsThKgpKDYn5kGFY7QKl",
+      "at": "2026-10-19T12:10:15.095Z",
+      "generations": 1,
+      "cost": 0.0033
+    },
+    "L092": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 21933,
+          "generationId": "gen-tts-1792411815-O12W6E4aykEYch78RE0d"
+        }
+      ],
+      "status": 200,
+      "bytes": 21933,
+      "generationId": "gen-tts-1792411815-O12W6E4aykEYch78RE0d",
+      "at": "2026-10-19T12:10:15.638Z",
+      "generations": 1,
+      "cost": 0.0013
+    },
+    "L094": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 36909,
+          "generationId": "gen-tts-1792411815-Nx5MWBTq3kihKWGebBi0"
+        }
+      ],
+      "status": 200,
+      "bytes": 36909,
+      "generationId": "gen-tts-1792411815-Nx5MWBTq3kihKWGebBi0",
+      "at": "2026-10-19T12:10:15.758Z",
+      "generations": 1,
+      "cost": 0.0033
+    },
+    "L095": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 26541,
+          "generationId": "gen-tts-1792411815-ny1ObeeQdao2US5hbj3m"
+        }
+      ],
+      "status": 200,
+      "bytes": 26541,
+      "generationId": "gen-tts-1792411815-ny1ObeeQdao2US5hbj3m",
+      "at": "2026-10-19T12:10:15.823Z",
+      "generations": 1,
+      "cost": 0.0017
+    },
+    "L093": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 78957,
+          "generationId": "gen-tts-1792411815-xftjeeFhRmTUw3eOtl0y"
+        }
+      ],
+      "status": 200,
+      "bytes": 78957,
+      "generationId": "gen-tts-1792411815-xftjeeFhRmTUw3eOtl0y",
+      "at": "2026-10-19T12:10:15.946Z",
+      "generations": 1,
+      "cost": 0.0086
+    },
+    "L096": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 36909,
+          "generationId": "gen-tts-1792411815-h8WtfDzabEs5MOtUbken"
+        }
+      ],
+      "status": 200,
+      "bytes": 36909,
+      "generationId": "gen-tts-1792411815-h8WtfDzabEs5MOtUbken",
+      "at": "2026-10-19T12:10:16.323Z",
+      "generations": 1,
+      "cost": 0.0032
+    },
+    "L097": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 31149,
+          "generationId": "gen-tts-1792411815-Jp8ehvj3nmPXhmNyza7D"
+        }
+      ],
+      "status": 200,
+      "bytes": 31149,
+      "generationId": "gen-tts-1792411815-Jp8ehvj3nmPXhmNyza7D",
+      "at": "2026-10-19T12:10:16.523Z",
+      "generations": 1,
+      "cost": 0.0035
+    },
+    "L098": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 47853,
+          "generationId": "gen-tts-1792411815-04bKoGFAId4zS4v00REd"
+        }
+      ],
+      "status": 200,
+      "bytes": 47853,
+      "generationId": "gen-tts-1792411815-04bKoGFAId4zS4v00REd",
+      "at": "2026-10-19T12:10:16.634Z",
+      "generations": 1,
+      "cost": 0.0048
+    },
+    "L099": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43821,
+          "generationId": "gen-tts-1792411816-mMo3l7bWpQC0b4V3u7G7"
+        }
+      ],
+      "status": 200,
+      "bytes": 43821,
+      "generationId": "gen-tts-1792411816-mMo3l7bWpQC0b4V3u7G7",
+      "at": "2026-10-19T12:10:16.723Z",
+      "generations": 1,
+      "cost": 0.0035
+    },
+    "L100": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 41517,
+          "generationId": "gen-tts-1792411816-NQ7CKD1KGIde19kkHTW9"
+        }
+      ],
+      "status": 200,
+      "bytes": 41517,
+      "generationId": "gen-tts-1792411816-NQ7CKD1KGIde19kkHTW9",
+      "at": "2026-10-19T12:10:16.955Z",
+      "generations": 1,
+      "cost": 0.0047
+    },
+    "L101": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 30573,
+          "generationId": "gen-tts-1792411816-k6hFQRa1W0TgHuyithNw"
+        }
+      ],
+      "status": 200,
+      "bytes": 30573,
+      "generationId": "gen-tts-1792411816-k6hFQRa1W0TgHuyithNw",
+      "at": "2026-10-19T12:10:17.266Z",
+      "generations": 1,
+      "cost": 0.0029
+    },
+    "L103": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 24237,
+          "generationId": "gen-tts-1792411816-0oxotlupz0rQ0IJVaOsS"
+        }
+      ],
+      "status": 200,
+      "bytes": 24237,
+      "generationId": "gen-tts-1792411816-0oxotlupz0rQ0IJVaOsS",
+      "at": "2026-10-19T12:10:17.336Z",
+      "generations": 1,
+      "cost": 0.0016
+    },
+    "L102": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 43245,
+          "generationId": "gen-tts-1792411816-2ISLNqfquyxWWf9P25a2"
+        }
+      ],
+      "status": 200,
+      "bytes": 43245,
+      "generationId": "gen-tts-1792411816-2ISLNqfquyxWWf9P25a2",
+      "at": "2026-10-19T12:10:17.412Z",
+      "generations": 1,
+      "cost": 0.0035
+    },
+    "L104": {
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 30573,
+          "generationId": "gen-tts-1792411817-a6itk1vNn8fZBlzh2Srx"
+        }
+      ],
+      "status": 200,
+      "bytes": 30573,
+      "generationId": "gen-tts-1792411817-a6itk1vNn8fZBlzh2Srx",
+      "at": "2026-10-19T12:10:17.553Z",
+      "generations": 1,
+      "cost": 0.0024
+    }
+  },
+  "totalCost": 0.34100000000000014
+}

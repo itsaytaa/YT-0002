@@ -1,0 +1,79 @@
+{
+  "voice": {
+    "provider": "OpenRouter",
+    "endpoint": "POST https://openrouter.ai/api/v1/audio/speech",
+    "auth": "Authorization: Bearer $OPENROUTER_API_KEY (read from .env, never print it)",
+    "locked": true,
+    "model": "minimax/speech-2.8-hd",
+    "voice": "English_ManWithDeepVoice",
+    "note": "Channel voice, chosen by the owner for Advisory 0001 after two test rounds (24 voices, see brand/voice.json). Do not change it per episode: the narrator is the same Department every time. MiniMax ignores `instructions`, so delivery comes from punctuation and line breaks in the script.",
+    "instructions": "Low, calm, adult male narrator. A government official reading a routine advisory. Flat and deadpan, unhurried, precise diction, no drama, no smiling, no whispering. Slight weight on the final word of each sentence. Short sentences are delivered as complete statements, not trailing off.",
+    "slipInstructions": "Same voice, but a fraction warmer and quieter, as if the narrator forgot himself for a moment.",
+    "slipTreatment": "Lines in an episode's slip (the narrator's mistake) get warmer/quieter in post: -3.5 dB, gentle low shelf and high cut (scripts/stt-check.mjs). List them in scenes.json meta.slipLines.",
+    "slipLines": [],
+    "slipLinesNote": "Per episode: list the slip line ids in scenes.json meta.slipLines. This channel-level list is a fallback and stays empty.",
+    "response_format": "mp3",
+    "granularity": "One request per line. Send `voice` text exactly as written in scenes.json (numbers spelled out). Save as <episode>/audio/lines/<lineId>.mp3. Skip existing files, concurrency 4, retry with backoff.",
+    "pronunciation": {
+      "four-one-one": "four, one, one",
+      "Bristol": "BRIS-tul"
+    },
+    "pronunciationNote": "Channel glossary. MiniMax reads text literally, so write tricky words phonetically in the line's `voice` field; add recurring ones here.",
+    "voiceTest": {
+      "lines": [
+        "L001",
+        "L018",
+        "L073"
+      ],
+      "output": "<episode>/audio/voice-tests/<voice>-<lineId>.mp3",
+      "rule": "Only needed if the channel voice ever has to be replaced (model retired). Test against the same three lines types: opening, a directive, the sign-off. The owner picks; then update model/voice here and log it in brand/CHANGELOG.md."
+    },
+    "costPerVideo": "About $0.35 for voice-over and $0.03 for STT at Advisory 0001 prices (5:00 runtime).",
+    "notes": "Keep the generation id (X-Generation-Id header) per line in <episode>/reports/tts-log.json."
+  },
+  "verification": {
+    "endpoint": "POST https://openrouter.ai/api/v1/audio/transcriptions",
+    "model": "openai/whisper-1",
+    "request": "JSON body: { model, input_audio: { data: <base64>, format: 'mp3' }, language: 'en', response_format: 'verbose_json', timestamp_granularities: ['word'] }",
+    "rule": "Transcribe every line file. Normalise both texts (lowercase, strip punctuation, spell numbers as words). If word error rate > 0.15, regenerate that line (max 2 extra attempts) and log it in reports/stt-check.json. Also store the first and last word timestamps to trim leading/trailing silence longer than 0.15 s.",
+    "fallbackModel": "openai/whisper-large-v3"
+  },
+  "timing": {
+    "leadInSec": 0.6,
+    "formula": "start[0] = leadInSec; start[n+1] = start[n] + trimmedAudioDuration[n] + pauseAfter[n]",
+    "endCard": "END shot starts at start[last] + duration[last] + pauseAfter[last] and holds 3.0 s",
+    "output": "video/src/data/timings.json  — [{ id, startSec, audioSec, endSec, startFrame, endFrame }] at 30 fps",
+    "targetRuntime": "4:45 to 5:30. If outside, adjust ONLY pauseAfter values proportionally (never the text) and report it."
+  },
+  "bed": {
+    "file": "audio/sfx/drone.wav",
+    "recipe": "ffmpeg -y -f lavfi -i \"sine=f=55:d=360\" -f lavfi -i \"sine=f=82.4:d=360\" -f lavfi -i \"anoisesrc=c=brown:d=360:a=0.08\" -filter_complex \"[0][1][2]amix=inputs=3:normalize=0,lowpass=f=220,tremolo=f=0.1:d=0.4,volume=0.35,afade=t=in:d=2\" -ar 48000 -ac 2 audio/sfx/drone.wav",
+    "level": "Play under the whole video at about -26 dB relative to the voice (Remotion volume ≈ 0.18). Fade in over the first 2 s, fade out over the end card.",
+    "silence": "On every line whose sfx is 'silence' (L052): ramp the bed to 0 over 0.3 s at line start, keep it at 0 for the whole line plus its pause, ramp back over 1.0 s."
+  },
+  "sfx": {
+    "folder": "audio/sfx",
+    "placement": "Each line's `sfx` plays at that line's start frame. Directive and addendum cards use 'stamp' timed to the moment the card's number lands (≈ 8 frames after the line starts). Every 'scan' transition also plays 'scan' at the transition start.",
+    "levels": {
+      "static": 0.35,
+      "scan": 0.4,
+      "stamp": 0.6,
+      "click": 0.5,
+      "page": 0.4,
+      "tick": 0.3
+    },
+    "recipes": {
+      "static": "ffmpeg -y -f lavfi -i \"anoisesrc=c=white:d=0.3:a=0.5\" -af \"bandpass=f=3000:width_type=h:w=4000,afade=t=in:d=0.01,afade=t=out:st=0.18:d=0.12\" -ar 48000 -ac 2 audio/sfx/static.wav",
+      "scan": "ffmpeg -y -f lavfi -i \"aevalsrc='0.25*sin(2*PI*(300+900*t)*t)':d=0.5\" -f lavfi -i \"anoisesrc=c=pink:d=0.5:a=0.25\" -filter_complex \"[0][1]amix=inputs=2:normalize=0,bandpass=f=1500:width_type=h:w=2500,afade=t=in:d=0.05,afade=t=out:st=0.35:d=0.15\" -ar 48000 -ac 2 audio/sfx/scan.wav",
+      "stamp": "ffmpeg -y -f lavfi -i \"aevalsrc='0.7*sin(2*PI*70*t)*exp(-18*t)':d=0.4\" -f lavfi -i \"anoisesrc=c=white:d=0.02:a=0.5\" -filter_complex \"[1]highpass=f=1500,apad=pad_dur=0.38[c];[0][c]amix=inputs=2:normalize=0\" -ar 48000 -ac 2 audio/sfx/stamp.wav",
+      "click": "ffmpeg -y -f lavfi -i \"anoisesrc=c=white:d=0.03:a=0.7\" -af \"highpass=f=2500,afade=t=out:st=0.01:d=0.02\" -ar 48000 -ac 2 audio/sfx/click.wav",
+      "page": "ffmpeg -y -f lavfi -i \"anoisesrc=c=pink:d=0.35:a=0.35\" -af \"bandpass=f=2500:width_type=h:w=3000,afade=t=in:d=0.08,afade=t=out:st=0.15:d=0.2\" -ar 48000 -ac 2 audio/sfx/page.wav",
+      "tick": "ffmpeg -y -f lavfi -i \"aevalsrc='0.5*sin(2*PI*2000*t)*exp(-80*t)':d=0.08\" -ar 48000 -ac 2 audio/sfx/tick.wav"
+    },
+    "tickRule": "For 'tick': repeat tick.wav once per second for the length of the line (clock shots)."
+  },
+  "master": {
+    "loudness": "Normalise to -14 LUFS integrated with loudnorm TP -2.0 (the AAC encoder overshoots about 0.3 dB; the result lands at -1.5 dBTP). If one stamp transient still peaks, ride its clip gain down 2 dB (see advisories/0001-cat-corner/README.md).",
+    "codec": "H.264 CRF 16, AAC 48 kHz 320 kb/s, +faststart"
+  }
+}
