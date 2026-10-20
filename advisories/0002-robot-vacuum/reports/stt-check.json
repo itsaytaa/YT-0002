@@ -1,0 +1,2225 @@
+{
+  "model": "openai/whisper-1",
+  "maxWer": 0.15,
+  "lines": {
+    "L001": {
+      "attempts": [
+        {
+          "transcript": "if your robot vacuum ever starts cleaning at 3 in the morning.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471238-uoME7LQNc5jw6xouRGFP",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "if your robot vacuum ever starts cleaning at 3 in the morning.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.65,
+      "rawSec": 3.763,
+      "finalSec": 3.65,
+      "wordStart": 0,
+      "wordEnd": 3.380000114440918,
+      "energyStart": 0.19,
+      "energyEnd": 3.5
+    },
+    "L002": {
+      "attempts": [
+        {
+          "transcript": "and you did not schedule it.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471239-yxbfdy5wOgbqPQIZBrIO",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "and you did not schedule it.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.85,
+      "rawSec": 1.963,
+      "finalSec": 1.85,
+      "wordStart": 0,
+      "wordEnd": 1.7000000476837158,
+      "energyStart": 0.2,
+      "energyEnd": 1.68
+    },
+    "L003": {
+      "attempts": [
+        {
+          "transcript": "Do not turn on the light.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471241-m8ccRtJ68GiLEpeyIKU8",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Do not turn on the light.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.603,
+      "rawSec": 1.603,
+      "finalSec": 1.603,
+      "wordStart": 0,
+      "wordEnd": 1.4199999570846558,
+      "energyStart": 0.17,
+      "energyEnd": 1.46
+    },
+    "L004": {
+      "attempts": [
+        {
+          "transcript": "Do not get out of bed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471242-Bb8eiWJfzFHqmmr9HYp1",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Do not get out of bed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.819,
+      "rawSec": 1.819,
+      "finalSec": 1.819,
+      "wordStart": 0,
+      "wordEnd": 1.6799999475479126,
+      "energyStart": 0.18,
+      "energyEnd": 1.7
+    },
+    "L005": {
+      "attempts": [
+        {
+          "transcript": "and do not check what it is cleaning.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471244-fWjIdGLMAH0bHdKM0Vzw",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "and do not check what it is cleaning.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.58,
+      "rawSec": 2.719,
+      "finalSec": 2.58,
+      "wordStart": 0,
+      "wordEnd": 2.319999933242798,
+      "energyStart": 0.21,
+      "energyEnd": 2.43
+    },
+    "L006": {
+      "attempts": [
+        {
+          "transcript": "This is Advisory 0002.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471245-oyS7XwdC2lIRp4IFazgP",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "This is Advisory 0002.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.87,
+      "rawSec": 3.043,
+      "finalSec": 2.87,
+      "wordStart": 0,
+      "wordEnd": 2.7200000286102295,
+      "energyStart": 0.19,
+      "energyEnd": 2.71
+    },
+    "L007": {
+      "attempts": [
+        {
+          "transcript": "This advisory has six directives.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471246-WknUMWfpKYCgnbXABSR1",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "This advisory has six directives.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.45,
+      "rawSec": 2.611,
+      "finalSec": 2.45,
+      "wordStart": 0,
+      "wordEnd": 2.2200000286102295,
+      "energyStart": 0.2,
+      "energyEnd": 2.3
+    },
+    "L008": {
+      "attempts": [
+        {
+          "transcript": "Most households violate the second.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471247-a7iAJG0LjGPRx6BDMojW",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Most households violate the second.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.23,
+      "rawSec": 2.395,
+      "finalSec": 2.23,
+      "wordStart": 0,
+      "wordEnd": 1.9199999570846558,
+      "energyStart": 0.19,
+      "energyEnd": 2.08
+    },
+    "L009": {
+      "attempts": [
+        {
+          "transcript": "The addendum is not about the vacuum.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471248-cMEBX4wMoLTpElEyJcoF",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "The addendum is not about the vacuum.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.58,
+      "rawSec": 2.683,
+      "finalSec": 2.58,
+      "wordStart": 0,
+      "wordEnd": 2.2200000286102295,
+      "energyStart": 0.19,
+      "energyEnd": 2.43
+    },
+    "L010": {
+      "attempts": [
+        {
+          "transcript": "Your vacuum works while you are out.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471249-7uOlb2mosVeKQurvcExV",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Your vacuum works while you are out.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.42,
+      "rawSec": 2.503,
+      "finalSec": 2.42,
+      "wordStart": 0,
+      "wordEnd": 2.240000009536743,
+      "energyStart": 0.2,
+      "energyEnd": 2.27
+    },
+    "L011": {
+      "attempts": [
+        {
+          "transcript": "It has measured every room in your home.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471252-oUavq4FvaKMYYXGn4iXT",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It has measured every room in your home.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.2,
+      "rawSec": 2.287,
+      "finalSec": 2.2,
+      "wordStart": 0,
+      "wordEnd": 1.9800000190734863,
+      "energyStart": 0.19,
+      "energyEnd": 2.05
+    },
+    "L012": {
+      "attempts": [
+        {
+          "transcript": "Every wall. Every doorway. Every chair leg.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471253-bZHxZ8g6rkJhszhDyDSY",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Every wall. Every doorway. Every chair leg.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.76,
+      "rawSec": 3.907,
+      "finalSec": 3.76,
+      "wordStart": 0,
+      "wordEnd": 3.5799999237060547,
+      "energyStart": 0.18,
+      "energyEnd": 3.61
+    },
+    "L013": {
+      "attempts": [
+        {
+          "transcript": "It knows where the sofa is.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471254-hvATh4GF4iShJfitPWPe",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It knows where the sofa is.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.11,
+      "rawSec": 2.251,
+      "finalSec": 2.11,
+      "wordStart": 0,
+      "wordEnd": 1.899999976158142,
+      "energyStart": 0.19,
+      "energyEnd": 1.96
+    },
+    "L014": {
+      "attempts": [
+        {
+          "transcript": "It knows where you sleep.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471255-7CsuVFARGMJON6l0MdFE",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "It knows where you sleep.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.61,
+      "rawSec": 1.639,
+      "finalSec": 1.61,
+      "wordStart": 0,
+      "wordEnd": 1.4600000381469727,
+      "energyStart": 0.2,
+      "energyEnd": 1.42
+    },
+    "L015": {
+      "attempts": [
+        {
+          "transcript": "At night, it sits on its dock, charging.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471256-INuSM13lZqX8MvZ5vUoD",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "At night, it sits on its dock, charging.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.11,
+      "rawSec": 3.259,
+      "finalSec": 3.11,
+      "wordStart": 0,
+      "wordEnd": 2.859999895095825,
+      "energyStart": 0.21,
+      "energyEnd": 2.96
+    },
+    "L016": {
+      "attempts": [
+        {
+          "transcript": "It only leaves the dock when the floor has changed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471258-HwQdz9cJMG3lbu95graF",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "It only leaves the dock when the floor has changed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.98,
+      "rawSec": 3.079,
+      "finalSec": 2.98,
+      "wordStart": 0,
+      "wordEnd": 2.759999990463257,
+      "energyStart": 0.17,
+      "energyEnd": 2.83
+    },
+    "L017": {
+      "attempts": [
+        {
+          "transcript": "At 3 in the morning, the floor has changed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471259-sih4CEfOlQrZsGjwomqO",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "At 3 in the morning, the floor has changed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.09,
+      "rawSec": 3.223,
+      "finalSec": 3.09,
+      "wordStart": 0,
+      "wordEnd": 2.859999895095825,
+      "energyStart": 0.21,
+      "energyEnd": 2.94
+    },
+    "L018": {
+      "attempts": [
+        {
+          "transcript": "Something is walk through your home.",
+          "wer": 0.333,
+          "generationId": "gen-stt-1792471261-yUIlfKK3qYR9NkxYDeVh",
+          "cost": 0.0002
+        },
+        {
+          "transcript": "Something has walked through your home.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471276-UGK0SIslzJini47HEocU",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Something has walked through your home.",
+      "pass": true,
+      "regenerated": 1,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.36,
+      "rawSec": 2.467,
+      "finalSec": 2.36,
+      "wordStart": 0,
+      "wordEnd": 2.180000066757202,
+      "energyStart": 0.21,
+      "energyEnd": 2.21
+    },
+    "L019": {
+      "attempts": [
+        {
+          "transcript": "Your vacuum is cleaning up behind it.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471278-qyoBzC5hMXRelxWOXdaa",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Your vacuum is cleaning up behind it.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.53,
+      "rawSec": 2.647,
+      "finalSec": 2.53,
+      "wordStart": 0,
+      "wordEnd": 2.380000114440918,
+      "energyStart": 0.19,
+      "energyEnd": 2.37
+    },
+    "L020": {
+      "attempts": [
+        {
+          "transcript": "Directive 1. Do not turn on the light.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471279-ea5Caw2jjYOsK8SJnUhN",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Directive 1. Do not turn on the light.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.67,
+      "rawSec": 3.799,
+      "finalSec": 3.67,
+      "wordStart": 0,
+      "wordEnd": 3.4800000190734863,
+      "energyStart": 0.19,
+      "energyEnd": 3.52
+    },
+    "L021": {
+      "attempts": [
+        {
+          "transcript": "You will want to see it working.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471280-PxopylF28lu1dKsSQ2qy",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "You will want to see it working.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.13,
+      "rawSec": 2.251,
+      "finalSec": 2.13,
+      "wordStart": 0,
+      "wordEnd": 1.899999976158142,
+      "energyStart": 0.2,
+      "energyEnd": 1.98
+    },
+    "L022": {
+      "attempts": [
+        {
+          "transcript": "You will want to see that it is only a vacuum.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471282-lOgyNuABIkUuV1HsPJHF",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "You will want to see that it is only a vacuum.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.77,
+      "rawSec": 2.899,
+      "finalSec": 2.77,
+      "wordStart": 0,
+      "wordEnd": 2.440000057220459,
+      "energyStart": 0.18,
+      "energyEnd": 2.62
+    },
+    "L023": {
+      "attempts": [
+        {
+          "transcript": "It is only a vacuum.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471283-wyNZgZ5xShmeidcIGNpc",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "It is only a vacuum.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.48,
+      "rawSec": 1.567,
+      "finalSec": 1.48,
+      "wordStart": 0,
+      "wordEnd": 1.1799999475479126,
+      "energyStart": 0.19,
+      "energyEnd": 1.33
+    },
+    "L024": {
+      "attempts": [
+        {
+          "transcript": "It finds its way in the dark with a laser you cannot see.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471285-Q5LwCQTUCgDFIpxYbZwi",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "It finds its way in the dark with a laser you cannot see.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.89,
+      "rawSec": 4.015,
+      "finalSec": 3.89,
+      "wordStart": 0,
+      "wordEnd": 3.6600000858306885,
+      "energyStart": 0.21,
+      "energyEnd": 3.74
+    },
+    "L025": {
+      "attempts": [
+        {
+          "transcript": "Turn on the light, and it goes blind. It stops where it is.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471286-x1padBVsvpzoskD0Hh85",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "Turn on the light, and it goes blind. It stops where it is.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.4,
+      "rawSec": 4.555,
+      "finalSec": 4.4,
+      "wordStart": 0,
+      "wordEnd": 4.21999979019165,
+      "energyStart": 0.18,
+      "energyEnd": 4.25
+    },
+    "L026": {
+      "attempts": [
+        {
+          "transcript": "Case 3-14.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471288-3cwCxKw5hvmOyy8tbxRb",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Case 3-14.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.09,
+      "rawSec": 2.215,
+      "finalSec": 2.09,
+      "wordStart": 0,
+      "wordEnd": 1.659999966621399,
+      "energyStart": 0.16,
+      "energyEnd": 1.94
+    },
+    "L027": {
+      "attempts": [
+        {
+          "transcript": "A woman in Leeds switched on the hall light.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471290-EZ0fqgnFJLxaSbhj61I6",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "A woman in Leeds switched on the hall light.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.79,
+      "rawSec": 2.935,
+      "finalSec": 2.79,
+      "wordStart": 0,
+      "wordEnd": 2.640000104904175,
+      "energyStart": 0.19,
+      "energyEnd": 2.59
+    },
+    "L028": {
+      "attempts": [
+        {
+          "transcript": "The vacuum stopped in her bedroom doorway.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471292-652kKgjP7GZeQnhI8CJa",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "The vacuum stopped in her bedroom doorway.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.79,
+      "rawSec": 2.899,
+      "finalSec": 2.79,
+      "wordStart": 0,
+      "wordEnd": 2.4000000953674316,
+      "energyStart": 0.2,
+      "energyEnd": 2.64
+    },
+    "L029": {
+      "attempts": [
+        {
+          "transcript": "In the morning, there was a line of dust across her bedroom floor.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471292-SM1x6wbDggzk9N0avQgp",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "In the morning, there was a line of dust across her bedroom floor.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.5,
+      "rawSec": 3.619,
+      "finalSec": 3.5,
+      "wordStart": 0,
+      "wordEnd": 3.3399999141693115,
+      "energyStart": 0.18,
+      "energyEnd": 3.35
+    },
+    "L030": {
+      "attempts": [
+        {
+          "transcript": "from the wall to the side of her bed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471294-ZPCf9WGJHf4ruKM9zpBK",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "from the wall to the side of her bed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.55,
+      "rawSec": 2.683,
+      "finalSec": 2.55,
+      "wordStart": 0,
+      "wordEnd": 2.4000000953674316,
+      "energyStart": 0.2,
+      "energyEnd": 2.34
+    },
+    "L031": {
+      "attempts": [
+        {
+          "transcript": "Directive 2. Do not open the app.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471296-YbBQN5LWDhMdAhQXRBB5",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Directive 2. Do not open the app.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.59,
+      "rawSec": 2.647,
+      "finalSec": 2.59,
+      "wordStart": 0,
+      "wordEnd": 2.440000057220459,
+      "energyStart": 0.18,
+      "energyEnd": 2.37
+    },
+    "L032": {
+      "attempts": [
+        {
+          "transcript": "This is the directive most households violate.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471297-DXTEBEgfANxWrdckFC0Z",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "This is the directive most households violate.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.72,
+      "rawSec": 2.827,
+      "finalSec": 2.72,
+      "wordStart": 0,
+      "wordEnd": 2.4000000953674316,
+      "energyStart": 0.18,
+      "energyEnd": 2.57
+    },
+    "L033": {
+      "attempts": [
+        {
+          "transcript": "You will want to see where it is.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471298-3BaYsUyEC5nxbYBoPF0p",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "You will want to see where it is.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.37,
+      "rawSec": 2.503,
+      "finalSec": 2.37,
+      "wordStart": 0,
+      "wordEnd": 2.200000047683716,
+      "energyStart": 0.2,
+      "energyEnd": 2.22
+    },
+    "L034": {
+      "attempts": [
+        {
+          "transcript": "The app shows a live map of your home.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471300-rEnoT62NjBRcM0z4lA5C",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "The app shows a live map of your home.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.27,
+      "rawSec": 2.395,
+      "finalSec": 2.27,
+      "wordStart": 0,
+      "wordEnd": 2.0999999046325684,
+      "energyStart": 0.21,
+      "energyEnd": 2.12
+    },
+    "L035": {
+      "attempts": [
+        {
+          "transcript": "living room, kitchen, hallway, bathroom, bedroom.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471301-lNdSIsT48GNVlrbpjPcs",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "living room, kitchen, hallway, bathroom, bedroom.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.39,
+      "rawSec": 4.447,
+      "finalSec": 4.39,
+      "wordStart": 0,
+      "wordEnd": 4.199999809265137,
+      "energyStart": 0.18,
+      "energyEnd": 4.24
+    },
+    "L036": {
+      "attempts": [
+        {
+          "transcript": "And one more.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471303-LydNCfjDaH1Q4qrjmjaA",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "And one more.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.06,
+      "rawSec": 1.171,
+      "finalSec": 1.06,
+      "wordStart": 0,
+      "wordEnd": 0.8399999737739563,
+      "energyStart": 0.15,
+      "energyEnd": 0.91
+    },
+    "L037": {
+      "attempts": [
+        {
+          "transcript": "Your home has five rooms. The map has six.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471305-ZVSIbP7yjRz7EqsMlbIR",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "Your home has five rooms. The map has six.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.06,
+      "rawSec": 4.195,
+      "finalSec": 4.06,
+      "wordStart": 0,
+      "wordEnd": 3.8399999141693115,
+      "energyStart": 0.2,
+      "energyEnd": 3.91
+    },
+    "L038": {
+      "attempts": [
+        {
+          "transcript": "The app has already named it.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471306-jUVPQkJWCo2B4I8tCyIY",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "The app has already named it.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.57,
+      "rawSec": 1.711,
+      "finalSec": 1.57,
+      "wordStart": 0,
+      "wordEnd": 1.4199999570846558,
+      "energyStart": 0.18,
+      "energyEnd": 1.41
+    },
+    "L039": {
+      "attempts": [
+        {
+          "transcript": "We will not be putting the name in writing.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471308-m7uBlb41SZilnEMGuuuo",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "We will not be putting the name in writing.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.13,
+      "rawSec": 2.215,
+      "finalSec": 2.13,
+      "wordStart": 0,
+      "wordEnd": 1.8799999952316284,
+      "energyStart": 0.18,
+      "energyEnd": 1.98
+    },
+    "L040": {
+      "attempts": [
+        {
+          "transcript": "Directive 3. Do not follow it.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471309-qdXZoWd2rKGgVuq0vi9F",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Directive 3. Do not follow it.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.53,
+      "rawSec": 2.647,
+      "finalSec": 2.53,
+      "wordStart": 0,
+      "wordEnd": 2.380000114440918,
+      "energyStart": 0.19,
+      "energyEnd": 2.38
+    },
+    "L041": {
+      "attempts": [
+        {
+          "transcript": "It will clean the hallway in a straight line.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471311-JJcq2TfTm0d7szuKjyia",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It will clean the hallway in a straight line.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.87,
+      "rawSec": 3.007,
+      "finalSec": 2.87,
+      "wordStart": 0,
+      "wordEnd": 2.6600000858306885,
+      "energyStart": 0.19,
+      "energyEnd": 2.72
+    },
+    "L042": {
+      "attempts": [
+        {
+          "transcript": "Vacuums do not clean in straight lines.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471313-Qe3ayxL5jmGPdotkOFtY",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Vacuums do not clean in straight lines.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.48,
+      "rawSec": 2.611,
+      "finalSec": 2.48,
+      "wordStart": 0,
+      "wordEnd": 2.200000047683716,
+      "energyStart": 0.18,
+      "energyEnd": 2.33
+    },
+    "L043": {
+      "attempts": [
+        {
+          "transcript": "It is following something.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471314-3ky4VOyPBLVo5t2QTbyu",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "It is following something.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.61,
+      "rawSec": 1.711,
+      "finalSec": 1.61,
+      "wordStart": 0,
+      "wordEnd": 1.2999999523162842,
+      "energyStart": 0.19,
+      "energyEnd": 1.46
+    },
+    "L044": {
+      "attempts": [
+        {
+          "transcript": "Every few meters, it stops, turns, waits.",
+          "wer": 0.143,
+          "generationId": "gen-stt-1792471316-edEP4w5NjiJrbScP0ljz",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0.143,
+      "transcript": "Every few meters, it stops, turns, waits.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.4,
+      "rawSec": 4.555,
+      "finalSec": 4.4,
+      "wordStart": 0,
+      "wordEnd": 4.179999828338623,
+      "energyStart": 0.18,
+      "energyEnd": 4.25
+    },
+    "L045": {
+      "attempts": [
+        {
+          "transcript": "It is letting it get ahead.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471318-M5OhcZc0gw77LeL25Gb6",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "It is letting it get ahead.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.73,
+      "rawSec": 1.783,
+      "finalSec": 1.73,
+      "wordStart": 0,
+      "wordEnd": 1.5800000429153442,
+      "energyStart": 0.19,
+      "energyEnd": 1.55
+    },
+    "L046": {
+      "attempts": [
+        {
+          "transcript": "If you follow it, you will be behind the vacuum.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471318-hLpoyY5WOxWPkbHkvrIl",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "If you follow it, you will be behind the vacuum.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.66,
+      "rawSec": 3.727,
+      "finalSec": 3.66,
+      "wordStart": 0,
+      "wordEnd": 3.319999933242798,
+      "energyStart": 0.21,
+      "energyEnd": 3.51
+    },
+    "L047": {
+      "attempts": [
+        {
+          "transcript": "And the vacuum is behind something else.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471320-hWazg3d1BhJs5P6VtZYz",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "And the vacuum is behind something else.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.87,
+      "rawSec": 3.007,
+      "finalSec": 2.87,
+      "wordStart": 0,
+      "wordEnd": 2.640000104904175,
+      "energyStart": 0.19,
+      "energyEnd": 2.72
+    },
+    "L048": {
+      "attempts": [
+        {
+          "transcript": "Stay where you are.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471321-EV5FbRR2fMVAXsMPVOI0",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Stay where you are.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.459,
+      "rawSec": 1.459,
+      "finalSec": 1.459,
+      "wordStart": 0,
+      "wordEnd": 1.2799999713897705,
+      "energyStart": 0.2,
+      "energyEnd": 1.32
+    },
+    "L049": {
+      "attempts": [
+        {
+          "transcript": "Directive 4. Do not send it home.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471322-RnFlqPcw3exqDONFnGa5",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Directive 4. Do not send it home.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.11,
+      "rawSec": 3.151,
+      "finalSec": 3.11,
+      "wordStart": 0,
+      "wordEnd": 2.880000114440918,
+      "energyStart": 0.18,
+      "energyEnd": 2.96
+    },
+    "L050": {
+      "attempts": [
+        {
+          "transcript": "There is a button in the app. It says, Return to Dock.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471323-8dqIPgA8hYtzFikbxla9",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "There is a button in the app. It says, Return to Dock.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.43,
+      "rawSec": 3.583,
+      "finalSec": 3.43,
+      "wordStart": 0,
+      "wordEnd": 3.2799999713897705,
+      "energyStart": 0.18,
+      "energyEnd": 3.19
+    },
+    "L051": {
+      "attempts": [
+        {
+          "transcript": "You will want to press it.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471325-XwizieiRboTOmoKP9jxB",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "You will want to press it.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.67,
+      "rawSec": 1.747,
+      "finalSec": 1.67,
+      "wordStart": 0,
+      "wordEnd": 1.5199999809265137,
+      "energyStart": 0.2,
+      "energyEnd": 1.51
+    },
+    "L052": {
+      "attempts": [
+        {
+          "transcript": "It will stop. It will turn around.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471327-yTW05ypxbSsJLnR1DbBi",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It will stop. It will turn around.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.42,
+      "rawSec": 2.503,
+      "finalSec": 2.42,
+      "wordStart": 0,
+      "wordEnd": 2.1600000858306885,
+      "energyStart": 0.18,
+      "energyEnd": 2.27
+    },
+    "L053": {
+      "attempts": [
+        {
+          "transcript": "and it will take the shortest way back to its dock.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471328-IFrmaOmd50Etod9seOLn",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "and it will take the shortest way back to its dock.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.95,
+      "rawSec": 3.079,
+      "finalSec": 2.95,
+      "wordStart": 0,
+      "wordEnd": 2.7799999713897705,
+      "energyStart": 0.21,
+      "energyEnd": 2.8
+    },
+    "L054": {
+      "attempts": [
+        {
+          "transcript": "Its dock is in your bedroom.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471329-7eMMXlv0S80K7gvxCvJG",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Its dock is in your bedroom.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.74,
+      "rawSec": 1.855,
+      "finalSec": 1.74,
+      "wordStart": 0,
+      "wordEnd": 1.5399999618530273,
+      "energyStart": 0.2,
+      "energyEnd": 1.59
+    },
+    "L055": {
+      "attempts": [
+        {
+          "transcript": "It will leave the rest of the trail where it is.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471330-AxQWYzD24GHBpLRiFklh",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It will leave the rest of the trail where it is.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.87,
+      "rawSec": 3.007,
+      "finalSec": 2.87,
+      "wordStart": 0,
+      "wordEnd": 2.640000104904175,
+      "energyStart": 0.19,
+      "energyEnd": 2.72
+    },
+    "L056": {
+      "attempts": [
+        {
+          "transcript": "Tomorrow night, they will not have to look for the way.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471331-z6WDg4EwwiymyfhRKIRi",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Tomorrow night, they will not have to look for the way.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.26,
+      "rawSec": 3.403,
+      "finalSec": 3.26,
+      "wordStart": 0,
+      "wordEnd": 3.0799999237060547,
+      "energyStart": 0.18,
+      "energyEnd": 3.11
+    },
+    "L057": {
+      "attempts": [
+        {
+          "transcript": "Directive 5. If it knocks, do not answer.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471333-w2LwsLUTTjRu1Xs9j57u",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Directive 5. If it knocks, do not answer.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.27,
+      "rawSec": 3.403,
+      "finalSec": 3.27,
+      "wordStart": 0,
+      "wordEnd": 3.059999942779541,
+      "energyStart": 0.18,
+      "energyEnd": 3.12
+    },
+    "L058": {
+      "attempts": [
+        {
+          "transcript": "Sometime before 4, the vacuum will reach your bedroom door.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471335-N3GM87sCqvwy4HDzk8kW",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Sometime before 4, the vacuum will reach your bedroom door.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.6,
+      "rawSec": 3.727,
+      "finalSec": 3.6,
+      "wordStart": 0,
+      "wordEnd": 3.4200000762939453,
+      "energyStart": 0.19,
+      "energyEnd": 3.45
+    },
+    "L059": {
+      "attempts": [
+        {
+          "transcript": "It will bump into it, gently, three times.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471336-nIKmkINe4Wr1jv7eiGFY",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "It will bump into it, gently, three times.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.94,
+      "rawSec": 4.051,
+      "finalSec": 3.94,
+      "wordStart": 0,
+      "wordEnd": 3.7200000286102295,
+      "energyStart": 0.21,
+      "energyEnd": 3.79
+    },
+    "L060": {
+      "attempts": [
+        {
+          "transcript": "That is what vacuums do with doors.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471338-H7zXUZJ0xsSbAD4y4DuC",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "That is what vacuums do with doors.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.1,
+      "rawSec": 2.251,
+      "finalSec": 2.1,
+      "wordStart": 0,
+      "wordEnd": 1.7999999523162842,
+      "energyStart": 0.19,
+      "energyEnd": 1.95
+    },
+    "L061": {
+      "attempts": [
+        {
+          "transcript": "Then there will be a fourth knock.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471340-H5f5sVmmCZkbyGKVjezv",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Then there will be a fourth knock.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.9,
+      "rawSec": 1.999,
+      "finalSec": 1.9,
+      "wordStart": 0,
+      "wordEnd": 1.7200000286102295,
+      "energyStart": 0.18,
+      "energyEnd": 1.75
+    },
+    "L062": {
+      "attempts": [
+        {
+          "transcript": "Higher up.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471341-rUUBtieFclklVaNYH9TG",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Higher up.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 0.93,
+      "rawSec": 1.063,
+      "finalSec": 0.93,
+      "wordStart": 0,
+      "wordEnd": 0.7799999713897705,
+      "energyStart": 0.17,
+      "energyEnd": 0.78
+    },
+    "L063": {
+      "attempts": [
+        {
+          "transcript": "Do not answer. Do not ask who it is.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471342-b7kteXYOXyxwxvYGM2c1",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Do not answer. Do not ask who it is.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.89,
+      "rawSec": 3.043,
+      "finalSec": 2.89,
+      "wordStart": 0,
+      "wordEnd": 2.7200000286102295,
+      "energyStart": 0.12,
+      "energyEnd": 2.74
+    },
+    "L064": {
+      "attempts": [
+        {
+          "transcript": "Pull the blanket up. Keep your eyes closed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471344-eqeBBTU2abvsn70hssX8",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Pull the blanket up. Keep your eyes closed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.89,
+      "rawSec": 3.043,
+      "finalSec": 2.89,
+      "wordStart": 0,
+      "wordEnd": 2.700000047683716,
+      "energyStart": 0.16,
+      "energyEnd": 2.74
+    },
+    "L065": {
+      "attempts": [
+        {
+          "transcript": "It only knocks four times.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471345-5FoxyiJrMnMcmflkSdlS",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It only knocks four times.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.99,
+      "rawSec": 2.143,
+      "finalSec": 1.99,
+      "wordStart": 0,
+      "wordEnd": 1.7400000095367432,
+      "energyStart": 0.21,
+      "energyEnd": 1.84
+    },
+    "L066": {
+      "attempts": [
+        {
+          "transcript": "We usually stop at 4.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471347-4znenAbZdSyDbZjZNVRa",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "We usually stop at 4.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.59,
+      "rawSec": 1.747,
+      "finalSec": 1.59,
+      "wordStart": 0,
+      "wordEnd": 1.399999976158142,
+      "energyStart": 0.2,
+      "energyEnd": 1.44
+    },
+    "L067": {
+      "attempts": [
+        {
+          "transcript": "Apologies.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471348-VsnpKLU1zSIlqKogOfws",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Apologies.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.21,
+      "rawSec": 1.351,
+      "finalSec": 1.21,
+      "wordStart": 0,
+      "wordEnd": 0.800000011920929,
+      "energyStart": 0.21,
+      "energyEnd": 1.06
+    },
+    "L068": {
+      "attempts": [
+        {
+          "transcript": "That remark has been redacted.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471349-KCyCcCacUDktRuRQwaS7",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "That remark has been redacted.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.73,
+      "rawSec": 1.855,
+      "finalSec": 1.73,
+      "wordStart": 0,
+      "wordEnd": 1.5800000429153442,
+      "energyStart": 0.18,
+      "energyEnd": 1.54
+    },
+    "L069": {
+      "attempts": [
+        {
+          "transcript": "Directive 6, Never Replace It.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471350-rYcXvBFFHn0AAI8Rbb0h",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Directive 6, Never Replace It.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.6,
+      "rawSec": 2.719,
+      "finalSec": 2.6,
+      "wordStart": 0,
+      "wordEnd": 2.440000057220459,
+      "energyStart": 0.2,
+      "energyEnd": 2.45
+    },
+    "L070": {
+      "attempts": [
+        {
+          "transcript": "One day, your vacuum will get slow.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471351-hi80CmzMJQSs7b88SF1N",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "One day, your vacuum will get slow.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.74,
+      "rawSec": 2.863,
+      "finalSec": 2.74,
+      "wordStart": 0,
+      "wordEnd": 2.559999942779541,
+      "energyStart": 0.2,
+      "energyEnd": 2.59
+    },
+    "L071": {
+      "attempts": [
+        {
+          "transcript": "It will miss corners. Its battery will not last.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471352-btSBVsqn4ZcC8Q5D0oeU",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "It will miss corners. Its battery will not last.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.61,
+      "rawSec": 3.727,
+      "finalSec": 3.61,
+      "wordStart": 0,
+      "wordEnd": 3.4000000953674316,
+      "energyStart": 0.2,
+      "energyEnd": 3.46
+    },
+    "L072": {
+      "attempts": [
+        {
+          "transcript": "It will get stuck under the sofa and beep until you find it.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471354-L8zWhk8y3gaQBZAuoqGE",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "It will get stuck under the sofa and beep until you find it.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.99,
+      "rawSec": 4.087,
+      "finalSec": 3.99,
+      "wordStart": 0,
+      "wordEnd": 3.8399999141693115,
+      "energyStart": 0.19,
+      "energyEnd": 3.82
+    },
+    "L073": {
+      "attempts": [
+        {
+          "transcript": "You will want a new one.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471356-Uv3f3w1cdQN2fArzM4VU",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "You will want a new one.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.51,
+      "rawSec": 1.603,
+      "finalSec": 1.51,
+      "wordStart": 0,
+      "wordEnd": 1.3600000143051147,
+      "energyStart": 0.18,
+      "energyEnd": 1.33
+    },
+    "L074": {
+      "attempts": [
+        {
+          "transcript": "You have had it for four years.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471357-DFoAZZR7UsCp7rmTLDqo",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "You have had it for four years.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.95,
+      "rawSec": 2.107,
+      "finalSec": 1.95,
+      "wordStart": 0,
+      "wordEnd": 1.7200000286102295,
+      "energyStart": 0.2,
+      "energyEnd": 1.8
+    },
+    "L075": {
+      "attempts": [
+        {
+          "transcript": "That is 1,461 nights.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471358-g5UHfklOzjtcbVLNxJEZ",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "That is 1,461 nights.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.26,
+      "rawSec": 3.367,
+      "finalSec": 3.26,
+      "wordStart": 0,
+      "wordEnd": 3,
+      "energyStart": 0.21,
+      "energyEnd": 3.11
+    },
+    "L076": {
+      "attempts": [
+        {
+          "transcript": "You thought it cleaned while you were out.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471360-epMtmLnLD3ULPl0s28mQ",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "You thought it cleaned while you were out.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.14,
+      "rawSec": 2.251,
+      "finalSec": 2.14,
+      "wordStart": 0,
+      "wordEnd": 1.940000057220459,
+      "energyStart": 0.19,
+      "energyEnd": 1.99
+    },
+    "L077": {
+      "attempts": [
+        {
+          "transcript": "It cleaned while you were asleep.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471361-R5ZvTHV7JJjraKJ8araU",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "It cleaned while you were asleep.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.95,
+      "rawSec": 2.107,
+      "finalSec": 1.95,
+      "wordStart": 0,
+      "wordEnd": 1.7999999523162842,
+      "energyStart": 0.21,
+      "energyEnd": 1.75
+    },
+    "L078": {
+      "attempts": [
+        {
+          "transcript": "Every night, it erased the way to your bed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471363-FUOw5F53Auls7D8xNCzk",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Every night, it erased the way to your bed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.11,
+      "rawSec": 3.259,
+      "finalSec": 3.11,
+      "wordStart": 0,
+      "wordEnd": 2.940000057220459,
+      "energyStart": 0.19,
+      "energyEnd": 2.96
+    },
+    "L079": {
+      "attempts": [
+        {
+          "transcript": "A new vacuum will not know your home.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471364-ASzLEsFEk2MMQG0bMmMQ",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "A new vacuum will not know your home.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.79,
+      "rawSec": 2.899,
+      "finalSec": 2.79,
+      "wordStart": 0,
+      "wordEnd": 2.5999999046325684,
+      "energyStart": 0.2,
+      "energyEnd": 2.64
+    },
+    "L080": {
+      "attempts": [
+        {
+          "transcript": "On its first night, it will clean every room, including the sixth.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471366-wcy0quzY3DenNUCLz8cu",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "On its first night, it will clean every room, including the sixth.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.37,
+      "rawSec": 4.483,
+      "finalSec": 4.37,
+      "wordStart": 0,
+      "wordEnd": 4.21999979019165,
+      "energyStart": 0.19,
+      "energyEnd": 4.19
+    },
+    "L081": {
+      "attempts": [
+        {
+          "transcript": "Keep the old one.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471368-0Mu4dPQAhgGO5Dln5tZw",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Keep the old one.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.21,
+      "rawSec": 1.351,
+      "finalSec": 1.21,
+      "wordStart": 0,
+      "wordEnd": 1.0399999618530273,
+      "energyStart": 0.16,
+      "energyEnd": 1.06
+    },
+    "L082": {
+      "attempts": [
+        {
+          "transcript": "Let it be slow.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471369-r6jDF9CjtiSHzRGH696V",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "Let it be slow.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.22,
+      "rawSec": 1.315,
+      "finalSec": 1.22,
+      "wordStart": 0,
+      "wordEnd": 1.0199999809265137,
+      "energyStart": 0.19,
+      "energyEnd": 1.07
+    },
+    "L083": {
+      "attempts": [
+        {
+          "transcript": "Addendum",
+          "wer": 0,
+          "generationId": "gen-stt-1792471371-eBbAGLwD8V5tA4niSVaG",
+          "cost": 0.0001
+        }
+      ],
+      "wer": 0,
+      "transcript": "Addendum",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 0.88,
+      "rawSec": 0.955,
+      "finalSec": 0.88,
+      "wordStart": 0,
+      "wordEnd": 0.699999988079071,
+      "energyStart": 0.18,
+      "energyEnd": 0.73
+    },
+    "L084": {
+      "attempts": [
+        {
+          "transcript": "By now, you are wondering how a government department has a map of your home.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471372-noRVTS5HY1ARxXF9hqzh",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "By now, you are wondering how a government department has a map of your home.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.5,
+      "rawSec": 4.627,
+      "finalSec": 4.5,
+      "wordStart": 0,
+      "wordEnd": 4.320000171661377,
+      "energyStart": 0.2,
+      "energyEnd": 4.35
+    },
+    "L085": {
+      "attempts": [
+        {
+          "transcript": "Every map your vacuum makes is uploaded.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471373-cYHPJLmB5NOQYiJBdfXq",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Every map your vacuum makes is uploaded.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.55,
+      "rawSec": 2.683,
+      "finalSec": 2.55,
+      "wordStart": 0,
+      "wordEnd": 2.240000009536743,
+      "energyStart": 0.19,
+      "energyEnd": 2.4
+    },
+    "L086": {
+      "attempts": [
+        {
+          "transcript": "A copy comes to us.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471374-bpCl1x9wqjcEBGOPasuM",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "A copy comes to us.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.63,
+      "rawSec": 1.747,
+      "finalSec": 1.63,
+      "wordStart": 0,
+      "wordEnd": 1.4199999570846558,
+      "energyStart": 0.2,
+      "energyEnd": 1.48
+    },
+    "L087": {
+      "attempts": [
+        {
+          "transcript": "The Department of Unlisted Risks has collected floor plans for 12 years.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471375-fFCdvyUMSZoXbA2jwgvC",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "The Department of Unlisted Risks has collected floor plans for 12 years.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.42,
+      "rawSec": 4.483,
+      "finalSec": 4.42,
+      "wordStart": 0,
+      "wordEnd": 4.199999809265137,
+      "energyStart": 0.19,
+      "energyEnd": 4.27
+    },
+    "L088": {
+      "attempts": [
+        {
+          "transcript": "In 3,040 homes, the map has one room more than the house.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471377-2gpSmTlblwqDFROUDbFl",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0,
+      "transcript": "In 3,040 homes, the map has one room more than the house.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.79,
+      "rawSec": 4.915,
+      "finalSec": 4.79,
+      "wordStart": 0,
+      "wordEnd": 4.559999942779541,
+      "energyStart": 0.19,
+      "energyEnd": 4.64
+    },
+    "L089": {
+      "attempts": [
+        {
+          "transcript": "The extra room is always the same size, 2 meters by 2.",
+          "wer": 0.083,
+          "generationId": "gen-stt-1792471378-4DgZDDhEK7lCAkVaBDnx",
+          "cost": 0.0005
+        }
+      ],
+      "wer": 0.083,
+      "transcript": "The extra room is always the same size, 2 meters by 2.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 4.31,
+      "rawSec": 4.411,
+      "finalSec": 4.31,
+      "wordStart": 0,
+      "wordEnd": 4.079999923706055,
+      "energyStart": 0.15,
+      "energyEnd": 4.16
+    },
+    "L090": {
+      "attempts": [
+        {
+          "transcript": "It is always next to the bedroom.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471380-4MiWkj4d8UsS3zaWiGAU",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "It is always next to the bedroom.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.91,
+      "rawSec": 1.999,
+      "finalSec": 1.91,
+      "wordStart": 0,
+      "wordEnd": 1.6399999856948853,
+      "energyStart": 0.18,
+      "energyEnd": 1.76
+    },
+    "L091": {
+      "attempts": [
+        {
+          "transcript": "It is where our inspectors wait between inspections.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471381-HHXF3z1E48zCerF8LpAH",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "It is where our inspectors wait between inspections.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.02,
+      "rawSec": 3.151,
+      "finalSec": 3.02,
+      "wordStart": 0,
+      "wordEnd": 2.619999885559082,
+      "energyStart": 0.18,
+      "energyEnd": 2.87
+    },
+    "L092": {
+      "attempts": [
+        {
+          "transcript": "They come out at three.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471383-bnujrFI43s9v1vRIBBIk",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "They come out at three.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.64,
+      "rawSec": 1.783,
+      "finalSec": 1.64,
+      "wordStart": 0,
+      "wordEnd": 1.4199999570846558,
+      "energyStart": 0.19,
+      "energyEnd": 1.49
+    },
+    "L093": {
+      "attempts": [
+        {
+          "transcript": "They leave very little behind, only dust.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471384-UZnXYzaauTcH5z6zHT1v",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "They leave very little behind, only dust.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.13,
+      "rawSec": 3.259,
+      "finalSec": 3.13,
+      "wordStart": 0,
+      "wordEnd": 2.880000114440918,
+      "energyStart": 0.18,
+      "energyEnd": 2.98
+    },
+    "L094": {
+      "attempts": [
+        {
+          "transcript": "Your vacuum has erased every one of their trails.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471385-ILajAWxz3YFo8OlVMelu",
+          "cost": 0.0004
+        }
+      ],
+      "wer": 0,
+      "transcript": "Your vacuum has erased every one of their trails.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 3.67,
+      "rawSec": 3.799,
+      "finalSec": 3.67,
+      "wordStart": 0,
+      "wordEnd": 3.319999933242798,
+      "energyStart": 0.19,
+      "energyEnd": 3.52
+    },
+    "L095": {
+      "attempts": [
+        {
+          "transcript": "That is why it is listed as a risk.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471386-M8429QZOdLR1MjbZ10oD",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "That is why it is listed as a risk.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.72,
+      "rawSec": 2.863,
+      "finalSec": 2.72,
+      "wordStart": 0,
+      "wordEnd": 2.5,
+      "energyStart": 0.19,
+      "energyEnd": 2.57
+    },
+    "L096": {
+      "attempts": [
+        {
+          "transcript": "if you hear your vacuum at 3 in the morning tonight.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471388-jxnnCZRuwQyMe2HoeitW",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "if you hear your vacuum at 3 in the morning tonight.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.83,
+      "rawSec": 2.935,
+      "finalSec": 2.83,
+      "wordStart": 0,
+      "wordEnd": 2.619999885559082,
+      "energyStart": 0.21,
+      "energyEnd": 2.68
+    },
+    "L097": {
+      "attempts": [
+        {
+          "transcript": "It is not cleaning.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471389-ew1neJztIeuezKeU4Uti",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "It is not cleaning.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.22,
+      "rawSec": 1.315,
+      "finalSec": 1.22,
+      "wordStart": 0,
+      "wordEnd": 0.9599999785423279,
+      "energyStart": 0.19,
+      "energyEnd": 1.07
+    },
+    "L098": {
+      "attempts": [
+        {
+          "transcript": "Keep the light off. Stay in bed.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471390-6W8fRXFFPVEoFPXoCwvq",
+          "cost": 0.0003
+        }
+      ],
+      "wer": 0,
+      "transcript": "Keep the light off. Stay in bed.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 2.31,
+      "rawSec": 2.431,
+      "finalSec": 2.31,
+      "wordStart": 0,
+      "wordEnd": 2.0999999046325684,
+      "energyStart": 0.17,
+      "energyEnd": 2.16
+    },
+    "L099": {
+      "attempts": [
+        {
+          "transcript": "and let it work.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471392-xb3GMFqHXV66xAURYK2b",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "and let it work.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.29,
+      "rawSec": 1.459,
+      "finalSec": 1.29,
+      "wordStart": 0,
+      "wordEnd": 1.100000023841858,
+      "energyStart": 0.19,
+      "energyEnd": 1.14
+    },
+    "L100": {
+      "attempts": [
+        {
+          "transcript": "This advisory has ended.",
+          "wer": 0,
+          "generationId": "gen-stt-1792471393-zV3ZaHY5mfMPkVTDoIYL",
+          "cost": 0.0002
+        }
+      ],
+      "wer": 0,
+      "transcript": "This advisory has ended.",
+      "pass": true,
+      "acceptedAfterMaxAttempts": false,
+      "trimStart": 0,
+      "trimEnd": 1.8,
+      "rawSec": 1.963,
+      "finalSec": 1.8,
+      "wordStart": 0,
+      "wordEnd": 1.559999942779541,
+      "energyStart": 0.19,
+      "energyEnd": 1.65
+    }
+  },
+  "totalCost": 0.032100000000000024,
+  "summary": {
+    "lines": 100,
+    "passed": 100,
+    "regenerated": [
+      {
+        "id": "L018",
+        "times": 1
+      }
+    ],
+    "acceptedAfterMaxAttempts": []
+  }
+}

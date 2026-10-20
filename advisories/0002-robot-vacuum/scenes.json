@@ -1,0 +1,3328 @@
+{
+ "meta": {
+  "channel": "Not Covered",
+  "department": "Department of Unlisted Risks",
+  "departmentShort": "DUR",
+  "advisory": "0002",
+  "title": "If Your Robot Vacuum Ever Starts Cleaning At 3 AM… DO NOT TURN ON THE LIGHT",
+  "slug": "advisory-0002-robot-vacuum",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "leadInSec": 0.6,
+  "slipLines": [
+   "L066"
+  ],
+  "customElements": [
+   "robot-vacuum",
+   "dock",
+   "dust-trail",
+   "phone",
+   "wall",
+   "knock",
+   "box-front"
+  ],
+  "customShots": [
+   "vacuum-map"
+  ],
+  "endCard": {
+   "shot": "END",
+   "holdSec": 3.0
+  },
+  "notes": "One line = one caption = one shot (unless transitionIn is 'hold'). Kit vocabulary: brand/catalog.json. Episode assets: assets-spec.md (implement in video/src/episodes/0002-robot-vacuum/assets.tsx). `desc` is the authority when structured fields and description disagree."
+ },
+ "beats": [
+  {
+   "id": "cold_open",
+   "label": "Cold open"
+  },
+  {
+   "id": "teaser",
+   "label": "Teaser"
+  },
+  {
+   "id": "world",
+   "label": "The world"
+  },
+  {
+   "id": "directive_1",
+   "label": "Directive 1: Do not turn on the light"
+  },
+  {
+   "id": "directive_2",
+   "label": "Directive 2: Do not open the app"
+  },
+  {
+   "id": "directive_3",
+   "label": "Directive 3: Do not follow it"
+  },
+  {
+   "id": "directive_4",
+   "label": "Directive 4: Do not send it home"
+  },
+  {
+   "id": "directive_5",
+   "label": "Directive 5: If it knocks, do not answer"
+  },
+  {
+   "id": "directive_6",
+   "label": "Directive 6: Never replace it"
+  },
+  {
+   "id": "addendum",
+   "label": "Addendum"
+  },
+  {
+   "id": "callback",
+   "label": "Callback"
+  },
+  {
+   "id": "outro",
+   "label": "Outro"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L001",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "If your robot vacuum ever starts cleaning at three in the morning...",
+   "caption": "If your robot vacuum ever starts cleaning at 3 AM...",
+   "shot": "S01",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "3 AM"
+   ],
+   "sfx": null,
+   "transitionIn": "fade"
+  },
+  {
+   "id": "L002",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "and you did not schedule it...",
+   "caption": "and you did not schedule it...",
+   "shot": "S02",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "did not schedule it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L003",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "do not turn on the light.",
+   "caption": "do not turn on the light.",
+   "shot": "S03",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "do not turn on the light"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L004",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "Do not get out of bed.",
+   "caption": "Do not get out of bed.",
+   "shot": "S04",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "out of bed"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L005",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "And do not check what it is cleaning.",
+   "caption": "And do not check what it is cleaning.",
+   "shot": "S05",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "what it is cleaning"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L006",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "This is Advisory zero zero zero two.",
+   "caption": "This is Advisory 0002.",
+   "shot": "S05",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "Advisory 0002"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L007",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "This advisory has six directives.",
+   "caption": "This advisory has 6 directives.",
+   "shot": "S07",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "6 directives"
+   ],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L008",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "Most households violate the second.",
+   "caption": "Most households violate the second.",
+   "shot": "S07b",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "the second"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L009",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "The addendum is not about the vacuum.",
+   "caption": "The addendum is not about the vacuum.",
+   "shot": "S07c",
+   "pauseAfter": 0.7,
+   "emphasis": [
+    "not about the vacuum"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L010",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your vacuum works while you are out.",
+   "caption": "Your vacuum works while you are out.",
+   "shot": "S10",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L011",
+   "beat": "world",
+   "directive": null,
+   "voice": "It has measured every room in your home.",
+   "caption": "It has measured every room in your home.",
+   "shot": "S11",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "every room"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L012",
+   "beat": "world",
+   "directive": null,
+   "voice": "Every wall. Every doorway. Every chair leg.",
+   "caption": "Every wall. Every doorway. Every chair leg.",
+   "shot": "S11b",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L013",
+   "beat": "world",
+   "directive": null,
+   "voice": "It knows where the sofa is.",
+   "caption": "It knows where the sofa is.",
+   "shot": "S11c",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L014",
+   "beat": "world",
+   "directive": null,
+   "voice": "It knows where you sleep.",
+   "caption": "It knows where you sleep.",
+   "shot": "S11d",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "where you sleep"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L015",
+   "beat": "world",
+   "directive": null,
+   "voice": "At night, it sits on its dock. Charging.",
+   "caption": "At night, it sits on its dock. Charging.",
+   "shot": "S15",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L016",
+   "beat": "world",
+   "directive": null,
+   "voice": "It only leaves the dock when the floor has changed.",
+   "caption": "It only leaves the dock when the floor has changed.",
+   "shot": "S15",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "the floor has changed"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L017",
+   "beat": "world",
+   "directive": null,
+   "voice": "At three in the morning, the floor has changed.",
+   "caption": "At 3 AM, the floor has changed.",
+   "shot": "S17",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "3 AM"
+   ],
+   "sfx": "tick",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L018",
+   "beat": "world",
+   "directive": null,
+   "voice": "Something has walked through your home.",
+   "caption": "Something has walked through your home.",
+   "shot": "S18",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "Something"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L019",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your vacuum is cleaning up behind it.",
+   "caption": "Your vacuum is cleaning up behind it.",
+   "shot": "S19",
+   "pauseAfter": 0.7,
+   "emphasis": [
+    "behind it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L020",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Directive one. Do not turn on the light.",
+   "caption": "Directive 1. Do not turn on the light.",
+   "shot": "C1",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not turn on the light"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L021",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "You will want to see it working.",
+   "caption": "You will want to see it working.",
+   "shot": "S21",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L022",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "You will want to see that it is only a vacuum.",
+   "caption": "You will want to see that it is only a vacuum.",
+   "shot": "S21",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "only a vacuum"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L023",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It is only a vacuum.",
+   "caption": "It is only a vacuum.",
+   "shot": "S23",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L024",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It finds its way in the dark with a laser you cannot see.",
+   "caption": "It finds its way in the dark with a laser you cannot see.",
+   "shot": "S23b",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "laser"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L025",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Turn on the light, and it goes blind. It stops where it is.",
+   "caption": "Turn on the light, and it goes blind. It stops where it is.",
+   "shot": "S25",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "goes blind"
+   ],
+   "sfx": "click",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L026",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Case three-one-four.",
+   "caption": "Case 0314.",
+   "shot": "S26",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L027",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "A woman in Leeds switched on the hall light.",
+   "caption": "A woman in Leeds switched on the hall light.",
+   "shot": "S27",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": "click",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L028",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "The vacuum stopped in her bedroom doorway.",
+   "caption": "The vacuum stopped in her bedroom doorway.",
+   "shot": "S28",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L029",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "In the morning, there was a line of dust across her bedroom floor.",
+   "caption": "In the morning, there was a line of dust across her bedroom floor.",
+   "shot": "S28b",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "a line of dust"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L030",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "From the wall. To the side of her bed.",
+   "caption": "From the wall. To the side of her bed.",
+   "shot": "S28c",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "the side of her bed"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L031",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Directive two. Do not open the app.",
+   "caption": "Directive 2. Do not open the app.",
+   "shot": "C2",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not open the app"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L032",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "This is the directive most households violate.",
+   "caption": "This is the directive most households violate.",
+   "shot": "S32",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "most households"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L033",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "You will want to see where it is.",
+   "caption": "You will want to see where it is.",
+   "shot": "S33",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L034",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "The app shows a live map of your home.",
+   "caption": "The app shows a live map of your home.",
+   "shot": "S34",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "live map"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L035",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Living room. Kitchen. Hallway. Bathroom. Bedroom.",
+   "caption": "Living room. Kitchen. Hallway. Bathroom. Bedroom.",
+   "shot": "S34b",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L036",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "And one more.",
+   "caption": "And one more.",
+   "shot": "S34c",
+   "pauseAfter": 0.7,
+   "emphasis": [
+    "one more"
+   ],
+   "sfx": "static",
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L037",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Your home has five rooms. The map has six.",
+   "caption": "Your home has 5 rooms. The map has 6.",
+   "shot": "S34d",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "The map has 6"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L038",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "The app has already named it.",
+   "caption": "The app has already named it.",
+   "shot": "S38",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "already named it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L039",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "We will not be putting the name in writing.",
+   "caption": "We will not be putting the name in writing.",
+   "shot": "S39",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L040",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Directive three. Do not follow it.",
+   "caption": "Directive 3. Do not follow it.",
+   "shot": "C3",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not follow it"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L041",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "It will clean the hallway in a straight line.",
+   "caption": "It will clean the hallway in a straight line.",
+   "shot": "S41",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "a straight line"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L042",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Vacuums do not clean in straight lines.",
+   "caption": "Vacuums do not clean in straight lines.",
+   "shot": "S42",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L043",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "It is following something.",
+   "caption": "It is following something.",
+   "shot": "S43",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "following something"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L044",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Every few metres, it stops. Turns. Waits.",
+   "caption": "Every few metres, it stops. Turns. Waits.",
+   "shot": "S44",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L045",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "It is letting it get ahead.",
+   "caption": "It is letting it get ahead.",
+   "shot": "S45",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "get ahead"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L046",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "If you follow it, you will be behind the vacuum.",
+   "caption": "If you follow it, you will be behind the vacuum.",
+   "shot": "S46",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L047",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "And the vacuum is behind something else.",
+   "caption": "And the vacuum is behind something else.",
+   "shot": "S46b",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "something else"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L048",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Stay where you are.",
+   "caption": "Stay where you are.",
+   "shot": "S48",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L049",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Directive four. Do not send it home.",
+   "caption": "Directive 4. Do not send it home.",
+   "shot": "C4",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not send it home"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L050",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "There is a button in the app. It says: return to dock.",
+   "caption": "There is a button in the app. It says: Return to dock.",
+   "shot": "S50",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "Return to dock"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L051",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "You will want to press it.",
+   "caption": "You will want to press it.",
+   "shot": "S50",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L052",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "It will stop. It will turn around.",
+   "caption": "It will stop. It will turn around.",
+   "shot": "S52",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L053",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "And it will take the shortest way back to its dock.",
+   "caption": "And it will take the shortest way back to its dock.",
+   "shot": "S53",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "shortest way back"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L054",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Its dock is in your bedroom.",
+   "caption": "Its dock is in your bedroom.",
+   "shot": "S54",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "your bedroom"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L055",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "It will leave the rest of the trail where it is.",
+   "caption": "It will leave the rest of the trail where it is.",
+   "shot": "S55",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L056",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Tomorrow night, they will not have to look for the way.",
+   "caption": "Tomorrow night, they will not have to look for the way.",
+   "shot": "S56",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "look for the way"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L057",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Directive five. If it knocks, do not answer.",
+   "caption": "Directive 5. If it knocks, do not answer.",
+   "shot": "C5",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "do not answer"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L058",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Sometime before four, the vacuum will reach your bedroom door.",
+   "caption": "Sometime before 4, the vacuum will reach your bedroom door.",
+   "shot": "S58",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L059",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It will bump into it. Gently. Three times.",
+   "caption": "It will bump into it. Gently. Three times.",
+   "shot": "S59",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L060",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "That is what vacuums do with doors.",
+   "caption": "That is what vacuums do with doors.",
+   "shot": "S59",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L061",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Then there will be a fourth knock.",
+   "caption": "Then there will be a fourth knock.",
+   "shot": "S61",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "fourth knock"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L062",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Higher up.",
+   "caption": "Higher up.",
+   "shot": "S61b",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "Higher up"
+   ],
+   "sfx": "static",
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L063",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Do not answer. Do not ask who it is.",
+   "caption": "Do not answer. Do not ask who it is.",
+   "shot": "S63",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L064",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Pull the blanket up. Keep your eyes closed.",
+   "caption": "Pull the blanket up. Keep your eyes closed.",
+   "shot": "S64",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L065",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It only knocks four times.",
+   "caption": "It only knocks four times.",
+   "shot": "S65",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L066",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "We usually stop at four.",
+   "caption": "We usually stop at four.",
+   "shot": "SLIP1",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "slip"
+  },
+  {
+   "id": "L067",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Apologies.",
+   "caption": "Apologies.",
+   "shot": "SLIP2",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L068",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "That remark has been redacted.",
+   "caption": "That remark has been redacted.",
+   "shot": "SLIP3",
+   "pauseAfter": 0.9,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L069",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Directive six. Never replace it.",
+   "caption": "Directive 6. Never replace it.",
+   "shot": "C6",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Never replace it"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L070",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "One day, your vacuum will get slow.",
+   "caption": "One day, your vacuum will get slow.",
+   "shot": "S70",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L071",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It will miss corners. Its battery will not last.",
+   "caption": "It will miss corners. Its battery will not last.",
+   "shot": "S71",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L072",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It will get stuck under the sofa, and beep until you find it.",
+   "caption": "It will get stuck under the sofa, and beep until you find it.",
+   "shot": "S72",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "beep until you find it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L073",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You will want a new one.",
+   "caption": "You will want a new one.",
+   "shot": "S73",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L074",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You have had it for four years.",
+   "caption": "You have had it for 4 years.",
+   "shot": "S74",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "4 years"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L075",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "That is one thousand four hundred and sixty one nights.",
+   "caption": "That is 1,461 nights.",
+   "shot": "S75",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "1,461 nights"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L076",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You thought it cleaned while you were out.",
+   "caption": "You thought it cleaned while you were out.",
+   "shot": "S76",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L077",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It cleaned while you were asleep.",
+   "caption": "It cleaned while you were asleep.",
+   "shot": "S77",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "while you were asleep"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L078",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Every night, it erased the way to your bed.",
+   "caption": "Every night, it erased the way to your bed.",
+   "shot": "S78",
+   "pauseAfter": 0.7,
+   "emphasis": [
+    "the way to your bed"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L079",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "A new vacuum will not know your home.",
+   "caption": "A new vacuum will not know your home.",
+   "shot": "S79",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L080",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "On its first night, it will clean every room. Including the sixth.",
+   "caption": "On its first night, it will clean every room. Including the sixth.",
+   "shot": "S80",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "Including the sixth"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L081",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Keep the old one.",
+   "caption": "Keep the old one.",
+   "shot": "S81",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L082",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Let it be slow.",
+   "caption": "Let it be slow.",
+   "shot": "S81",
+   "pauseAfter": 1.0,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L083",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Addendum.",
+   "caption": "Addendum.",
+   "shot": "AD",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Addendum"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L084",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "By now, you are wondering how a government department has a map of your home.",
+   "caption": "By now, you are wondering how a government department has a map of your home.",
+   "shot": "S84",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L085",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Every map your vacuum makes is uploaded.",
+   "caption": "Every map your vacuum makes is uploaded.",
+   "shot": "S84",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "uploaded"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L086",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "A copy comes to us.",
+   "caption": "A copy comes to us.",
+   "shot": "S86",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "comes to us"
+   ],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L087",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The Department of Unlisted Risks has collected floor plans for twelve years.",
+   "caption": "The Department of Unlisted Risks has collected floor plans for 12 years.",
+   "shot": "S87",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "12 years"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L088",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "In three thousand and forty homes, the map has one room more than the house.",
+   "caption": "In 3,040 homes, the map has one room more than the house.",
+   "shot": "S88",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "one room more"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L089",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The extra room is always the same size. Two metres by two.",
+   "caption": "The extra room is always the same size. 2 m by 2 m.",
+   "shot": "S89",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "2 m by 2 m"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L090",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "It is always next to the bedroom.",
+   "caption": "It is always next to the bedroom.",
+   "shot": "S90",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "next to the bedroom"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L091",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "It is where our inspectors wait between inspections.",
+   "caption": "It is where our inspectors wait between inspections.",
+   "shot": "S91",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "our inspectors"
+   ],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L092",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "They come out at three.",
+   "caption": "They come out at 3.",
+   "shot": "S91b",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L093",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "They leave very little behind. Only dust.",
+   "caption": "They leave very little behind. Only dust.",
+   "shot": "S93",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "Only dust"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L094",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your vacuum has erased every one of their trails.",
+   "caption": "Your vacuum has erased every one of their trails.",
+   "shot": "S94",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "every one of their trails"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L095",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "That is why it is listed as a risk.",
+   "caption": "That is why it is listed as a risk.",
+   "shot": "S95",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "listed as a risk"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L096",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "If you hear your vacuum at three in the morning tonight...",
+   "caption": "If you hear your vacuum at 3 AM tonight...",
+   "shot": "S96",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "3 AM"
+   ],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L097",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "it is not cleaning.",
+   "caption": "it is not cleaning.",
+   "shot": "S96",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "not cleaning"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L098",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "Keep the light off. Stay in bed.",
+   "caption": "Keep the light off. Stay in bed.",
+   "shot": "S98",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L099",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "And let it work.",
+   "caption": "And let it work.",
+   "shot": "S99",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L100",
+   "beat": "outro",
+   "directive": null,
+   "voice": "This advisory has ended.",
+   "caption": "This advisory has ended.",
+   "shot": "S100",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  }
+ ],
+ "shots": {
+  "S01": {
+   "type": "tableau",
+   "desc": "Dark hallway at night, side view. A robot vacuum glides left to right along the floor, its blue status light the brightest thing in the frame, a faint blue laser fan ahead of it. Wall clock at 03:00. The bedroom door (closed) on the right.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 420,
+     "y": 300,
+     "r": 80,
+     "time": "03:00",
+     "anim": [
+      "tick"
+     ]
+    },
+    {
+     "el": "door",
+     "x": 1520,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 300,
+     "y": 780,
+     "w": 286,
+     "facing": "right",
+     "light": "blue",
+     "move": {
+      "fromX": 300,
+      "toX": 880,
+      "from": 0.05,
+      "to": 0.95
+     },
+     "beam": true
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   },
+   "dim": 0.3
+  },
+  "S02": {
+   "type": "tableau",
+   "desc": "Close-up of a phone screen in the dark: the vacuum app shows SCHEDULE: NONE, and under it a pulsing CLEANING status at 03:00.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 640,
+     "screen": "schedule",
+     "time": "03:00"
+    }
+   ]
+  },
+  "S03": {
+   "type": "tableau",
+   "desc": "Bedroom at night. You lie in bed. A floor lamp beside the bed, switched off; a red cross draws over it. Moon in the window.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "floor-lamp",
+     "x": 1300,
+     "y": 780,
+     "h": 440,
+     "state": "off"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 1300,
+     "y": 500,
+     "size": 120,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ]
+  },
+  "S04": {
+   "same_as": "S03",
+   "desc": "Hold. A dashed blue boundary draws along the floor at the edge of the bed: stay inside it.",
+   "add": [
+    {
+     "el": "boundary",
+     "x1": 480,
+     "y1": 805,
+     "x2": 1170,
+     "y2": 805,
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ]
+  },
+  "S05": {
+   "type": "tableau",
+   "desc": "Floor-level close-up in the hallway. The vacuum (large, low, filling the lower third) moves slowly to the left. Ahead of it, faint dusty footprints on the floor. Behind it the floor is clean.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 1100,
+     "y": 780,
+     "w": 620,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 1100,
+      "toX": 940,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "trail": {
+      "fromX": 1700,
+      "toX": 120
+     }
+    }
+   ],
+   "dim": 0.2
+  },
+  "S07": {
+   "type": "doc",
+   "desc": "Official advisory memo slides up. Header: DEPARTMENT OF UNLISTED RISKS / ADVISORY 0002 / SUBJECT: DOMESTIC ROBOT VACUUM, NIGHT ACTIVITY. Six redacted directive lines and an ADDENDUM line.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "ADVISORY 0002",
+     "SUBJECT: DOMESTIC ROBOT VACUUM — NIGHT ACTIVITY"
+    ],
+    "lines": [
+     "DIRECTIVE 1 ████████████",
+     "DIRECTIVE 2 █████████",
+     "DIRECTIVE 3 ██████████████",
+     "DIRECTIVE 4 ███████████",
+     "DIRECTIVE 5 ████████████████",
+     "DIRECTIVE 6 ███████",
+     "ADDENDUM ███████ ███ ████"
+    ],
+    "highlight": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "anim": "slide-up"
+   }
+  },
+  "S07b": {
+   "same_as": "S07",
+   "desc": "Hold: only DIRECTIVE 2 stays highlighted, in red.",
+   "doc": {
+    "highlight": [
+     1
+    ],
+    "highlight_color": "red"
+   }
+  },
+  "S07c": {
+   "same_as": "S07",
+   "desc": "Hold: the ADDENDUM line is highlighted.",
+   "doc": {
+    "highlight": [
+     6
+    ]
+   }
+  },
+  "S10": {
+   "type": "tableau",
+   "desc": "Living room in daylight, nobody home. Sun in the window, an empty sofa. The vacuum crosses the floor in front of the sofa.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 320,
+     "sky": "day"
+    },
+    {
+     "el": "sofa",
+     "x": 1150,
+     "y": 780,
+     "w": 760
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 260,
+     "y": 780,
+     "w": 260,
+     "facing": "right",
+     "light": "blue",
+     "move": {
+      "fromX": 260,
+      "toX": 820,
+      "from": 0.05,
+      "to": 0.95
+     }
+    }
+   ]
+  },
+  "S11": {
+   "type": "vacuum-map",
+   "desc": "The vacuum app's map draws itself, room by room. Five rooms (living room, kitchen, hallway, bathroom, bedroom). Blue cleaning stripes fill each room in turn behind a small vacuum dot.",
+   "map": {
+    "rooms": "draw-on",
+    "clean": "sequence",
+    "header": "MAP · 5 ROOMS"
+   }
+  },
+  "S11b": {
+   "same_as": "S11",
+   "desc": "Hold: thin dimension lines with metre labels appear along the walls.",
+   "map": {
+    "rooms": "static",
+    "clean": "all",
+    "dims": true
+   }
+  },
+  "S11c": {
+   "same_as": "S11",
+   "desc": "Hold: the living room outline (and the sofa shape in it) pulses blue.",
+   "map": {
+    "rooms": "static",
+    "clean": "all",
+    "highlight": "sofa"
+   }
+  },
+  "S11d": {
+   "same_as": "S11",
+   "desc": "Hold: a red ring draws around the bed in the bedroom.",
+   "map": {
+    "rooms": "static",
+    "clean": "all",
+    "highlight": "bed"
+   },
+   "accent": "red"
+  },
+  "S15": {
+   "type": "tableau",
+   "desc": "Bedroom at night. You asleep in bed. In the corner by the door, the vacuum sits on its charging dock, its blue light breathing slowly.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "dock",
+     "x": 1380,
+     "y": 780,
+     "w": 150
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1380,
+     "y": 780,
+     "w": 260,
+     "facing": "left",
+     "light": "blue",
+     "docked": true,
+     "anim": [
+      "led-breathe"
+     ]
+    }
+   ]
+  },
+  "S17": {
+   "type": "tableau",
+   "desc": "Big wall clock, centred. 03:00. The second hand ticks.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 960,
+     "y": 460,
+     "r": 230,
+     "time": "03:00",
+     "anim": [
+      "tick"
+     ]
+    }
+   ]
+  },
+  "S18": {
+   "type": "tableau",
+   "desc": "Hallway at night, side view, very dark. Faint dusty footprints appear one by one on the floor, from the bedroom door on the right towards the living room on the left, as if someone just walked past. Nobody is there.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1560,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "dust-trail",
+     "fromX": 1440,
+     "toX": 260,
+     "y": 780,
+     "draw": "sequence"
+    }
+   ],
+   "dim": 0.35
+  },
+  "S19": {
+   "type": "tableau",
+   "desc": "Same hallway. The vacuum comes out from the right and follows the footprints to the left. Every print it passes is gone; the floor behind it is clean.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1560,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1500,
+     "y": 780,
+     "w": 286,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 1500,
+      "toX": 880,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "trail": {
+      "fromX": 1440,
+      "toX": 260
+     },
+     "beam": true
+    }
+   ],
+   "dim": 0.3
+  },
+  "C1": {
+   "type": "directive-card",
+   "n": 1,
+   "title": "DO NOT TURN ON THE LIGHT"
+  },
+  "S21": {
+   "type": "tableau",
+   "desc": "Dark hallway. You stand by the bedroom door on the right, looking left. Far left, the vacuum works along the floor, blue light glowing.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1560,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "left",
+     "x": 1340,
+     "y": 780,
+     "h": 380
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 460,
+     "y": 780,
+     "w": 260,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 620,
+      "toX": 380,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "beam": true
+    }
+   ],
+   "dim": 0.3
+  },
+  "S23": {
+   "type": "tableau",
+   "desc": "The vacuum in a clean close-up, centred, side view, like a product photo. Blue status light on.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 960,
+     "y": 780,
+     "w": 900,
+     "facing": "right",
+     "light": "blue"
+    }
+   ],
+   "dim": 0.1
+  },
+  "S23b": {
+   "same_as": "S23",
+   "desc": "Hold: a thin blue laser fan sweeps out in front of it across the dark floor.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 960,
+     "y": 780,
+     "w": 900,
+     "facing": "right",
+     "light": "blue",
+     "beam": true,
+     "type": "laser"
+    }
+   ]
+  },
+  "S25": {
+   "same_as": "S23",
+   "desc": "The same close-up, but harsh light floods the frame; the laser fan is gone and the status light turns red. It stops dead.",
+   "elements": [
+    {
+     "el": "glow",
+     "x": 960,
+     "y": 300,
+     "r": 900,
+     "color": "fg",
+     "opacity": 0.22
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 960,
+     "y": 780,
+     "w": 900,
+     "facing": "right",
+     "light": "red"
+    }
+   ]
+  },
+  "S26": {
+   "type": "case-file",
+   "number": "0314",
+   "location": "LEEDS, UK",
+   "label": "CASE FILE",
+   "desc": "Manila case folder: CASE 0314 / LEEDS, UK, red UNLISTED stamp."
+  },
+  "S27": {
+   "type": "tableau",
+   "desc": "A woman (the person figure) stands in her hallway at night and switches on a floor lamp; light floods the hall. Behind her, in the bedroom doorway, the vacuum stops.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 380,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 560,
+     "y": 780,
+     "w": 260,
+     "facing": "right",
+     "light": "red"
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "right",
+     "x": 1100,
+     "y": 780,
+     "h": 380
+    },
+    {
+     "el": "floor-lamp",
+     "x": 1300,
+     "y": 780,
+     "h": 440,
+     "anim": [
+      "switch-on"
+     ]
+    }
+   ]
+  },
+  "S28": {
+   "type": "tableau",
+   "desc": "Her bedroom the next morning, bright. Door on the left with the vacuum still stopped in the doorway, red light. The bed in the middle. The outer wall on the right.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1320,
+     "y": 320,
+     "sky": "sun"
+    },
+    {
+     "el": "door",
+     "x": 260,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 360,
+     "y": 780,
+     "w": 260,
+     "facing": "right",
+     "light": "red"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 600
+    },
+    {
+     "el": "wall",
+     "x": 1700,
+     "y": 780,
+     "h": 620
+    }
+   ]
+  },
+  "S28b": {
+   "same_as": "S28",
+   "desc": "Hold: a line of dusty footprints appears across the floor, from the outer wall on the right to the side of the bed.",
+   "add": [
+    {
+     "el": "dust-trail",
+     "fromX": 1660,
+     "toX": 1140,
+     "y": 780,
+     "draw": "sequence"
+    }
+   ]
+  },
+  "S28c": {
+   "same_as": "S28b",
+   "desc": "Hold: a red circle draws where the prints stop, right beside the bed.",
+   "accent": "red",
+   "add": [
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 1150,
+     "y": 770,
+     "size": 90,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ]
+  },
+  "C2": {
+   "type": "directive-card",
+   "n": 2,
+   "title": "DO NOT OPEN THE APP"
+  },
+  "S32": {
+   "type": "tableau",
+   "desc": "Dark bedroom. You in bed; a small phone glows on the blanket next to you, lighting a soft circle.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "phone",
+     "x": 1060,
+     "y": 590,
+     "h": 160,
+     "screen": "map",
+     "glow": true
+    }
+   ],
+   "dim": 0.25
+  },
+  "S33": {
+   "type": "tableau",
+   "desc": "Phone close-up: the vacuum app's live map, a small vacuum dot moving in the hallway.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 640,
+     "screen": "map",
+     "map": {
+      "vacuum": "hall"
+     }
+    }
+   ]
+  },
+  "S34": {
+   "type": "vacuum-map",
+   "desc": "Full-frame live map. Five rooms (living room, kitchen, hallway, bathroom, bedroom). The vacuum dot pulses in the hallway. Header: LIVE MAP · 03:07.",
+   "map": {
+    "rooms": "static",
+    "clean": "none",
+    "vacuum": "hall",
+    "header": "LIVE MAP · 03:07"
+   }
+  },
+  "S34b": {
+   "same_as": "S34",
+   "desc": "Hold: each room's outline lights up in turn as it is named.",
+   "map": {
+    "highlight": "rooms-sequence"
+   }
+  },
+  "S34c": {
+   "same_as": "S34",
+   "desc": "Hold: a sixth room grows out of the bedroom's outer wall, outside the house: a small square with a red dashed outline, pulsing.",
+   "map": {
+    "extra": "appear",
+    "extraLabel": "hidden"
+   },
+   "accent": "red"
+  },
+  "S34d": {
+   "same_as": "S34c",
+   "desc": "Hold: the header count flips from 5 ROOMS to 6 ROOMS, in red.",
+   "map": {
+    "extra": true,
+    "header": "LIVE MAP · 6 ROOMS"
+   }
+  },
+  "S38": {
+   "type": "vacuum-map",
+   "desc": "The map zooms into the sixth room. Its label types itself in: ROOM 6.",
+   "map": {
+    "rooms": "static",
+    "extra": true,
+    "zoom": "extra",
+    "extraLabel": "type",
+    "header": "LIVE MAP · 6 ROOMS"
+   }
+  },
+  "S39": {
+   "type": "doc",
+   "desc": "A plain export of the room list: LIVING ROOM, KITCHEN, HALLWAY, BATHROOM, BEDROOM, ROOM 6. The last line is covered by a redaction bar, then REDACTED is stamped.",
+   "doc": {
+    "header": [
+     "APP EXPORT · ROOM NAMES"
+    ],
+    "lines": [
+     "1  LIVING ROOM",
+     "2  KITCHEN",
+     "3  HALLWAY",
+     "4  BATHROOM",
+     "5  BEDROOM",
+     "6  ROOM 6"
+    ],
+    "anim": "redact-line",
+    "redact_line": 5,
+    "stamp": {
+     "text": "REDACTED",
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "C3": {
+   "type": "directive-card",
+   "n": 3,
+   "title": "DO NOT FOLLOW IT"
+  },
+  "S41": {
+   "type": "tableau",
+   "desc": "Long dark hallway. The vacuum drives from right to left in a dead straight line along the footprints, erasing them.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1650,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1480,
+     "y": 780,
+     "w": 286,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 1480,
+      "toX": 760,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "trail": {
+      "fromX": 1500,
+      "toX": 140
+     },
+     "beam": true
+    }
+   ],
+   "dim": 0.3
+  },
+  "S42": {
+   "type": "vacuum-map",
+   "desc": "Map close-up of the living room: the usual cleaning pattern, back-and-forth zigzag stripes drawing on.",
+   "map": {
+    "rooms": "static",
+    "zoom": "living",
+    "clean": "zigzag"
+   }
+  },
+  "S43": {
+   "type": "vacuum-map",
+   "desc": "Full map: one straight blue line runs from the bedroom door down the hallway. Ahead of the vacuum dot, a row of grey dust dots continues; every dot the vacuum reaches disappears.",
+   "map": {
+    "rooms": "static",
+    "trail": "erase",
+    "vacuum": "along-trail",
+    "trailFrom": "door"
+   }
+  },
+  "S44": {
+   "type": "tableau",
+   "desc": "Hallway, closer. The vacuum drives a short way, stops, turns slightly, waits; drives again. Footprints ahead of it.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 1400,
+     "y": 780,
+     "w": 360,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 1400,
+      "toX": 760,
+      "stops": 3,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "trail": {
+      "fromX": 1500,
+      "toX": 100
+     }
+    }
+   ],
+   "dim": 0.25
+  },
+  "S45": {
+   "type": "tableau",
+   "desc": "Wide dark hallway. The vacuum waits in the middle, light on. Far to the left, at the very edge of the light, a tall grey shape in a hat stands with its back to us, barely visible. Footprints run between them.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 1100,
+     "y": 780,
+     "w": 286,
+     "facing": "left",
+     "light": "blue",
+     "trail": {
+      "fromX": 1100,
+      "toX": 420
+     }
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 330,
+     "y": 780,
+     "h": 520,
+     "opacity": 0.12
+    }
+   ],
+   "dim": 0.35
+  },
+  "S46": {
+   "type": "tableau",
+   "desc": "You stand at the right edge of the hallway, behind the vacuum, looking left down the hall after it.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "facing": "left",
+     "x": 1640,
+     "y": 780,
+     "h": 380
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1100,
+     "y": 780,
+     "w": 286,
+     "facing": "left",
+     "light": "blue",
+     "trail": {
+      "fromX": 1100,
+      "toX": 420
+     }
+    }
+   ],
+   "dim": 0.3
+  },
+  "S46b": {
+   "same_as": "S46",
+   "desc": "Hold: far left, the faint grey hatted shape is there again, ahead of the vacuum.",
+   "add": [
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 330,
+     "y": 780,
+     "h": 520,
+     "opacity": 0.16
+    }
+   ]
+  },
+  "S48": {
+   "type": "tableau",
+   "desc": "Bedroom, dark. You in bed; the dashed blue boundary along the edge of the bed again. The bedroom door closed on the right.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "door",
+     "x": 1500,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "boundary",
+     "x1": 480,
+     "y1": 805,
+     "x2": 1170,
+     "y2": 805,
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "dim": 0.2
+  },
+  "C4": {
+   "type": "directive-card",
+   "n": 4,
+   "title": "DO NOT SEND IT HOME"
+  },
+  "S50": {
+   "type": "tableau",
+   "desc": "Phone close-up: the app with a big outlined button RETURN TO DOCK under the map. The button pulses softly.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 640,
+     "screen": "dock-button",
+     "map": {
+      "vacuum": "hall"
+     }
+    }
+   ]
+  },
+  "S52": {
+   "type": "tableau",
+   "desc": "Hallway, mid close-up. The vacuum stops, then turns around on the spot to face right.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 900,
+     "y": 780,
+     "w": 380,
+     "facing": "left",
+     "light": "blue",
+     "turn": {
+      "at": 0.35
+     },
+     "trail": {
+      "fromX": 880,
+      "toX": 100
+     }
+    }
+   ],
+   "dim": 0.25
+  },
+  "S53": {
+   "type": "vacuum-map",
+   "desc": "Full map: a dashed blue route draws from the vacuum in the hallway back through the bedroom door to the dock beside the bed; the dot follows it. Behind it in the hallway, the grey dust dots are left where they are.",
+   "map": {
+    "rooms": "static",
+    "trail": "visible",
+    "route": "to-dock"
+   }
+  },
+  "S54": {
+   "type": "tableau",
+   "desc": "Bedroom at night. You asleep. The vacuum rolls in from the right and settles onto its dock by the bed.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "dock",
+     "x": 1380,
+     "y": 780,
+     "w": 150
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1720,
+     "y": 780,
+     "w": 260,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 1720,
+      "toX": 1380,
+      "from": 0.0,
+      "to": 0.7
+     }
+    }
+   ],
+   "dim": 0.2
+  },
+  "S55": {
+   "type": "vacuum-map",
+   "desc": "Full map: the vacuum dot sits on the dock. The grey dust trail is still there, from the hallway into the kitchen. It pulses red, once.",
+   "map": {
+    "rooms": "static",
+    "trail": "visible",
+    "vacuum": "dock",
+    "highlight": "trail"
+   },
+   "accent": "red"
+  },
+  "S56": {
+   "type": "tableau",
+   "desc": "Hallway at night, empty. The footprints lie on the floor all the way from the bedroom door to the far left. No vacuum. Stillness.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1560,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "dust-trail",
+     "fromX": 1440,
+     "toX": 140,
+     "y": 780
+    }
+   ],
+   "dim": 0.35
+  },
+  "C5": {
+   "type": "directive-card",
+   "n": 5,
+   "title": "IF IT KNOCKS, DO NOT ANSWER"
+  },
+  "S58": {
+   "type": "tableau",
+   "desc": "Hallway side of the bedroom door, dark. The vacuum drives up to the closed door from the left and stops against it. Clock 03:52.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 420,
+     "y": 300,
+     "r": 70,
+     "time": "03:52",
+     "anim": [
+      "tick"
+     ]
+    },
+    {
+     "el": "door",
+     "x": 1300,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 380,
+     "y": 780,
+     "w": 286,
+     "facing": "right",
+     "light": "blue",
+     "move": {
+      "fromX": 380,
+      "toX": 1020,
+      "from": 0.0,
+      "to": 0.8
+     }
+    }
+   ],
+   "dim": 0.3
+  },
+  "S59": {
+   "type": "tableau",
+   "desc": "Floor-level close-up of the bottom of the door. The vacuum bumps into it gently, three times; three small grey ripple marks at the foot of the door.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1240,
+     "y": 780,
+     "h": 980
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 720,
+     "y": 780,
+     "w": 560,
+     "facing": "right",
+     "light": "blue",
+     "bump": {
+      "count": 3,
+      "at": 0.15,
+      "gap": 0.55
+     }
+    },
+    {
+     "el": "knock",
+     "x": 1050,
+     "y": 700,
+     "color": "dim",
+     "at": [
+      0.15,
+      0.7,
+      1.25
+     ]
+    }
+   ],
+   "dim": 0.2
+  },
+  "S61": {
+   "type": "tableau",
+   "desc": "Bedroom side, dark. You in bed on the left. The door on the right. Three faint grey ripples at the bottom of the door, one after the other.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "door",
+     "x": 1480,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "knock",
+     "x": 1480,
+     "y": 740,
+     "color": "dim",
+     "at": [
+      0.1,
+      0.45,
+      0.8
+     ]
+    }
+   ],
+   "dim": 0.25
+  },
+  "S61b": {
+   "same_as": "S61",
+   "desc": "Hold: a fourth ripple, red and larger, high on the door at head height.",
+   "accent": "red",
+   "add": [
+    {
+     "el": "knock",
+     "x": 1480,
+     "y": 430,
+     "color": "red",
+     "size": 1.5,
+     "at": [
+      0.2
+     ]
+    }
+   ]
+  },
+  "S63": {
+   "type": "tableau",
+   "desc": "Bedroom, closer. You in bed. An outline speech bubble WHO IS IT? near you, crossed out in red.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 900,
+     "y": 780,
+     "w": 760
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 850,
+     "y": 620,
+     "h": 160
+    },
+    {
+     "el": "speech",
+     "text": "Who is it?",
+     "x": 760,
+     "y": 330,
+     "outline_only": true
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 760,
+     "y": 330,
+     "size": 130,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "dim": 0.2
+  },
+  "S64": {
+   "same_as": "S63",
+   "desc": "Hold: the bubble is gone; the room gets darker.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 900,
+     "y": 780,
+     "w": 760
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 850,
+     "y": 620,
+     "h": 160
+    }
+   ],
+   "dim": 0.45
+  },
+  "S65": {
+   "type": "tableau",
+   "desc": "Bedroom side of the door, closer and dark. Three small grey ripples low, then one red ripple high.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1100,
+     "y": 780,
+     "h": 700
+    },
+    {
+     "el": "knock",
+     "x": 1100,
+     "y": 730,
+     "color": "dim",
+     "at": [
+      0.05,
+      0.25,
+      0.45
+     ]
+    },
+    {
+     "el": "knock",
+     "x": 1100,
+     "y": 300,
+     "color": "red",
+     "size": 1.5,
+     "at": [
+      0.8
+     ]
+    }
+   ],
+   "dim": 0.3
+  },
+  "SLIP1": {
+   "type": "tableau",
+   "desc": "STYLE BREAK (slip): the frame turns grey-scale and softer. The hallway side of the bedroom door: the inspector stands at the door, facing it, very close. At its feet the vacuum faces it, light on, between it and the door. Brief tracking-line glitch at start.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1400,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 1020,
+     "y": 780,
+     "h": 520,
+     "color": "grey"
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1180,
+     "y": 780,
+     "w": 260,
+     "facing": "left",
+     "light": "blue",
+     "color": "grey"
+    }
+   ],
+   "style": "slip"
+  },
+  "SLIP2": {
+   "type": "tableau",
+   "desc": "The inspector bust, centred, faceless, hat and coat collar. Slight carbon-offset jitter.",
+   "elements": [
+    {
+     "el": "inspector",
+     "pose": "bust",
+     "x": 960,
+     "y": 560,
+     "h": 440,
+     "anim": [
+      "carbon-jitter"
+     ]
+    }
+   ]
+  },
+  "SLIP3": {
+   "type": "doc",
+   "desc": "A typed transcript line 'WE USUALLY STOP AT FOUR.' gets covered left-to-right by a black redaction bar. A small stamp REDACTED appears.",
+   "doc": {
+    "lines": [
+     "TRANSCRIPT — ADVISORY 0002",
+     "WE USUALLY STOP AT FOUR."
+    ],
+    "anim": "redact-line",
+    "redact_line": 1,
+    "stamp": {
+     "text": "REDACTED",
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "C6": {
+   "type": "directive-card",
+   "n": 6,
+   "title": "NEVER REPLACE IT"
+  },
+  "S70": {
+   "type": "tableau",
+   "desc": "Living room by day. The vacuum crawls a very short distance, slowly. Its light is dimmer than before.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 320,
+     "sky": "day"
+    },
+    {
+     "el": "sofa",
+     "x": 1150,
+     "y": 780,
+     "w": 760
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 560,
+     "y": 780,
+     "w": 286,
+     "facing": "right",
+     "light": "dim",
+     "move": {
+      "fromX": 560,
+      "toX": 660,
+      "from": 0.0,
+      "to": 1.0
+     }
+    }
+   ]
+  },
+  "S71": {
+   "type": "tableau",
+   "desc": "An empty room corner with a little dust in it. The vacuum approaches, turns away a little short of the corner, and leaves the dust.",
+   "elements": [
+    {
+     "el": "corner",
+     "x": 1320,
+     "y": 780,
+     "w": 420,
+     "h": 520,
+     "variant": "plain"
+    },
+    {
+     "el": "dust-trail",
+     "fromX": 1240,
+     "toX": 1120,
+     "y": 780,
+     "kind": "specks"
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 820,
+     "y": 780,
+     "w": 286,
+     "facing": "right",
+     "light": "blue",
+     "turn": {
+      "at": 0.55
+     },
+     "move": {
+      "fromX": 700,
+      "toX": 920,
+      "from": 0.0,
+      "to": 0.5
+     }
+    }
+   ]
+  },
+  "S72": {
+   "type": "tableau",
+   "desc": "The sofa; the vacuum is wedged half under it, only its back half visible, status light blinking red. A small bubble from it: BEEP.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 980,
+     "y": 780,
+     "w": 900
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1440,
+     "y": 780,
+     "w": 312,
+     "facing": "left",
+     "light": "red",
+     "stuck": true,
+     "z": -0.6
+    },
+    {
+     "el": "speech",
+     "text": "BEEP.",
+     "size": "small",
+     "x": 1560,
+     "y": 520,
+     "from": {
+      "x": 1540,
+      "y": 700
+     }
+    }
+   ]
+  },
+  "S73": {
+   "type": "tableau",
+   "desc": "The old vacuum, a little dim, on the left. On the right, an open cardboard box: a new one.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 640,
+     "y": 780,
+     "w": 260,
+     "facing": "right",
+     "light": "dim",
+     "color": "dim"
+    },
+    {
+     "el": "box",
+     "x": 1240,
+     "y": 780,
+     "w": 420
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1240,
+     "y": 572,
+     "w": 260,
+     "facing": "left",
+     "light": "blue"
+    },
+    {
+     "el": "box-front",
+     "x": 1240,
+     "y": 780,
+     "w": 420,
+     "z": 0.5
+    }
+   ]
+  },
+  "S74": {
+   "type": "calendar",
+   "value": 4,
+   "label": "YEARS",
+   "fromYear": 2022,
+   "toYear": 2026,
+   "pageLabel": "NIGHT",
+   "desc": "Calendar pages flip quickly from 2022 to 2026 (page header NIGHT); a counter beside it reaches 4 YEARS."
+  },
+  "S75": {
+   "type": "counter",
+   "value": 1461,
+   "label": "NIGHTS",
+   "decor": "dots-grid",
+   "desc": "Big number counts up to 1,461; a grid of 1,461 small dots fills in blue behind it."
+  },
+  "S76": {
+   "same_as": "S10",
+   "desc": "Callback to S10: the living room in daylight, the vacuum cleaning, nobody home."
+  },
+  "S77": {
+   "type": "tableau",
+   "desc": "Bedroom at night. You asleep. The vacuum quietly leaves its dock and rolls out to the right, light on.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "dock",
+     "x": 1380,
+     "y": 780,
+     "w": 150
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1380,
+     "y": 780,
+     "w": 260,
+     "facing": "right",
+     "light": "blue",
+     "move": {
+      "fromX": 1380,
+      "toX": 1780,
+      "from": 0.2,
+      "to": 1.0
+     }
+    }
+   ],
+   "dim": 0.2
+  },
+  "S78": {
+   "type": "vacuum-map",
+   "desc": "Full map, the sixth room faint. A grey dust trail runs from the bedroom wall next to room 6, past the bed, out of the bedroom door and down the hall. The vacuum dot follows it from the bed outward, erasing every dot.",
+   "map": {
+    "rooms": "static",
+    "extra": "faint",
+    "trail": "erase",
+    "vacuum": "along-trail"
+   }
+  },
+  "S79": {
+   "type": "vacuum-map",
+   "desc": "An empty map redraws from nothing, room by room, dim: NEW DEVICE · MAPPING.",
+   "map": {
+    "rooms": "draw-on",
+    "clean": "none",
+    "header": "NEW DEVICE · MAPPING",
+    "dim": true
+   }
+  },
+  "S80": {
+   "same_as": "S79",
+   "desc": "Hold: cleaning stripes fill the rooms one by one; then the sixth room appears and the vacuum dot drives into it. The dot does not come out.",
+   "map": {
+    "rooms": "static",
+    "clean": "sequence",
+    "extra": "appear",
+    "vacuum": "into-extra",
+    "header": "NEW DEVICE · 6 ROOMS"
+   },
+   "accent": "red"
+  },
+  "S81": {
+   "type": "tableau",
+   "desc": "Bedroom at night, calm. You asleep. The old vacuum back on its dock by the bed, its blue light breathing slowly.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "dock",
+     "x": 1380,
+     "y": 780,
+     "w": 150
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1380,
+     "y": 780,
+     "w": 260,
+     "facing": "left",
+     "light": "blue",
+     "docked": true,
+     "anim": [
+      "led-breathe"
+     ]
+    }
+   ],
+   "dim": 0.15
+  },
+  "AD": {
+   "type": "addendum-card",
+   "title": "ADDENDUM"
+  },
+  "S84": {
+   "type": "vacuum-map",
+   "desc": "Full map, static. A thin progress bar under it fills: UPLOADING MAP.",
+   "map": {
+    "rooms": "static",
+    "clean": "all",
+    "upload": true,
+    "header": "SYNC"
+   }
+  },
+  "S86": {
+   "type": "doc",
+   "desc": "Department form slides up: FLOOR PLAN RECEIPT · FORM UR-12. ADDRESS (redacted) / ROOMS ON RECORD 5 / ROOMS DETECTED 6 (highlighted red) / STATUS (redacted).",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "FLOOR PLAN RECEIPT · FORM UR-12"
+    ],
+    "lines": [
+     "ADDRESS ........ ██████████████",
+     "ROOMS ON RECORD ........... 5",
+     "ROOMS DETECTED ............ 6",
+     "STATUS ........ █████████"
+    ],
+    "highlight": [
+     2
+    ],
+    "highlight_color": "red",
+    "anim": "slide-up"
+   }
+  },
+  "S87": {
+   "type": "seal",
+   "desc": "Department seal: house outline with a single open eye, ring text DEPARTMENT OF UNLISTED RISKS, EST. 1914."
+  },
+  "S88": {
+   "type": "vacuum-map",
+   "desc": "A grid of 24 small floor maps fills the frame one by one; every one has the same small red extra room beside the bedroom. A counter over them reaches 3,040 HOMES.",
+   "map": {
+    "layout": "grid",
+    "count": 3040,
+    "countLabel": "HOMES"
+   }
+  },
+  "S89": {
+   "type": "vacuum-map",
+   "desc": "Map zoomed on the sixth room. Two dimension lines draw along its sides: 2.0 m and 2.0 m.",
+   "map": {
+    "rooms": "static",
+    "extra": true,
+    "zoom": "extra",
+    "dims": "extra"
+   }
+  },
+  "S90": {
+   "type": "vacuum-map",
+   "desc": "Full map: the wall shared by the bedroom and the sixth room pulses red. The bed stands against that wall.",
+   "map": {
+    "rooms": "static",
+    "extra": true,
+    "highlight": "shared-wall"
+   },
+   "accent": "red"
+  },
+  "S91": {
+   "type": "tableau",
+   "desc": "REVEAL, side cross-section. Left: a narrow dark space, two metres wide, between two thick walls; the inspector stands in it, fully visible for the first time, grey, faceless, facing the wall. Right of the wall: your bedroom, the bed's headboard against that same wall, you asleep. By the bed, the vacuum on its dock, light on.",
+   "elements": [
+    {
+     "el": "wall",
+     "x": 220,
+     "y": 780,
+     "h": 620
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 420,
+     "y": 780,
+     "h": 520,
+     "anim": [
+      "carbon-jitter"
+     ]
+    },
+    {
+     "el": "wall",
+     "x": 640,
+     "y": 780,
+     "h": 620
+    },
+    {
+     "el": "bed",
+     "x": 977,
+     "y": 780,
+     "w": 640
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 931,
+     "y": 642,
+     "h": 137
+    },
+    {
+     "el": "dock",
+     "x": 1520,
+     "y": 780,
+     "w": 150
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 1520,
+     "y": 780,
+     "w": 260,
+     "facing": "left",
+     "light": "blue",
+     "docked": true,
+     "anim": [
+      "led-breathe"
+     ]
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.04
+   },
+   "dim": 0.15
+  },
+  "S91b": {
+   "same_as": "S91",
+   "desc": "Hold: a wall clock appears above the bed: 03:00.",
+   "add": [
+    {
+     "el": "clock",
+     "x": 1060,
+     "y": 300,
+     "r": 70,
+     "time": "03:00",
+     "anim": [
+      "tick"
+     ]
+    }
+   ]
+  },
+  "S93": {
+   "type": "tableau",
+   "desc": "Floor-level close-up: a line of dusty footprints, large, crossing the frame.",
+   "elements": [
+    {
+     "el": "dust-trail",
+     "fromX": 1820,
+     "toX": 100,
+     "y": 780,
+     "scale": 2.2
+    }
+   ],
+   "dim": 0.2
+  },
+  "S94": {
+   "type": "tableau",
+   "desc": "The same floor close-up: the vacuum, big and low, sweeps in from the right along the prints and erases them.",
+   "elements": [
+    {
+     "el": "robot-vacuum",
+     "x": 1900,
+     "y": 780,
+     "w": 640,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 1900,
+      "toX": 700,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "trail": {
+      "fromX": 1820,
+      "toX": 100,
+      "scale": 2.2
+     }
+    }
+   ],
+   "dim": 0.2
+  },
+  "S95": {
+   "type": "doc",
+   "desc": "Household record. Next to 'VACUUM (ROBOT) .... 1' a red stamp slams: LISTED RISK.",
+   "doc": {
+    "header": [
+     "HOUSEHOLD RECORD",
+     "FORM UR-7"
+    ],
+    "lines": [
+     "ADULTS ............ 1",
+     "ROOMS ............. 5",
+     "VACUUM (ROBOT) .... 1"
+    ],
+    "stamp": {
+     "text": "LISTED RISK",
+     "line": 2,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S96": {
+   "type": "tableau",
+   "desc": "Callback to S01: the dark hallway at 03:00, the vacuum gliding along with its blue light. This time, far left at the edge of the dark, the faint grey hatted shape stands in the hall.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 420,
+     "y": 300,
+     "r": 80,
+     "time": "03:00",
+     "anim": [
+      "tick"
+     ]
+    },
+    {
+     "el": "door",
+     "x": 1520,
+     "y": 780,
+     "h": 540
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 190,
+     "y": 780,
+     "h": 520,
+     "opacity": 0.1
+    },
+    {
+     "el": "robot-vacuum",
+     "x": 560,
+     "y": 780,
+     "w": 286,
+     "facing": "left",
+     "light": "blue",
+     "move": {
+      "fromX": 880,
+      "toX": 560,
+      "from": 0.0,
+      "to": 1.0
+     },
+     "trail": {
+      "fromX": 880,
+      "toX": 300
+     },
+     "beam": true
+    }
+   ],
+   "dim": 0.3
+  },
+  "S98": {
+   "type": "tableau",
+   "desc": "Bedroom, dark. You in bed. The lamp off. The dock by the bed is empty. The door closed.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 400,
+     "y": 320,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "floor-lamp",
+     "x": 1260,
+     "y": 780,
+     "h": 440,
+     "state": "off"
+    },
+    {
+     "el": "dock",
+     "x": 1440,
+     "y": 780,
+     "w": 150,
+     "led": "off"
+    },
+    {
+     "el": "door",
+     "x": 1700,
+     "y": 780,
+     "h": 540
+    }
+   ],
+   "dim": 0.25
+  },
+  "S99": {
+   "same_as": "S94",
+   "desc": "Callback to S94: the vacuum sweeping the prints away, darker.",
+   "dim": 0.35
+  },
+  "S100": {
+   "same_as": "S07",
+   "desc": "The advisory memo from S07 slides down out of frame (closing).",
+   "doc": {
+    "anim": "slide-out"
+   }
+  },
+  "END": {
+   "type": "end-card",
+   "stamp": "MAPPED",
+   "sub": "NEXT ADVISORY: 0003",
+   "desc": "Black frame. A red rubber-stamp 'MAPPED.' slams in at -6° with a thud and small shake. Below it in small mono: NEXT ADVISORY: 0003. Hold 3.0 s, then cut to black."
+  }
+ }
+}

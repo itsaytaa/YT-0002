@@ -11,6 +11,7 @@ Studio repo for the YouTube channel **Not Covered**. It makes five-minute "rules
 | Advisory | Title | Folder |
 |---|---|---|
 | 0001 | If Your Cat Ever Stares At An Empty Corner… DO NOT LOOK | `advisories/0001-cat-corner/` |
+| 0002 | If Your Robot Vacuum Ever Starts Cleaning At 3 AM… DO NOT TURN ON THE LIGHT | `advisories/0002-robot-vacuum/` |
 
 ## Re-render Advisory 0001
 

@@ -3,11 +3,13 @@
 import type React from "react";
 import type { Episode } from "../engine";
 import * as ep0001 from "./0001-cat-corner";
+import * as ep0002 from "./0002-robot-vacuum";
 
 export type EpisodeEntry = { episode: Episode; Thumbnail: React.FC };
 
 export const EPISODES: Record<string, EpisodeEntry> = {
   "0001": { episode: ep0001.episode, Thumbnail: ep0001.Thumbnail },
+  "0002": { episode: ep0002.episode, Thumbnail: ep0002.Thumbnail },
 };
 
 export function getEpisode(id: string): Episode {
